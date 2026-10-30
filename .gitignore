@@ -1,2 +1,4 @@
 validation/.work/
 dist/
+*.pyc
+__pycache__/

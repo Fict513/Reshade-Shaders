@@ -25,3 +25,8 @@ WARP is a CPU rasterizer; it demonstrates the shader's logic executes as intende
 2. Toggle *Split-screen comparison*, *Local exposure map* and *Gamut compression map*.
 3. Run an HDR-enabled game or the HDR swap chain and confirm there is no change to the image.
 4. Check HUD, menus, a pure-black area and a bright sky for halos or crushed blacks.
+
+## Suite validation (v1.1.0)
+
+`validation\Validate-Suite.ps1` checks the preset bundles (ordering, quality definitions, equality with the individual presets apart from IPS Sharpen/Dither = 0), runs the CPU reference tests in `tests\<shader>\` (Python with NumPy and SciPy) and builds/runs each `tests\<shader>\check_fx.cpp` against the pinned ReShade source. It is shader-code generation and CPU modelling only: no GPU, driver, in-game or performance testing, and the merged presets are not rendered.
+

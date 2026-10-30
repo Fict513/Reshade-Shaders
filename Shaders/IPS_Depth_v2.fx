@@ -1,0 +1,482 @@
+/*
+IPS Depth v2.0 - SDR contrast/depth for ReShade and GShade
+Copyright (c) 2026 OpenAI. MIT license at end.
+
+INSTALL: Copy to your Shaders directory. Reload and enable IPS Depth v2.
+Use one supplied Balanced/RTX Companion preset. Disable earlier IPS Depth,
+FakeHDR and other strong grades while comparing. No includes, external textures or
+add-on required. Input must be SDR sRGB/Rec.709. Known HDR spaces bypass.
+Unknown presentation spaces cannot be validated automatically. HUD is affected.
+This changes perceived contrast, not the display's physical black level.
+
+IPSD2_QUALITY = 0 Normal / 1 High / 2 Ultra -> 9 / 13 / 21 taps per axis.
+Quality changes density, not radius or grading strength. All tiers use the same
+intermediate layout. IPSD2_LOCAL=0 removes local-filter passes and textures;
+IPSD2_BROAD=0 removes only the broad-scale branch. Sharpening remains available.
+Private _IPSD2_* definitions are derived; do not override them.
+
+Pipeline: cache sRGB-encoded linear luminance (R16F); separable bilateral fine
+base at full resolution; prefilter the fine base and original guide into a
+half-resolution broad branch with mixed-edge confidence; joint bilateral
+residual upsampling; bounded tone/detail correction; linear-light RGB ratio
+reconstruction and gamut projection. No added vibrance or temporal history.
+Separable filtering is an approximation to a two-dimensional bilateral filter.
+
+Full layout: 7 passes, ~14 bytes/output pixel for even sizes (~66.1 MiB at
+3440x1440), before driver overhead. High has about 52 nominal texture fetches
+per output pixel across passes; these are structural estimates, not timings.
+LOCAL=0 uses one pass with no intermediate textures. Disable the technique
+for full GPU-cost recovery; Strength=0 alone does not skip filter passes.
+*/
+
+#ifndef IPSD2_QUALITY
+#define IPSD2_QUALITY 1
+#endif
+#ifndef IPSD2_LOCAL
+#define IPSD2_LOCAL 1
+#endif
+#ifndef IPSD2_BROAD
+#define IPSD2_BROAD 1
+#endif
+#if IPSD2_QUALITY <= 0
+#define _IPSD2_TAPS 4
+#elif IPSD2_QUALITY == 1
+#define _IPSD2_TAPS 6
+#else
+#define _IPSD2_TAPS 10
+#endif
+#if defined(BUFFER_COLOR_SPACE) && BUFFER_COLOR_SPACE > 1
+#define _IPSD2_HDR 1
+#else
+#define _IPSD2_HDR 0
+#endif
+#define _IPSD2_HW ((BUFFER_WIDTH + 1) / 2)
+#define _IPSD2_HH ((BUFFER_HEIGHT + 1) / 2)
+
+namespace IPSD2
+{
+uniform float Strength <
+    ui_type = "slider"; ui_label = "Overall strength"; ui_category = "1. Contrast";
+    ui_min = 0.0; ui_max = 1.0; ui_step = 0.01;
+    ui_tooltip = "Blend with original. Disable the technique to remove its full GPU cost.";
+> = 1.0;
+uniform float Contrast <
+    ui_type = "slider"; ui_label = "Tonal contrast"; ui_category = "1. Contrast";
+    ui_min = 0.0; ui_max = 0.75; ui_step = 0.01;
+    ui_tooltip = "Deepens lower midtones. The tone curve keeps black, white and its 0.5 pivot fixed.";
+> = 0.34;
+uniform float ShadowProtection <
+    ui_type = "slider"; ui_label = "Shadow protection"; ui_category = "1. Contrast";
+    ui_min = 0.0; ui_max = 1.0; ui_step = 0.01;
+    ui_tooltip = "Retains near-black detail without raising absolute black.";
+> = 0.90;
+uniform float HighlightLift <
+    ui_type = "slider"; ui_label = "Highlight contribution"; ui_category = "1. Contrast";
+    ui_min = 0.0; ui_max = 1.0; ui_step = 0.01;
+    ui_tooltip = "Zero disables the tone curve's upper-tone brightening.";
+> = 0.15;
+uniform float FineContrast <
+    ui_type = "slider"; ui_label = "Fine detail contrast"; ui_category = "2. Depth";
+    ui_min = 0.0; ui_max = 0.50; ui_step = 0.01;
+    ui_tooltip = "Texture definition below the fine radius. Requires IPSD2_LOCAL=1.";
+> = 0.18;
+uniform float BroadContrast <
+    ui_type = "slider"; ui_label = "Broad detail contrast"; ui_category = "2. Depth";
+    ui_min = 0.0; ui_max = 0.40; ui_step = 0.01;
+    ui_tooltip = "Shape separation between fine and broad bases. Requires LOCAL and BROAD definitions enabled.";
+> = 0.12;
+uniform float Radius <
+    ui_type = "slider"; ui_label = "Fine radius (1080p pixels)"; ui_category = "2. Depth";
+    ui_min = 2.0; ui_max = 8.0; ui_step = 0.25;
+    ui_tooltip = "Scales with output height; broad radius is 3x this value. Keep moderate to limit halos.";
+> = 6.0;
+uniform float EdgeProtection <
+    ui_type = "slider"; ui_label = "Edge protection"; ui_category = "3. Artifact control";
+    ui_min = 0.0; ui_max = 1.0; ui_step = 0.01;
+    ui_tooltip = "Higher values reduce mixing across unlike brightness boundaries.";
+> = 0.80;
+uniform float HaloProtection <
+    ui_type = "slider"; ui_label = "Halo suppression"; ui_category = "3. Artifact control";
+    ui_min = 0.0; ui_max = 1.0; ui_step = 0.01;
+    ui_tooltip = "Attenuates local contrast and sharpening beside strong edges and HUD text.";
+> = 0.85;
+uniform float NoiseFloor <
+    ui_type = "slider"; ui_label = "Detail noise threshold"; ui_category = "3. Artifact control";
+    ui_min = 0.0; ui_max = 0.015; ui_step = 0.0005;
+    ui_tooltip = "Gates tiny brightness differences. Increase for grainy/noisy games.";
+> = 0.003;
+uniform float Sharpen <
+    ui_type = "slider"; ui_label = "Micro sharpening"; ui_category = "3. Artifact control";
+    ui_min = 0.0; ui_max = 0.30; ui_step = 0.01;
+    ui_tooltip = "Optional noise-gated 3x3 sharpening with limited overshoot. Start at zero with other sharpeners.";
+> = 0.0;
+uniform float Dither <
+    ui_type = "slider"; ui_label = "Static dither (output steps)"; ui_category = "4. Compare and output";
+    ui_min = 0.0; ui_max = 0.75; ui_step = 0.05;
+    ui_tooltip = "Monochrome noise scaled for 8/10-bit output; off for 16-bit output. Zero is best with RTX Dynamic Vibrance initially.";
+> = 0.15;
+uniform bool SplitView <
+    ui_label = "Compare: original left / processed right"; ui_category = "4. Compare and output";
+> = false;
+uniform float SplitPosition <
+    ui_type = "slider"; ui_label = "Comparison position"; ui_category = "4. Compare and output";
+    ui_min = 0.0; ui_max = 1.0; ui_step = 0.01;
+> = 0.50;
+uniform int View <
+    ui_type = "combo"; ui_label = "View"; ui_category = "4. Compare and output";
+    ui_items = "Final image\0Detail correction\0Broad edge confidence\0";
+    ui_tooltip = "Correction: gray is unchanged. Confidence: white is reliable, dark is rejected. Broad view is black if disabled.";
+> = 0;
+
+texture2D InputTexture : COLOR;
+sampler2D InputSampler
+{
+    Texture = InputTexture; AddressU = CLAMP; AddressV = CLAMP;
+    MinFilter = LINEAR; MagFilter = LINEAR; MipFilter = POINT; SRGBTexture = false;
+};
+#if !_IPSD2_HDR && IPSD2_LOCAL
+texture2D LumaTexture { Width = BUFFER_WIDTH; Height = BUFFER_HEIGHT; Format = R16F; };
+sampler2D LumaSampler
+{
+    Texture = LumaTexture; AddressU = CLAMP; AddressV = CLAMP;
+    MinFilter = LINEAR; MagFilter = LINEAR; MipFilter = POINT; SRGBTexture = false;
+};
+texture2D FineXTexture { Width = BUFFER_WIDTH; Height = BUFFER_HEIGHT; Format = RG16F; };
+sampler2D FineXSampler
+{
+    Texture = FineXTexture; AddressU = CLAMP; AddressV = CLAMP;
+    MinFilter = LINEAR; MagFilter = LINEAR; MipFilter = POINT; SRGBTexture = false;
+};
+texture2D FineYTexture { Width = BUFFER_WIDTH; Height = BUFFER_HEIGHT; Format = R16F; };
+sampler2D FineYSampler
+{
+    Texture = FineYTexture; AddressU = CLAMP; AddressV = CLAMP;
+    MinFilter = LINEAR; MagFilter = LINEAR; MipFilter = POINT; SRGBTexture = false;
+};
+#if IPSD2_BROAD
+texture2D BroadPrepTexture { Width = _IPSD2_HW; Height = _IPSD2_HH; Format = RGBA16F; };
+sampler2D BroadPrepSampler
+{
+    Texture = BroadPrepTexture; AddressU = CLAMP; AddressV = CLAMP;
+    MinFilter = LINEAR; MagFilter = LINEAR; MipFilter = POINT; SRGBTexture = false;
+};
+texture2D BroadXTexture { Width = _IPSD2_HW; Height = _IPSD2_HH; Format = RGBA16F; };
+sampler2D BroadXSampler
+{
+    Texture = BroadXTexture; AddressU = CLAMP; AddressV = CLAMP;
+    MinFilter = LINEAR; MagFilter = LINEAR; MipFilter = POINT; SRGBTexture = false;
+};
+texture2D BroadYTexture { Width = _IPSD2_HW; Height = _IPSD2_HH; Format = RGBA16F; };
+sampler2D BroadYSampler
+{
+    Texture = BroadYTexture; AddressU = CLAMP; AddressV = CLAMP;
+    MinFilter = LINEAR; MagFilter = LINEAR; MipFilter = POINT; SRGBTexture = false;
+};
+#endif
+#endif
+
+float Decode(float c) { return c <= 0.04045 ? c / 12.92 : pow((c + 0.055) / 1.055, 2.4); }
+float Encode(float c) { return c <= 0.0031308 ? c * 12.92 : 1.055 * pow(max(c, 0.0), 1.0 / 2.4) - 0.055; }
+float3 DecodeRGB(float3 c) { return float3(Decode(c.r), Decode(c.g), Decode(c.b)); }
+float3 EncodeRGB(float3 c) { return float3(Encode(c.r), Encode(c.g), Encode(c.b)); }
+float Luma(float3 c) { return dot(c, float3(0.2126, 0.7152, 0.0722)); }
+float ReadGuide(float2 uv)
+{
+#if !_IPSD2_HDR && IPSD2_LOCAL
+    return tex2D(LumaSampler, uv).r;
+#else
+    return Encode(Luma(DecodeRGB(saturate(tex2D(InputSampler, uv).rgb))));
+#endif
+}
+float Gate(float d) { return smoothstep(NoiseFloor, NoiseFloor + 0.006, abs(d)); }
+float Limit(float d, float limit) { return d * limit / (limit + abs(d)); }
+float Tone(float p)
+{
+    float protect = lerp(1.0, smoothstep(0.015, 0.18, p), ShadowProtection);
+    float upper = lerp(1.0, HighlightLift, smoothstep(0.45, 0.70, p));
+    return p + Contrast * p * (1.0 - p) * (2.0 * p - 1.0) * protect * upper;
+}
+float3 ReconstructColor(float3 rgb, float y, float target)
+{
+    if (y <= 0.0) return float3(target, target, target);
+    float3 chroma = rgb * (target / y) - target;
+    float high = max(chroma.r, max(chroma.g, chroma.b));
+    float low = min(chroma.r, min(chroma.g, chroma.b));
+    // Keep RGB ratios while in gamut; reduce chroma only if projection is needed.
+    float scale = 1.0;
+    if (high > 0.0) scale = min(scale, (1.0 - target) / high);
+    if (low < 0.0) scale = min(scale, target / (-low));
+    return saturate(target + chroma * scale);
+}
+void VS(uint id : SV_VertexID, out float4 position : SV_Position, out float2 uv : TEXCOORD0)
+{
+    uv = float2(id == 2 ? 2.0 : 0.0, id == 1 ? 2.0 : 0.0);
+    position = float4(uv * float2(2.0, -2.0) + float2(-1.0, 1.0), 0.0, 1.0);
+}
+#if !_IPSD2_HDR && IPSD2_LOCAL
+float CacheLuma(float4 position : SV_Position, float2 uv : TEXCOORD0) : SV_Target
+{ return Encode(Luma(DecodeRGB(saturate(tex2D(InputSampler, uv).rgb)))); }
+float Weight(float offset, float difference)
+{
+    float x = offset / float(_IPSD2_TAPS);
+    float sigma = lerp(0.18, 0.025, EdgeProtection);
+    float r = difference / sigma;
+    return exp2(-6.49212768 * x * x - 0.72134752 * r * r);
+}
+float2 FineHorizontal(float4 position : SV_Position, float2 uv : TEXCOORD0) : SV_Target
+{
+    float center = ReadGuide(uv);
+    float total = center, weights = 1.0;
+    float stride = Radius * (BUFFER_HEIGHT / 1080.0) * BUFFER_RCP_WIDTH / float(_IPSD2_TAPS);
+    [unroll]
+    for (int i = -_IPSD2_TAPS; i <= _IPSD2_TAPS; ++i)
+    {
+        if (i != 0)
+        {
+            float value = ReadGuide(uv + float2(float(i) * stride, 0.0));
+            float w = Weight(float(i), value - center);
+            total += value * w; weights += w;
+        }
+    }
+    return float2(total / weights, center);
+}
+float FineVertical(float4 position : SV_Position, float2 uv : TEXCOORD0) : SV_Target
+{
+    float2 center = tex2D(FineXSampler, uv).rg;
+    float total = center.r, weights = 1.0;
+    float stride = Radius * (BUFFER_HEIGHT / 1080.0) * BUFFER_RCP_HEIGHT / float(_IPSD2_TAPS);
+    [unroll]
+    for (int i = -_IPSD2_TAPS; i <= _IPSD2_TAPS; ++i)
+    {
+        if (i != 0)
+        {
+            float2 value = tex2D(FineXSampler, uv + float2(0.0, float(i) * stride)).rg;
+            float w = Weight(float(i), value.g - center.g);
+            total += value.r * w; weights += w;
+        }
+    }
+    return total / weights;
+}
+#if IPSD2_BROAD
+float4 BroadPrepare(float4 position : SV_Position, float2 uv : TEXCOORD0) : SV_Target
+{
+    // Paired fine-base/original-guide samples. A high guide span marks cells
+    // that straddle an edge so they contribute less to filtering/upsampling.
+    float2 baseGuide = 0.0;
+    float lo = 1.0, hi = 0.0;
+    float2 pixel = float2(BUFFER_RCP_WIDTH, BUFFER_RCP_HEIGHT);
+    [unroll]
+    for (int j = 0; j <= 1; ++j)
+    {
+        [unroll]
+        for (int i = 0; i <= 1; ++i)
+        {
+            float2 coord = uv + (float2(i, j) - 0.5) * pixel;
+            float guide = ReadGuide(coord);
+            baseGuide += float2(tex2D(FineYSampler, coord).r, guide) * 0.25;
+            lo = min(lo, guide); hi = max(hi, guide);
+        }
+    }
+    float confidence = 1.0 - smoothstep(0.02, 0.12, hi - lo);
+    return float4(baseGuide, confidence, 0.0);
+}
+float4 BroadFilter(sampler2D source, float2 uv, float2 direction)
+{
+    float4 center = tex2D(source, uv);
+    float w0 = max(center.b * center.b * center.b * center.b, 0.0001);
+    float total = center.r * w0, weights = w0;
+    float2 stride = direction * Radius * 3.0 * (BUFFER_HEIGHT / 1080.0) / float(_IPSD2_TAPS);
+    [unroll]
+    for (int i = -_IPSD2_TAPS; i <= _IPSD2_TAPS; ++i)
+    {
+        if (i != 0)
+        {
+            float4 value = tex2D(source, uv + float(i) * stride);
+            float w = Weight(float(i), value.g - center.g);
+            w *= value.b * value.b * value.b * value.b;
+            total += value.r * w; weights += w;
+        }
+    }
+    return float4(total / weights, center.g, center.b, 0.0);
+}
+float4 BroadHorizontal(float4 p : SV_Position, float2 uv : TEXCOORD0) : SV_Target
+{ return BroadFilter(BroadPrepSampler, uv, float2(BUFFER_RCP_WIDTH, 0.0)); }
+float4 BroadVertical(float4 p : SV_Position, float2 uv : TEXCOORD0) : SV_Target
+{ return BroadFilter(BroadXSampler, uv, float2(0.0, BUFFER_RCP_HEIGHT)); }
+float2 UpsampleBroad(float2 uv, float guide, float fallback)
+{
+    float2 size = float2(_IPSD2_HW, _IPSD2_HH);
+    float2 pixel = uv * size - 0.5;
+    float2 origin = floor(pixel), f = frac(pixel);
+    float sigma = lerp(0.18, 0.025, EdgeProtection);
+    float residual = 0.0, weights = 0.0;
+    [unroll]
+    for (int j = 0; j <= 1; ++j)
+    {
+        [unroll]
+        for (int i = 0; i <= 1; ++i)
+        {
+            float4 value = tex2D(BroadYSampler, (origin + float2(i, j) + 0.5) / size);
+            float spatial = (i == 0 ? 1.0 - f.x : f.x) * (j == 0 ? 1.0 - f.y : f.y);
+            float d = (value.g - guide) / sigma;
+            float w = spatial * exp2(-0.72134752 * d * d);
+            w *= value.b * value.b * value.b * value.b;
+            residual += (value.r - value.g) * w;
+            weights += w;
+        }
+    }
+    float reliability = smoothstep(0.00001, 0.01, weights);
+    float base = lerp(fallback, guide + residual / max(weights, 0.000001), reliability);
+    return float2(base, reliability);
+}
+#endif
+#endif
+float Hash(float2 p) { return frac(52.9829189 * frac(dot(p, float2(0.06711056, 0.00583715)))); }
+float DitherStep()
+{
+#if defined(BUFFER_COLOR_BIT_DEPTH) && BUFFER_COLOR_BIT_DEPTH >= 16
+    return 0.0;
+#elif defined(BUFFER_COLOR_BIT_DEPTH) && BUFFER_COLOR_BIT_DEPTH == 10
+    return 1.0 / 1023.0;
+#else
+    return 1.0 / 255.0;
+#endif
+}
+float4 Composite(float4 position : SV_Position, float2 uv : TEXCOORD0) : SV_Target
+{
+    float4 original = tex2D(InputSampler, uv);
+#if _IPSD2_HDR
+    return original;
+#else
+    if (Strength <= 0.0 || (SplitView && uv.x < SplitPosition)) return original;
+    float3 rgb = DecodeRGB(saturate(original.rgb));
+    float linearY = Luma(rgb);
+    // Full-precision center for grading; cached half-float guide for all local
+    // differences, so constant fields don't acquire quantization detail.
+    float p = Encode(linearY);
+    float detail = 0.0, confidence = 0.0;
+#if IPSD2_LOCAL
+    float guide = ReadGuide(uv);
+    float fineBase = tex2D(FineYSampler, uv).r;
+    float fineBand = guide - fineBase;
+    detail = Limit(FineContrast * fineBand * Gate(fineBand), 0.020);
+#if IPSD2_BROAD
+    float2 broad = UpsampleBroad(uv, guide, fineBase);
+    float broadBand = fineBase - broad.r;
+    detail += Limit(BroadContrast * broadBand * Gate(broadBand), 0.025);
+    confidence = broad.g;
+#endif
+#endif
+    float edgeMask = 1.0;
+#if IPSD2_LOCAL
+    if (HaloProtection > 0.0 || Sharpen > 0.0)
+#else
+    if (Sharpen > 0.0)
+#endif
+    {
+        float center = ReadGuide(uv);
+        float lo = center, hi = center, sum = 4.0 * center;
+        float2 pixel = float2(BUFFER_RCP_WIDTH, BUFFER_RCP_HEIGHT);
+        [unroll]
+        for (int j = -1; j <= 1; ++j)
+        {
+            [unroll]
+            for (int i = -1; i <= 1; ++i)
+            {
+                if (i != 0 || j != 0)
+                {
+                    float v = ReadGuide(uv + float2(i, j) * pixel);
+                    sum += v * ((i == 0 || j == 0) ? 2.0 : 1.0);
+                    lo = min(lo, v); hi = max(hi, v);
+                }
+            }
+        }
+        edgeMask = 1.0 - HaloProtection * smoothstep(0.06, 0.28, hi - lo);
+        float hp = center - sum / 16.0;
+        float sharp = Limit(Sharpen * hp * Gate(hp), 0.010);
+        float margin = 0.04 * (hi - lo);
+        detail += clamp(sharp, lo - margin - center, hi + margin - center);
+    }
+    float targetP = Tone(p);
+    float envelope = smoothstep(0.02, 0.14, p) * (1.0 - smoothstep(0.80, 0.98, p));
+    float headroom = max(0.0, min(targetP, 1.0 - targetP));
+    detail = clamp(detail * edgeMask * envelope, -0.25 * headroom, 0.25 * headroom);
+    if (View == 1) return float4(saturate(0.5 + detail * 10.0).xxx, original.a);
+    if (View == 2) return float4(confidence, confidence, confidence, original.a);
+    targetP = saturate(targetP + detail);
+    float3 result = EncodeRGB(ReconstructColor(rgb, linearY, Decode(targetP)));
+    if (Dither > 0.0 && DitherStep() > 0.0)
+    {
+        float2 pixel = floor(position.xy);
+        float noise = Hash(pixel) - Hash(pixel + float2(37.0, 17.0));
+        float minimum = min(result.r, min(result.g, result.b));
+        float maximum = max(result.r, max(result.g, result.b));
+        float mask = smoothstep(0.0, 2.0 * DitherStep(), min(minimum, 1.0 - maximum));
+        result += noise * Dither * DitherStep() * mask;
+    }
+    return float4(lerp(original.rgb, saturate(result), Strength), original.a);
+#endif
+}
+}
+technique IPS_Depth_v2 <
+    ui_label = "IPS Depth v2";
+    ui_tooltip = "SDR contrast/depth with quality presets. Disable old IPS Depth/FakeHDR grades when using this effect.";
+>
+{
+#if !_IPSD2_HDR && IPSD2_LOCAL
+    pass Luma
+    {
+        VertexShader = IPSD2::VS; PixelShader = IPSD2::CacheLuma;
+        RenderTarget = IPSD2::LumaTexture; SRGBWriteEnable = false;
+    }
+    pass FineX
+    {
+        VertexShader = IPSD2::VS; PixelShader = IPSD2::FineHorizontal;
+        RenderTarget = IPSD2::FineXTexture; SRGBWriteEnable = false;
+    }
+    pass FineY
+    {
+        VertexShader = IPSD2::VS; PixelShader = IPSD2::FineVertical;
+        RenderTarget = IPSD2::FineYTexture; SRGBWriteEnable = false;
+    }
+#if IPSD2_BROAD
+    pass BroadPrepare
+    {
+        VertexShader = IPSD2::VS; PixelShader = IPSD2::BroadPrepare;
+        RenderTarget = IPSD2::BroadPrepTexture; SRGBWriteEnable = false;
+    }
+    pass BroadX
+    {
+        VertexShader = IPSD2::VS; PixelShader = IPSD2::BroadHorizontal;
+        RenderTarget = IPSD2::BroadXTexture; SRGBWriteEnable = false;
+    }
+    pass BroadY
+    {
+        VertexShader = IPSD2::VS; PixelShader = IPSD2::BroadVertical;
+        RenderTarget = IPSD2::BroadYTexture; SRGBWriteEnable = false;
+    }
+#endif
+#endif
+    pass Finish
+    {
+        VertexShader = IPSD2::VS; PixelShader = IPSD2::Composite;
+        SRGBWriteEnable = false;
+    }
+}
+/*
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/

@@ -1,5 +1,7 @@
 # FakeHDR Advanced
 
+> **v1.1.0 adds three shaders:** IPS Depth v2, Selective Deband and Adaptive Clarity, with individual presets and six merged suite presets. See [docs/Suite.md](docs/Suite.md). FakeHDR Advanced below is unchanged from v1.0.0.
+
 An SDR "HDR-look" post-processing shader for [ReShade](https://reshade.me) and GShade. It adds local contrast, a protected tone curve, highlight brilliance and soft gamut handling to an ordinary SDR image.
 
 > **What it is not.** This is an artistic SDR effect. It does not produce HDR output and it **cannot restore detail that is already clipped** in the game's image. It processes the whole frame, so **HUD, menus and text are affected too**.
