@@ -1,6 +1,11 @@
 # FakeHDR Advanced
 
-> **v1.1.0 adds three shaders:** IPS Depth v2, Selective Deband and Adaptive Clarity, with individual presets and six merged suite presets. See [docs/Suite.md](docs/Suite.md). FakeHDR Advanced below is unchanged from v1.0.0.
+> **IPS Suite:** a coordinated single-effect pipeline based on IPS Depth v2,
+> Selective Deband and Adaptive Clarity, with six combined presets. Start with
+> [the IPS Suite guide](docs/IPS_Suite.md) and
+> `Presets/IPS_Suite/IPS_Suite_RTX_Companion_High.ini`. The original standalone
+> effects and older three-technique presets remain available; see
+> [docs/Suite.md](docs/Suite.md). FakeHDR Advanced below is unchanged.
 
 An SDR "HDR-look" post-processing shader for [ReShade](https://reshade.me) and GShade. It adds local contrast, a protected tone curve, highlight brilliance and soft gamut handling to an ordinary SDR image.
 

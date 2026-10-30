@@ -1,5 +1,9 @@
 # Validating FakeHDR_Advanced.fx
 
+For the coordinated single-effect IPS Suite, its CPU models, pinned ReShade
+FX harness and reproducible commands, see [the IPS Suite guide](../docs/IPS_Suite.md).
+The older standalone-stack validation below remains available.
+
 Windows only. Requires PowerShell 5.1+, `git`, internet access (to fetch a pinned ReShade source commit and, if `zig` is not on `PATH`, Zig 0.17.0), and the Windows D3DCompiler/D3D11 runtime (present on supported Windows versions).
 
 ```powershell
@@ -29,4 +33,3 @@ WARP is a CPU rasterizer; it demonstrates the shader's logic executes as intende
 ## Suite validation (v1.1.0)
 
 `validation\Validate-Suite.ps1` checks the preset bundles (ordering, quality definitions, equality with the individual presets apart from IPS Sharpen/Dither = 0), runs the CPU reference tests in `tests\<shader>\` (Python with NumPy and SciPy) and builds/runs each `tests\<shader>\check_fx.cpp` against the pinned ReShade source. It is shader-code generation and CPU modelling only: no GPU, driver, in-game or performance testing, and the merged presets are not rendered.
-
