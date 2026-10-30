@@ -29,22 +29,21 @@ def between(text, start, end, replacement=""):
     return before + replacement + end + after
 
 
-def module(filename, prefix, category):
+def module(filename):
     text = (SHADERS / filename).read_text()
     text = text[text.index("#ifndef "):text.index("\ntechnique ")]
-    text = re.sub(r'ui_category = "[^"]+"', f'ui_category = "{category}"', text)
     return text
 
 
-def rename_uniforms(text, prefix):
+def rename_uniforms(text, prefix, category):
     names = re.findall(r"\buniform\s+\w+\s+(\w+)\s*<", text)
     for name in sorted(names, key=len, reverse=True):
         text = re.sub(rf"\b{name}\b", prefix + name, text)
-    return text
+    return re.sub(r'ui_category = "[^"]+"', f'ui_category = "{category}"', text)
 
 
 def contrast():
-    text = module("IPS_Depth_v2.fx", "Contrast", "1. Contrast")
+    text = module("IPS_Depth_v2.fx")
     text = between(text, "uniform float Sharpen <", "texture2D InputTexture : COLOR;",
                    "static const float Sharpen = 0.0;\n"
                    "static const bool SplitView = false;\n"
@@ -56,11 +55,11 @@ def contrast():
     text = between(text, "float Hash(float2 p)", "float4 Composite(")
     text = between(text, "    if (Dither > 0.0 && DitherStep() > 0.0)",
                    "    return float4(lerp(original.rgb, saturate(result), Strength), original.a);")
-    return rename_uniforms(text, "Contrast")
+    return rename_uniforms(text, "Contrast", "1. Contrast")
 
 
 def deband():
-    text = module("Selective_Deband.fx", "Deband", "2. Debanding")
+    text = module("Selective_Deband.fx")
     text = between(text, "uniform float Dither <", "texture2D InputTexture : COLOR;",
                    "static const bool SplitView = false;\n"
                    "static const float SplitPosition = 0.5;\n"
@@ -79,11 +78,11 @@ def deband():
                    "    ditherEligibility = smoothstep(0.0,0.25,eligible)*Strength"
                    "*smoothstep(0.01*step8,0.25*step8,change);\n"
                    "#endif\n")
-    return rename_uniforms(text, "Deband")
+    return rename_uniforms(text, "Deband", "2. Debanding")
 
 
 def clarity():
-    text = module("Adaptive_Clarity.fx", "Clarity", "3. Clarity")
+    text = module("Adaptive_Clarity.fx")
     text = between(text, "uniform bool Mask1Enabled <", "texture2D InputTexture : COLOR;",
                    "static const bool SplitView = false;\n"
                    "static const float SplitPosition = 0.5;\n"
@@ -92,7 +91,7 @@ def clarity():
     text = text.replace("InputSampler", "_SUITE_CLARITY_INPUT")
     text = between(text, "float RectangleMask(", "#if !_AC_HDR",
                    "float HUDMask(float2 uv) { return 0.0; }\n")
-    return rename_uniforms(text, "Clarity")
+    return rename_uniforms(text, "Clarity", "3. Clarity")
 
 
 HEADER = """/*

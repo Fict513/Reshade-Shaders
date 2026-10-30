@@ -31,52 +31,52 @@ standalone source rather than this file.
 namespace IPSD2
 {
 uniform float ContrastStrength <
-    ui_type = "slider"; ui_label = "Overall strength"; ui_category = "1. ContrastContrast";
+    ui_type = "slider"; ui_label = "Overall strength"; ui_category = "1. Contrast";
     ui_min = 0.0; ui_max = 1.0; ui_step = 0.01;
     ui_tooltip = "Blend with original. Disable the technique to remove its full GPU cost.";
 > = 1.0;
 uniform float ContrastContrast <
-    ui_type = "slider"; ui_label = "Tonal contrast"; ui_category = "1. ContrastContrast";
+    ui_type = "slider"; ui_label = "Tonal contrast"; ui_category = "1. Contrast";
     ui_min = 0.0; ui_max = 0.75; ui_step = 0.01;
     ui_tooltip = "Deepens lower midtones. The tone curve keeps black, white and its 0.5 pivot fixed.";
 > = 0.34;
 uniform float ContrastShadowProtection <
-    ui_type = "slider"; ui_label = "Shadow protection"; ui_category = "1. ContrastContrast";
+    ui_type = "slider"; ui_label = "Shadow protection"; ui_category = "1. Contrast";
     ui_min = 0.0; ui_max = 1.0; ui_step = 0.01;
     ui_tooltip = "Retains near-black detail without raising absolute black.";
 > = 0.90;
 uniform float ContrastHighlightLift <
-    ui_type = "slider"; ui_label = "Highlight contribution"; ui_category = "1. ContrastContrast";
+    ui_type = "slider"; ui_label = "Highlight contribution"; ui_category = "1. Contrast";
     ui_min = 0.0; ui_max = 1.0; ui_step = 0.01;
     ui_tooltip = "Zero disables the tone curve's upper-tone brightening.";
 > = 0.15;
 uniform float ContrastFineContrast <
-    ui_type = "slider"; ui_label = "Fine detail contrast"; ui_category = "1. ContrastContrast";
+    ui_type = "slider"; ui_label = "Fine detail contrast"; ui_category = "1. Contrast";
     ui_min = 0.0; ui_max = 0.50; ui_step = 0.01;
     ui_tooltip = "Texture definition below the fine radius. Requires IPSD2_LOCAL=1.";
 > = 0.18;
 uniform float ContrastBroadContrast <
-    ui_type = "slider"; ui_label = "Broad detail contrast"; ui_category = "1. ContrastContrast";
+    ui_type = "slider"; ui_label = "Broad detail contrast"; ui_category = "1. Contrast";
     ui_min = 0.0; ui_max = 0.40; ui_step = 0.01;
     ui_tooltip = "Shape separation between fine and broad bases. Requires LOCAL and BROAD definitions enabled.";
 > = 0.12;
 uniform float ContrastRadius <
-    ui_type = "slider"; ui_label = "Fine radius (1080p pixels)"; ui_category = "1. ContrastContrast";
+    ui_type = "slider"; ui_label = "Fine radius (1080p pixels)"; ui_category = "1. Contrast";
     ui_min = 2.0; ui_max = 8.0; ui_step = 0.25;
     ui_tooltip = "Scales with output height; broad radius is 3x this value. Keep moderate to limit halos.";
 > = 6.0;
 uniform float ContrastEdgeProtection <
-    ui_type = "slider"; ui_label = "Edge protection"; ui_category = "1. ContrastContrast";
+    ui_type = "slider"; ui_label = "Edge protection"; ui_category = "1. Contrast";
     ui_min = 0.0; ui_max = 1.0; ui_step = 0.01;
     ui_tooltip = "Higher values reduce mixing across unlike brightness boundaries.";
 > = 0.80;
 uniform float ContrastHaloProtection <
-    ui_type = "slider"; ui_label = "Halo suppression"; ui_category = "1. ContrastContrast";
+    ui_type = "slider"; ui_label = "Halo suppression"; ui_category = "1. Contrast";
     ui_min = 0.0; ui_max = 1.0; ui_step = 0.01;
     ui_tooltip = "Attenuates local contrast and sharpening beside strong edges and HUD text.";
 > = 0.85;
 uniform float ContrastNoiseFloor <
-    ui_type = "slider"; ui_label = "Detail noise threshold"; ui_category = "1. ContrastContrast";
+    ui_type = "slider"; ui_label = "Detail noise threshold"; ui_category = "1. Contrast";
     ui_min = 0.0; ui_max = 0.015; ui_step = 0.0005;
     ui_tooltip = "Gates tiny brightness differences. Increase for grainy/noisy games.";
 > = 0.003;
