@@ -1,5 +1,9 @@
 # IPS Depth v2 + Selective Deband + Adaptive Clarity suite
 
+This page describes the **older three-technique stack**, which remains
+available. For the coordinated single-effect IPS Suite with final dithering,
+shared exclusions and new combined presets, see [IPS_Suite.md](IPS_Suite.md).
+
 Three independent SDR ReShade/GShade shaders and six merged presets:
 
 | Shader | File | Quality definition | Guide |
