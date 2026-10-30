@@ -23,6 +23,7 @@ def main():
     args = parser.parse_args()
     for generator in ("generate_ips_suite_includes.py", "generate_ips_suite_presets.py"):
         run([sys.executable, ROOT / "validation" / generator, "--check"])
+    run([sys.executable, ROOT / "tests" / "IPS_Suite" / "test_generate_includes.py"])
     for shader in ("IPS_Depth_v2", "Selective_Deband", "Adaptive_Clarity", "IPS_Suite"):
         run([sys.executable, ROOT / "tests" / shader / "test_reference.py"])
     if args.reshade_source is None:
