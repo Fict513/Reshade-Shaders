@@ -1,0 +1,8 @@
+{
+  "CAS_sharpness": 0,
+  "CAS_math": "float64 grayscale no-scaling cross extrema, exact sqrt/reciprocal, output saturate",
+  "target_texture_std_ratio": 1.0250577544348063,
+  "CAS_blend_for_matching": 0.08677778002055048,
+  "USM_blend_for_matching": 0.3012864018752084,
+  "interpretation": "Matched only on one synthetic texture. No perceptual or performance superiority claim."
+}

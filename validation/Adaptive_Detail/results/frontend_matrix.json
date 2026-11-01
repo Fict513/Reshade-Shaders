@@ -1,0 +1,1352 @@
+[
+  {
+    "width": 1,
+    "height": 1,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 19,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 17,
+    "height": 1,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "height": 5,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 0,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 0,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 1,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 1,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 2,
+    "detail": 0,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 0,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 1,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 2,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 3,
+    "status": 0,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "q": 2,
+    "detail": 1,
+    "contract_macro": 4,
+    "status": 0,
+    "stderr": ""
+  }
+]

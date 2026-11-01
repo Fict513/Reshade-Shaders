@@ -13,6 +13,48 @@ An SDR "HDR-look" post-processing shader for [ReShade](https://reshade.me) and G
 
 Version: **1.0.0** · License: MIT (see [LICENSE](LICENSE)) · File: `Shaders/FakeHDR_Advanced.fx`
 
+## Shader catalog
+
+The color-space contract below describes the shader implementation, not a
+promise that every game's injection point uses that encoding. Unless a shader's
+guide says otherwise, no external texture, include pack or native add-on is
+required. Copy required `.fxh` files alongside their `.fx` files in the
+configured ReShade `Shaders` path. Keep versions and presets distinct; choosing
+a preset may replace the active technique list.
+
+| Effect and source version | Purpose | Supported input/output contract | Required files / dependencies | Presets and quality | Guide |
+|---|---|---|---|---|---|
+| FakeHDR Advanced 1.0.0 | SDR local contrast and artistic tone shaping | SDR sRGB/Rec.709; reported HDR presentation spaces bypass; unknown presentation is treated as SDR | None beyond `Shaders/FakeHDR_Advanced.fx` | UI controls; no bundled effect preset | [Installation and tuning](#installation) |
+| IPS Suite 1.2.0 | Coordinated contrast, selective deband, clarity and final dither | SDR sRGB/Rec.709; declared HDR spaces bypass; unknown is treated as SDR | `Shaders/IPS_Suite.fx` plus all three `.fxh` files in `Shaders/IPS_Suite/` | Six `Presets/IPS_Suite/` files; `IPS_SUITE_QUALITY` 0/1/2 and independent stage switches | [IPS Suite guide](docs/IPS_Suite.md) |
+| IPS Depth v2.0 | SDR local contrast and tone shaping | SDR sRGB/Rec.709; declared HDR spaces bypass; unknown is treated as SDR | None beyond `Shaders/IPS_Depth_v2.fx` | Six `Presets/IPS_Depth_v2/` files; `IPSD2_QUALITY` 0/1/2 | [IPS Depth v2 guide](docs/IPS_Depth_v2.md) |
+| Selective Deband 1.0 | Spatial, edge- and texture-gated gradient smoothing | SDR sRGB/Rec.709; declared HDR spaces bypass; unknown is treated as SDR | None beyond `Shaders/Selective_Deband.fx` | Six `Presets/Selective_Deband/` files; `SDB_QUALITY` 0/1/2 | [Selective Deband guide](docs/Selective_Deband.md) |
+| Adaptive Clarity 1.0 | SDR noise- and edge-protected local detail enhancement | SDR sRGB/Rec.709; declared HDR spaces bypass; unknown is treated as SDR | None beyond `Shaders/Adaptive_Clarity.fx` | Six `Presets/Adaptive_Clarity/` files; `AC_QUALITY` 0/1/2 | [Adaptive Clarity guide](docs/Adaptive_Clarity.md) |
+| HDR Bloom 1.0.0 | Restrained light diffusion over an already display-mapped image | Explicit verified full-range SDR sRGB/BT.709, HDR10 PQ/BT.2020, or linear signed scRGB/BT.709 at 80 nits/unit. Auto defaults to bypass; HLG and unverified/custom contracts are unsupported. | `Shaders/HDR_Bloom.fx` + sibling `HDR_Bloom_Math.fxh`; no external pack | Nine mode-specific `Presets/HDR_Bloom/` files; `HDRBLOOM_QUALITY` 0/1/2 | [HDR Bloom guide](docs/HDR_Bloom/README.md) |
+| Adaptive Detail 1.0.0 | Two-band, luminance-driven sharpening | Explicit verified SDR sRGB/BT.709, full-range HDR10 PQ/BT.2020, or signed/extended linear scRGB/BT.709 at 80 nits/unit. Unknown/default and unsupported contracts bypass. | `Shaders/Adaptive_Detail.fx` + sibling `Adaptive_Detail_Core.fxh`; no external pack | Nine mode-specific `Presets/Adaptive_Detail/` files; `ADAPTIVE_DETAIL_QUALITY` 0/1/2 | [Adaptive Detail guide](docs/Adaptive_Detail/README.md) |
+| HDR IPS Enhance 1.0.1 | Native-HDR contrast, local detail and restrained color enhancement | Verified full-range HDR10 PQ/BT.2020 or signed/extended linear scRGB/BT.709; SDR, HLG and unknown contracts bypass. Auto requires verification. | `Shaders/HDR_IPS_Enhance.fx` + sibling `HDRIPS_Math.fxh`; no external pack | Three native-HDR `Presets/HDR_IPS_Enhance/` files; `HDRIPS_QUALITY` 0/1/2 | [HDR IPS Enhance guide](docs/HDR_IPS_Enhance/README.md) |
+
+### Overlap and starting combinations
+
+**IPS Depth v2 and HDR IPS Enhance are distinct alternatives, not replacements.**
+Both adjust global/local contrast, but IPS Depth v2 assumes SDR sRGB and bypasses
+declared HDR; HDR IPS Enhance is for verified native PQ/scRGB and bypasses SDR.
+Likewise, **Adaptive Clarity and Adaptive Detail overlap in local sharpening but
+remain separate effects**: Adaptive Clarity is the existing SDR effect, while
+Adaptive Detail has explicit SDR/PQ/scRGB contracts and a two-band correction.
+No supplied source designates either pair as a replacement.
+
+For SDR, choose either the single-effect **IPS Suite** or a deliberately tuned
+subset of IPS Depth v2, Selective Deband and Adaptive Clarity. Avoid running
+IPS Suite and those same standalone effects together. For verified HDR,
+HDR IPS Enhance -> Adaptive Detail -> HDR Bloom is a source-based starting
+order: contrast/detail before light diffusion. Both shaders preserve the
+selected signal encoding by design, but this order and the combined effects
+have **not** been tested in-game. Reconfirm the sampled `COLOR` and destination
+contract after changing injection points or adding any effect that converts
+encoding. Do not stack every shader by default; overlapping contrast, clarity,
+sharpening and bloom can compound. HDR-specific input-contract and safe-bypass
+details are in each linked guide.
+
 ## Attribution
 
 Original implementation, inspired by the *purpose* of CeeJay.dk's [FakeHDR](https://github.com/Mortalitas/GShade/blob/master/Shaders/FakeHDR.fx). No source code from that shader is incorporated. Copyright (c) 2026 OpenAI, MIT license; the notice must stay with copies of the shader.

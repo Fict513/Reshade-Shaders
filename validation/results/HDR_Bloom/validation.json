@@ -1,0 +1,2197 @@
+{
+  "pq_reference": [
+    {
+      "nits": 0.0,
+      "encoded_float32": 7.309558895940427e-07,
+      "decoded_float32": 0.0,
+      "reference_float64": 7.309559025783966e-07
+    },
+    {
+      "nits": 0.001,
+      "encoded_float32": 0.006302354391664267,
+      "decoded_float32": 0.0009999943431466818,
+      "reference_float64": 0.006302377054571391
+    },
+    {
+      "nits": 0.01,
+      "encoded_float32": 0.021486179903149605,
+      "decoded_float32": 0.009999968111515045,
+      "reference_float64": 0.02148621379868528
+    },
+    {
+      "nits": 0.1,
+      "encoded_float32": 0.06233716756105423,
+      "decoded_float32": 0.1000012680888176,
+      "reference_float64": 0.06233686566269587
+    },
+    {
+      "nits": 1.0,
+      "encoded_float32": 0.1499454528093338,
+      "decoded_float32": 0.9999906420707703,
+      "reference_float64": 0.14994573210018022
+    },
+    {
+      "nits": 80.0,
+      "encoded_float32": 0.4858570992946625,
+      "decoded_float32": 80.00086212158203,
+      "reference_float64": 0.4858567653886785
+    },
+    {
+      "nits": 100.0,
+      "encoded_float32": 0.50807785987854,
+      "decoded_float32": 99.99972534179688,
+      "reference_float64": 0.508078421517399
+    },
+    {
+      "nits": 203.0,
+      "encoded_float32": 0.580690324306488,
+      "decoded_float32": 203.00448608398438,
+      "reference_float64": 0.5806888810416109
+    },
+    {
+      "nits": 1000.0,
+      "encoded_float32": 0.7518293857574463,
+      "decoded_float32": 1000.0437622070312,
+      "reference_float64": 0.751827096247041
+    },
+    {
+      "nits": 4000.0,
+      "encoded_float32": 0.9025733470916748,
+      "decoded_float32": 3999.956787109375,
+      "reference_float64": 0.9025723933109373
+    },
+    {
+      "nits": 10000.0,
+      "encoded_float32": 1.0,
+      "decoded_float32": 10000.0,
+      "reference_float64": 1.0
+    }
+  ],
+  "pq_roundtrip_max_encoded_error": 1.4299831390340856e-05,
+  "srgb_reference": [
+    {
+      "linear": 0.0,
+      "encoded": 0.0
+    },
+    {
+      "linear": 0.0031308,
+      "encoded": 0.04044993594288826
+    },
+    {
+      "linear": 0.18,
+      "encoded": 0.46135610342025757
+    },
+    {
+      "linear": 0.5,
+      "encoded": 0.7353569269180298
+    },
+    {
+      "linear": 1.0,
+      "encoded": 0.9999999403953552
+    }
+  ],
+  "srgb_roundtrip_max_error": 1.0404586797685411e-07,
+  "signed_scrgb_extraction_examples": [
+    {
+      "source_nits": [
+        1000.0,
+        1000.0,
+        1000.0
+      ],
+      "extracted_nits": [
+        750.0,
+        750.0,
+        750.0
+      ]
+    },
+    {
+      "source_nits": [
+        3000.0,
+        0.0,
+        0.0
+      ],
+      "extracted_nits": [
+        1824.082763671875,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source_nits": [
+        0.0,
+        3000.0,
+        0.0
+      ],
+      "extracted_nits": [
+        0.0,
+        2650.447265625,
+        0.0
+      ]
+    },
+    {
+      "source_nits": [
+        0.0,
+        0.0,
+        10000.0
+      ],
+      "extracted_nits": [
+        0.0,
+        0.0,
+        6537.396484375
+      ]
+    },
+    {
+      "source_nits": [
+        5000.0,
+        -200.0,
+        100.0
+      ],
+      "extracted_nits": [
+        3651.826171875,
+        -146.0730438232422,
+        73.0365219116211
+      ]
+    },
+    {
+      "source_nits": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extracted_nits": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "source_nits": [
+        -100.0,
+        -10.0,
+        -1.0
+      ],
+      "extracted_nits": [
+        -0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    {
+      "source_nits": [
+        5240320.0,
+        -800.0,
+        80.0
+      ],
+      "extracted_nits": [
+        5239143.5,
+        -799.8203735351562,
+        79.98204040527344
+      ]
+    }
+  ],
+  "spatial_impulses": [
+    {
+      "size": [
+        1,
+        1
+      ],
+      "location": "center",
+      "blurred_to_extracted_sum_ratio": 1.0,
+      "finite": true,
+      "minimum": 10000.0
+    },
+    {
+      "size": [
+        1,
+        1
+      ],
+      "location": "corner",
+      "blurred_to_extracted_sum_ratio": 1.0,
+      "finite": true,
+      "minimum": 10000.0
+    },
+    {
+      "size": [
+        1,
+        1
+      ],
+      "location": "edge",
+      "blurred_to_extracted_sum_ratio": 1.0,
+      "finite": true,
+      "minimum": 10000.0
+    },
+    {
+      "size": [
+        17,
+        1
+      ],
+      "location": "center",
+      "blurred_to_extracted_sum_ratio": 1.0173012664794923,
+      "finite": true,
+      "minimum": 88.23532104492188
+    },
+    {
+      "size": [
+        17,
+        1
+      ],
+      "location": "corner",
+      "blurred_to_extracted_sum_ratio": 0.9970590209960938,
+      "finite": true,
+      "minimum": 88.23532104492188
+    },
+    {
+      "size": [
+        17,
+        1
+      ],
+      "location": "edge",
+      "blurred_to_extracted_sum_ratio": 1.0173012664794923,
+      "finite": true,
+      "minimum": 88.23532104492188
+    },
+    {
+      "size": [
+        1,
+        19
+      ],
+      "location": "center",
+      "blurred_to_extracted_sum_ratio": 1.0077563095092774,
+      "finite": true,
+      "minimum": 78.94738006591797
+    },
+    {
+      "size": [
+        1,
+        19
+      ],
+      "location": "corner",
+      "blurred_to_extracted_sum_ratio": 0.9976455276489258,
+      "finite": true,
+      "minimum": 78.94738006591797
+    },
+    {
+      "size": [
+        1,
+        19
+      ],
+      "location": "edge",
+      "blurred_to_extracted_sum_ratio": 0.9976455276489258,
+      "finite": true,
+      "minimum": 78.94738006591797
+    },
+    {
+      "size": [
+        3,
+        2
+      ],
+      "location": "center",
+      "blurred_to_extracted_sum_ratio": 1.000000048828125,
+      "finite": true,
+      "minimum": 1666.666748046875
+    },
+    {
+      "size": [
+        3,
+        2
+      ],
+      "location": "corner",
+      "blurred_to_extracted_sum_ratio": 1.0000000610351563,
+      "finite": true,
+      "minimum": 750.0000610351562
+    },
+    {
+      "size": [
+        3,
+        2
+      ],
+      "location": "edge",
+      "blurred_to_extracted_sum_ratio": 1.000000048828125,
+      "finite": true,
+      "minimum": 1666.666748046875
+    },
+    {
+      "size": [
+        65,
+        33
+      ],
+      "location": "center",
+      "blurred_to_extracted_sum_ratio": 1.0150313366666437,
+      "finite": true,
+      "minimum": 0.0
+    },
+    {
+      "size": [
+        65,
+        33
+      ],
+      "location": "corner",
+      "blurred_to_extracted_sum_ratio": 0.9999604064522544,
+      "finite": true,
+      "minimum": 0.0
+    },
+    {
+      "size": [
+        65,
+        33
+      ],
+      "location": "edge",
+      "blurred_to_extracted_sum_ratio": 1.0049984656685031,
+      "finite": true,
+      "minimum": 0.0
+    },
+    {
+      "size": [
+        192,
+        128
+      ],
+      "location": "center",
+      "blurred_to_extracted_sum_ratio": 1.0000000249585104,
+      "finite": true,
+      "minimum": 0.0
+    },
+    {
+      "size": [
+        192,
+        128
+      ],
+      "location": "corner",
+      "blurred_to_extracted_sum_ratio": 1.000000005791521,
+      "finite": true,
+      "minimum": 0.0
+    },
+    {
+      "size": [
+        192,
+        128
+      ],
+      "location": "edge",
+      "blurred_to_extracted_sum_ratio": 1.000000021310474,
+      "finite": true,
+      "minimum": 0.0
+    },
+    {
+      "size": [
+        3440,
+        1440
+      ],
+      "location": "center",
+      "blurred_to_extracted_sum_ratio": 0.9999980549159653,
+      "finite": true,
+      "minimum": 0.0
+    },
+    {
+      "size": [
+        3440,
+        1440
+      ],
+      "location": "corner",
+      "blurred_to_extracted_sum_ratio": 0.9999980705003465,
+      "finite": true,
+      "minimum": 0.0
+    },
+    {
+      "size": [
+        3440,
+        1440
+      ],
+      "location": "edge",
+      "blurred_to_extracted_sum_ratio": 0.9999980449256595,
+      "finite": true,
+      "minimum": 0.0
+    }
+  ],
+  "quality_profiles": [
+    {
+      "quality": 0,
+      "sum": 10000.0,
+      "rms_radius_px": 29.278668537897918,
+      "peak": 90.82147117880838
+    },
+    {
+      "quality": 1,
+      "sum": 10000.000000000002,
+      "rms_radius_px": 29.278668538366645,
+      "peak": 90.82147117860421
+    },
+    {
+      "quality": 2,
+      "sum": 10000.000000000002,
+      "rms_radius_px": 29.27866853836666,
+      "peak": 90.82147117860421
+    }
+  ],
+  "quality_L1_vs_ultra": [
+    4.23348922493331e-12,
+    9.727722162766888e-17,
+    0.0
+  ],
+  "moving_subpixel_source": [
+    {
+      "position": 100.0,
+      "extracted_Y_sum": 750.0,
+      "blurred_Y_sum": 749.9945746527778,
+      "peak": 60.347870938497124
+    },
+    {
+      "position": 100.0625,
+      "extracted_Y_sum": 687.5,
+      "blurred_Y_sum": 687.4950267650463,
+      "peak": 55.318881693622366
+    },
+    {
+      "position": 100.125,
+      "extracted_Y_sum": 625.0,
+      "blurred_Y_sum": 624.995478877315,
+      "peak": 50.289892448747615
+    },
+    {
+      "position": 100.1875,
+      "extracted_Y_sum": 563.0208333333334,
+      "blurred_Y_sum": 563.0167605553146,
+      "peak": 45.302811447580126
+    },
+    {
+      "position": 100.25,
+      "extracted_Y_sum": 518.75,
+      "blurred_Y_sum": 518.7462474681713,
+      "peak": 41.7406107324605
+    },
+    {
+      "position": 100.3125,
+      "extracted_Y_sum": 500.5208333333333,
+      "blurred_Y_sum": 500.51721266758307,
+      "peak": 40.273822202705375
+    },
+    {
+      "position": 100.375,
+      "extracted_Y_sum": 500.0,
+      "blurred_Y_sum": 499.99638310185196,
+      "peak": 40.231913958998085
+    },
+    {
+      "position": 100.4375,
+      "extracted_Y_sum": 500.0,
+      "blurred_Y_sum": 499.99638310185196,
+      "peak": 40.231913958998085
+    },
+    {
+      "position": 100.5,
+      "extracted_Y_sum": 500.0,
+      "blurred_Y_sum": 499.99638310185196,
+      "peak": 40.231913958998085
+    },
+    {
+      "position": 100.5625,
+      "extracted_Y_sum": 500.0,
+      "blurred_Y_sum": 499.99638310185196,
+      "peak": 40.231913958998085
+    },
+    {
+      "position": 100.625,
+      "extracted_Y_sum": 500.0,
+      "blurred_Y_sum": 499.99638310185196,
+      "peak": 40.231913958998085
+    },
+    {
+      "position": 100.6875,
+      "extracted_Y_sum": 500.5208333333333,
+      "blurred_Y_sum": 500.51721266758307,
+      "peak": 40.273822202705375
+    },
+    {
+      "position": 100.75,
+      "extracted_Y_sum": 518.75,
+      "blurred_Y_sum": 518.7462474681713,
+      "peak": 41.7406107324605
+    },
+    {
+      "position": 100.8125,
+      "extracted_Y_sum": 563.0208333333334,
+      "blurred_Y_sum": 563.0167605553146,
+      "peak": 45.302811447580126
+    },
+    {
+      "position": 100.875,
+      "extracted_Y_sum": 625.0,
+      "blurred_Y_sum": 624.995478877315,
+      "peak": 50.289892448747615
+    },
+    {
+      "position": 100.9375,
+      "extracted_Y_sum": 687.5,
+      "blurred_Y_sum": 687.4950267650463,
+      "peak": 55.318881693622366
+    },
+    {
+      "position": 101.0,
+      "extracted_Y_sum": 750.0,
+      "blurred_Y_sum": 749.9945746527778,
+      "peak": 60.347870938497124
+    },
+    {
+      "position": 101.0625,
+      "extracted_Y_sum": 687.5,
+      "blurred_Y_sum": 687.4950267650463,
+      "peak": 55.318881693622366
+    },
+    {
+      "position": 101.125,
+      "extracted_Y_sum": 625.0,
+      "blurred_Y_sum": 624.995478877315,
+      "peak": 50.289892448747615
+    },
+    {
+      "position": 101.1875,
+      "extracted_Y_sum": 563.0208333333334,
+      "blurred_Y_sum": 563.0167605553146,
+      "peak": 45.26252824449412
+    },
+    {
+      "position": 101.25,
+      "extracted_Y_sum": 518.75,
+      "blurred_Y_sum": 518.7462474681714,
+      "peak": 40.567345819515886
+    },
+    {
+      "position": 101.3125,
+      "extracted_Y_sum": 500.5208333333333,
+      "blurred_Y_sum": 500.51721266758307,
+      "peak": 36.8250978513654
+    },
+    {
+      "position": 101.375,
+      "extracted_Y_sum": 500.0,
+      "blurred_Y_sum": 499.996383101852,
+      "peak": 33.58759612696715
+    },
+    {
+      "position": 101.4375,
+      "extracted_Y_sum": 500.0,
+      "blurred_Y_sum": 499.99638310185196,
+      "peak": 30.36493988032632
+    },
+    {
+      "position": 101.5,
+      "extracted_Y_sum": 500.0,
+      "blurred_Y_sum": 499.99638310185196,
+      "peak": 27.14228363368549
+    },
+    {
+      "position": 101.5625,
+      "extracted_Y_sum": 500.0,
+      "blurred_Y_sum": 499.99638310185196,
+      "peak": 30.165934541577037
+    },
+    {
+      "position": 101.625,
+      "extracted_Y_sum": 500.0,
+      "blurred_Y_sum": 499.99638310185196,
+      "peak": 33.38859078821787
+    },
+    {
+      "position": 101.6875,
+      "extracted_Y_sum": 500.5208333333333,
+      "blurred_Y_sum": 500.51721266758307,
+      "peak": 36.62588521538825
+    },
+    {
+      "position": 101.75,
+      "extracted_Y_sum": 518.75,
+      "blurred_Y_sum": 518.7462474681715,
+      "peak": 40.360877780563506
+    },
+    {
+      "position": 101.8125,
+      "extracted_Y_sum": 563.0208333333334,
+      "blurred_Y_sum": 563.0167605553146,
+      "peak": 44.82777937221652
+    },
+    {
+      "position": 101.875,
+      "extracted_Y_sum": 625.0,
+      "blurred_Y_sum": 624.995478877315,
+      "peak": 49.7923791018744
+    },
+    {
+      "position": 101.9375,
+      "extracted_Y_sum": 687.5,
+      "blurred_Y_sum": 687.4950267650463,
+      "peak": 54.77161701206183
+    },
+    {
+      "position": 102.0,
+      "extracted_Y_sum": 750.0,
+      "blurred_Y_sum": 749.9945746527778,
+      "peak": 59.750854922249275
+    }
+  ],
+  "moving_extraction_relative_peak_to_peak": 0.43815003319318435,
+  "storage_error_nits": {
+    "float32_max": 0.0004438001437847561,
+    "float32_rms": 7.790679134970763e-05,
+    "float16_max": 0.6897621611592513,
+    "float16_rms": 0.1341599858905595
+  },
+  "fp16_direct_nit_storage_overflows": true,
+  "rounded_tail_codes": {},
+  "rounding_8bit": {
+    "unique_codes": 90,
+    "zero_samples": 2446,
+    "first_nonzero_linear": 0.00015177372080567178,
+    "max_linear_quant_error": 0.0010725968798506458,
+    "monotonic": true
+  },
+  "rounding_10bit": {
+    "unique_codes": 768,
+    "zero_samples": 0,
+    "first_nonzero_linear": 0.0001,
+    "max_linear_quant_error": 4.245476229366091,
+    "monotonic": true
+  },
+  "checks": [
+    {
+      "test": "PQ points finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "PQ reference tolerance",
+      "passed": true,
+      "details": 2.289510405262263e-06
+    },
+    {
+      "test": "PQ dense float32 roundtrip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "PQ 10-bit codes roundtrip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "All 256 SDR grayscale codes roundtrip",
+      "passed": true,
+      "details": 8.812137675118237e-08
+    },
+    {
+      "test": "sRGB float32 roundtrip",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee bounds and monotonic excess (250, 150)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production extraction reference (250, 150)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee continuity (250, 150, 175.0)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee continuity (250, 150, 325.0)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee bounds and monotonic excess (0.6, 0.3)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production extraction reference (0.6, 0.3)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee continuity (0.6, 0.3, 0.44999999999999996)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee continuity (0.6, 0.3, 0.75)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee bounds and monotonic excess (20, 1000)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production extraction reference (20, 1000)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee continuity (20, 1000, 0.0)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee continuity (20, 1000, 40.0)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee bounds and monotonic excess (0.05, 0)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production extraction reference (0.05, 0)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee continuity (0.05, 0, 0.05)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee continuity (0.05, 0, 0.05)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee bounds and monotonic excess (0.05, 1)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production extraction reference (0.05, 1)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee continuity (0.05, 1, 0.0)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Knee continuity (0.05, 1, 0.1)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Kernel q0 normalization",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Kernel q0 variance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q0 n1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q0 n2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q0 n3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q0 n17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q0 n108",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Kernel q1 normalization",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Kernel q1 variance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q1 n1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q1 n2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q1 n3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q1 n17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q1 n108",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Kernel q2 normalization",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Kernel q2 variance",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q2 n1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q2 n2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q2 n3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q2 n17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Mirror filter mean and DC q2 n108",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Zero-strength modeled float4 bit identity mode0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Zero-strength modeled float4 bit identity mode1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Zero-strength modeled float4 bit identity mode2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Zero-strength modeled float4 bit identity mode3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Zero-strength modeled float4 bit identity mode4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Alpha preservation modeled mode1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Finite output modeled mode1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Alpha preservation modeled mode2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Finite output modeled mode2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Alpha preservation modeled mode3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Finite output modeled mode3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Signed positive-luminance extraction retains negatives",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Nonpositive luminance extracts zero",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Output box domain mode1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample10",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample11",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample14",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample16",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample20",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample21",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample22",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample23",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample25",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample26",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample27",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample28",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample30",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample31",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample33",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample37",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample40",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample42",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample43",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample44",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample45",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample46",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample47",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample49",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample50",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample51",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample52",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample53",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample54",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample55",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample56",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample57",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample58",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample59",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample61",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample62",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample63",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample64",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample65",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample66",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample67",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample68",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample69",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample70",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample71",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample72",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample73",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample74",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample75",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample76",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample78",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample79",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample80",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample81",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample82",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample83",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample84",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample85",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample86",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample87",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample88",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample89",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample90",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample91",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample92",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample93",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample94",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample96",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample97",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample98",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode1 sample99",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Boundary veto mode1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Output box domain mode2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample10",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample11",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample12",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample13",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample14",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample15",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample16",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample17",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample20",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample21",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample22",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample23",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample24",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample25",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample26",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample27",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample28",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample30",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample31",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample32",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample33",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample34",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample37",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample39",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample40",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample41",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample42",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample43",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample44",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample45",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample46",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample47",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample49",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample50",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample51",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample52",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample53",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample54",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample55",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample56",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample57",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample58",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample59",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample60",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample61",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample62",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample63",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample64",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample65",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample66",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample67",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample68",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample69",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample70",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample71",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample72",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample73",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample74",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample75",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample76",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample78",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample79",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample80",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample81",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample82",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample83",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample84",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample85",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample86",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample87",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample88",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample89",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample90",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample91",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample92",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample93",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample94",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample95",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample96",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample97",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample98",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production limiter mode2 sample99",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Boundary veto mode2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Constant field 1x1",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "test": "Impulse nonnegative finite 1x1 center",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 1x1 corner",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 1x1 edge",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Constant field 17x1",
+      "passed": true,
+      "details": 0.0001220703125
+    },
+    {
+      "test": "Impulse nonnegative finite 17x1 center",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 17x1 corner",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 17x1 edge",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Constant field 1x19",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "test": "Impulse nonnegative finite 1x19 center",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 1x19 corner",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 1x19 edge",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Constant field 3x2",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "test": "Impulse nonnegative finite 3x2 center",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 3x2 corner",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 3x2 edge",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Constant field 65x33",
+      "passed": true,
+      "details": 0.00030517578125
+    },
+    {
+      "test": "Impulse nonnegative finite 65x33 center",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 65x33 corner",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 65x33 edge",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Constant field 192x128",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "test": "Impulse nonnegative finite 192x128 center",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Even-grid mass 192x128 center",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 192x128 corner",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Even-grid mass 192x128 corner",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 192x128 edge",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Even-grid mass 192x128 edge",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Constant field 3440x1440",
+      "passed": true,
+      "details": 6.103515625e-05
+    },
+    {
+      "test": "Impulse nonnegative finite 3440x1440 center",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 3440x1440 corner",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Impulse nonnegative finite 3440x1440 edge",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Quality flux consistency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Quality RMS radius consistency",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "thin_line finite neutral bounded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "checker finite neutral bounded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "edge finite neutral bounded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Moving source finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "FP32 accumulated error",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "8-bit tail monotonic rounding",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "10-bit tail monotonic rounding",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Non-sRGB sampler/write states",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production exact original early return",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "All effect and diagnostic alpha use original",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "All FX parser/codegen/resource permutations",
+      "passed": true,
+      "details": 288
+    }
+  ],
+  "pass_count": 308,
+  "fail_count": 0,
+  "shader_sha256": "428d9f7d2c6349bc55d6e373b4d7dfbe7cfbd01d588fdd0ac1ffe7f983cd1945"
+}

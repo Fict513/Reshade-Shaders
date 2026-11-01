@@ -1,3 +1,41 @@
+# v1.2.0 - HDR shader collection
+
+Adds three supplied, separately licensed effects without changing their
+individual source versions:
+
+- `Shaders/HDR_Bloom.fx` 1.0.0 with `HDR_Bloom_Math.fxh`, nine SDR/PQ/scRGB
+  presets, and its installation/input-contract guide.
+- `Shaders/Adaptive_Detail.fx` 1.0.0 with `Adaptive_Detail_Core.fxh`, nine
+  SDR/PQ/scRGB presets, and its guide and third-party notices.
+- `Shaders/HDR_IPS_Enhance.fx` 1.0.1 with `HDRIPS_Math.fxh`, three native-HDR
+  presets, and its input-contract and tuning guide.
+
+The supplied IPS Depth v2, Selective Deband, and Adaptive Clarity sources were
+already present on `main` and match their supplied archives; they remain
+unchanged. The existing IPS Suite and FakeHDR Advanced are also retained.
+These are alternatives, not replacements: IPS Depth v2 is SDR while HDR IPS
+Enhance requires verified PQ/scRGB; Adaptive Clarity is SDR while Adaptive
+Detail supports verified SDR/PQ/scRGB. HDR IPS Enhance, Adaptive Detail, and
+HDR Bloom have a source-based suggested ordering, but their combined rendering
+has not been tested.
+
+**Install:** use the full collection archive or one effect-specific archive.
+Copy each `.fx` and its required `.fxh` include together into ReShade's shader
+search path, then load only the desired preset. Verify the sampled input and
+destination contract before enabling any HDR mode; the HDR shaders default to
+bypass or require explicit verification. Existing FakeHDR assets and
+individual shader versions are unchanged.
+
+**Validation:** pinned ReShade FX front-end parsing/code generation passed
+288 HDR Bloom, 24 Adaptive Detail, 72 HDR IPS Enhance, and 16 full-repository
+backend modules. All 51 presets passed technique/uniform reference checks.
+See `validation/RELEASE_VALIDATION.md` for exact scope. The supplied CPU reports
+are historical; CPU suites were not rerun in this Windows environment because
+Python/NumPy/SciPy and a compatible GNU C++ toolchain were unavailable. No GPU
+driver, in-game visual, compatibility, or performance results are claimed.
+SDR sRGB, full-range HDR10 PQ/BT.2020, and linear scRGB/BT.709 remain distinct
+contracts; HLG and unknown/custom HDR paths are not claimed as supported.
+
 # v1.1.0 - IPS Depth v2, Selective Deband, Adaptive Clarity
 
 Adds three SDR ReShade/GShade shaders (original, MIT) with documentation,

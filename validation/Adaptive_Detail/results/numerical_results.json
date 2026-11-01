@@ -1,0 +1,4771 @@
+{
+  "scope": "Adapted production FX functions on CPU; no GPU/in-game testing",
+  "checks": [
+    {
+      "name": "sRGB encoding reference",
+      "pass": true
+    },
+    {
+      "name": "sRGB decoding reference",
+      "pass": true
+    },
+    {
+      "name": "PQ reference landmarks",
+      "pass": true
+    },
+    {
+      "name": "all 256 code round trips after actual 8bit rounding",
+      "pass": true
+    },
+    {
+      "name": "all 1024 code round trips after actual 10bit rounding",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v0c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v0c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v0c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v0c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v0c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v0c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v0c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v0c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v0c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v0c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q0d0v0",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q0d0v0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v1c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v1c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v1c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v1c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v1c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v1c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v1c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v1c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v1c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v1c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q0d0v1",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q0d0v1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v2c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v2c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v2c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v2c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v2c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v2c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v2c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v2c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v2c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v2c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q0d0v2",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q0d0v2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v3c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v3c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v3c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v3c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v3c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v3c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v3c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v3c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v3c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v3c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q0d0v3",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q0d0v3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v4c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v4c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v4c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v4c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v4c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v4c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v4c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v4c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d0v4c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d0v4c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q0d0v4",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q0d0v4",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v0c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v0c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v0c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v0c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v0c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v0c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v0c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v0c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v0c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v0c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q0d1v0",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q0d1v0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v1c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v1c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v1c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v1c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v1c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v1c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v1c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v1c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v1c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v1c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q0d1v1",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q0d1v1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v2c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v2c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v2c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v2c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v2c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v2c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v2c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v2c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v2c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v2c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q0d1v2",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q0d1v2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v3c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v3c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v3c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v3c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v3c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v3c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v3c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v3c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v3c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v3c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q0d1v3",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q0d1v3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v4c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v4c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v4c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v4c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v4c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v4c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v4c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v4c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q0d1v4c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q0d1v4c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q0d1v4",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q0d1v4",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v0c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v0c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v0c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v0c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v0c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v0c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v0c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v0c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v0c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v0c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q1d0v0",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q1d0v0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v1c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v1c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v1c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v1c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v1c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v1c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v1c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v1c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v1c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v1c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q1d0v1",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q1d0v1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v2c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v2c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v2c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v2c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v2c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v2c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v2c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v2c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v2c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v2c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q1d0v2",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q1d0v2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v3c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v3c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v3c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v3c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v3c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v3c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v3c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v3c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v3c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v3c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q1d0v3",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q1d0v3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v4c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v4c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v4c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v4c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v4c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v4c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v4c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v4c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d0v4c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d0v4c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q1d0v4",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q1d0v4",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v0c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v0c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v0c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v0c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v0c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v0c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v0c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v0c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v0c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v0c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q1d1v0",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q1d1v0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v1c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v1c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v1c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v1c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v1c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v1c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v1c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v1c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v1c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v1c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q1d1v1",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q1d1v1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v2c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v2c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v2c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v2c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v2c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v2c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v2c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v2c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v2c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v2c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q1d1v2",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q1d1v2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v3c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v3c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v3c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v3c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v3c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v3c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v3c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v3c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v3c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v3c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q1d1v3",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q1d1v3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v4c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v4c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v4c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v4c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v4c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v4c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v4c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v4c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q1d1v4c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q1d1v4c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q1d1v4",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q1d1v4",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v0c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v0c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v0c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v0c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v0c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v0c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v0c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v0c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v0c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v0c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q2d0v0",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q2d0v0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v1c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v1c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v1c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v1c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v1c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v1c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v1c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v1c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v1c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v1c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q2d0v1",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q2d0v1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v2c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v2c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v2c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v2c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v2c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v2c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v2c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v2c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v2c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v2c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q2d0v2",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q2d0v2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v3c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v3c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v3c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v3c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v3c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v3c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v3c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v3c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v3c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v3c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q2d0v3",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q2d0v3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v4c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v4c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v4c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v4c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v4c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v4c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v4c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v4c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d0v4c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d0v4c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q2d0v4",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q2d0v4",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v0c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v0c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v0c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v0c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v0c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v0c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v0c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v0c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v0c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v0c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q2d1v0",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q2d1v0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v1c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v1c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v1c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v1c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v1c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v1c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v1c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v1c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v1c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v1c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q2d1v1",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q2d1v1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v2c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v2c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v2c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v2c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v2c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v2c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v2c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v2c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v2c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v2c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q2d1v2",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q2d1v2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v3c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v3c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v3c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v3c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v3c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v3c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v3c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v3c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v3c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v3c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q2d1v3",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q2d1v3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v4c0",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v4c0",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v4c1",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v4c1",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v4c2",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v4c2",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v4c3",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v4c3",
+      "pass": true
+    },
+    {
+      "name": "bypass q2d1v4c4",
+      "pass": true
+    },
+    {
+      "name": "alpha q2d1v4c4",
+      "pass": true
+    },
+    {
+      "name": "neutral q2d1v4",
+      "pass": true
+    },
+    {
+      "name": "unknown contract q2d1v4",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale linear_ramp c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded linear_ramp c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary linear_ramp c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale linear_ramp c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded linear_ramp c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary linear_ramp c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale linear_ramp c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded linear_ramp c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary linear_ramp c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale linear_ramp c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded linear_ramp c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary linear_ramp c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale linear_ramp c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded linear_ramp c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary linear_ramp c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale linear_ramp c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded linear_ramp c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary linear_ramp c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale linear_ramp c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded linear_ramp c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale linear_ramp c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded linear_ramp c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale linear_ramp c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded linear_ramp c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale near_black_ramp c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded near_black_ramp c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary near_black_ramp c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale near_black_ramp c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded near_black_ramp c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary near_black_ramp c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale near_black_ramp c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded near_black_ramp c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary near_black_ramp c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale near_black_ramp c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded near_black_ramp c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary near_black_ramp c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale near_black_ramp c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded near_black_ramp c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary near_black_ramp c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale near_black_ramp c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded near_black_ramp c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary near_black_ramp c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale near_black_ramp c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded near_black_ramp c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale near_black_ramp c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded near_black_ramp c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale near_black_ramp c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded near_black_ramp c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale highlight_ramp c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded highlight_ramp c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary highlight_ramp c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale highlight_ramp c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded highlight_ramp c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary highlight_ramp c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale highlight_ramp c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded highlight_ramp c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary highlight_ramp c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale highlight_ramp c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded highlight_ramp c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary highlight_ramp c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale highlight_ramp c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded highlight_ramp c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary highlight_ramp c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale highlight_ramp c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded highlight_ramp c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary highlight_ramp c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale highlight_ramp c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded highlight_ramp c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale highlight_ramp c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded highlight_ramp c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale highlight_ramp c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded highlight_ramp c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale step c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded step c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary step c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale step c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded step c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary step c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale step c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded step c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary step c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale step c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded step c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary step c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale step c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded step c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary step c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale step c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded step c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary step c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale step c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded step c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale step c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded step c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale step c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded step c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale impulse c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded impulse c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary impulse c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale impulse c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded impulse c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary impulse c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale impulse c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded impulse c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary impulse c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale impulse c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded impulse c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary impulse c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale impulse c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded impulse c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary impulse c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale impulse c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded impulse c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary impulse c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale impulse c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded impulse c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale impulse c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded impulse c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale impulse c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded impulse c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale thin_line c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded thin_line c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary thin_line c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale thin_line c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded thin_line c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary thin_line c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale thin_line c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded thin_line c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary thin_line c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale thin_line c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded thin_line c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary thin_line c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale thin_line c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded thin_line c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary thin_line c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale thin_line c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded thin_line c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary thin_line c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale thin_line c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded thin_line c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale thin_line c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded thin_line c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale thin_line c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded thin_line c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale checker c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded checker c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary checker c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale checker c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded checker c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary checker c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale checker c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded checker c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary checker c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale checker c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded checker c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary checker c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale checker c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded checker c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary checker c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale checker c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded checker c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary checker c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale checker c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded checker c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale checker c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded checker c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale checker c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded checker c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_checker c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_checker c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_checker c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_checker c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_checker c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_checker c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_checker c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_checker c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_checker c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_checker c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_checker c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_checker c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_checker c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_checker c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_checker c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_checker c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_checker c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_checker c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_checker c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_checker c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_checker c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_checker c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_checker c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_checker c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale fine_texture c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded fine_texture c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary fine_texture c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale fine_texture c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded fine_texture c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary fine_texture c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale fine_texture c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded fine_texture c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary fine_texture c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale fine_texture c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded fine_texture c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary fine_texture c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale fine_texture c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded fine_texture c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary fine_texture c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale fine_texture c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded fine_texture c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary fine_texture c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale fine_texture c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded fine_texture c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale fine_texture c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded fine_texture c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale fine_texture c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded fine_texture c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_texture c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_texture c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_texture c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_texture c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_texture c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_texture c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_texture c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_texture c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_texture c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_texture c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_texture c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_texture c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_texture c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_texture c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_texture c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_texture c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_texture c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary low_texture c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_texture c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_texture c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_texture c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_texture c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale low_texture c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded low_texture c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale noise c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded noise c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary noise c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale noise c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded noise c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary noise c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale noise c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded noise c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary noise c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale noise c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded noise c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary noise c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale noise c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded noise c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary noise c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale noise c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded noise c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary noise c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale noise c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded noise c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale noise c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded noise c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale noise c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded noise c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale soft_edge c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded soft_edge c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary soft_edge c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale soft_edge c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded soft_edge c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary soft_edge c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale soft_edge c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded soft_edge c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary soft_edge c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale soft_edge c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded soft_edge c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary soft_edge c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale soft_edge c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded soft_edge c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary soft_edge c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale soft_edge c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded soft_edge c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary soft_edge c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale soft_edge c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded soft_edge c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale soft_edge c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded soft_edge c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale soft_edge c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded soft_edge c3 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale grain_texture c1 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded grain_texture c1 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary grain_texture c1 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale grain_texture c1 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded grain_texture c1 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary grain_texture c1 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale grain_texture c1 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded grain_texture c1 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary grain_texture c1 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale grain_texture c2 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded grain_texture c2 q0",
+      "pass": true
+    },
+    {
+      "name": "output boundary grain_texture c2 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale grain_texture c2 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded grain_texture c2 q1",
+      "pass": true
+    },
+    {
+      "name": "output boundary grain_texture c2 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale grain_texture c2 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded grain_texture c2 q2",
+      "pass": true
+    },
+    {
+      "name": "output boundary grain_texture c2 q2",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale grain_texture c3 q0",
+      "pass": true
+    },
+    {
+      "name": "gain bounded grain_texture c3 q0",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale grain_texture c3 q1",
+      "pass": true
+    },
+    {
+      "name": "gain bounded grain_texture c3 q1",
+      "pass": true
+    },
+    {
+      "name": "finite grayscale grain_texture c3 q2",
+      "pass": true
+    },
+    {
+      "name": "gain bounded grain_texture c3 q2",
+      "pass": true
+    },
+    {
+      "name": "independent model agreement c1",
+      "pass": true
+    },
+    {
+      "name": "independent model agreement c2",
+      "pass": true
+    },
+    {
+      "name": "independent model agreement c3",
+      "pass": true
+    },
+    {
+      "name": "final quantization at most one code c1",
+      "pass": true
+    },
+    {
+      "name": "final quantization at most one code c2",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c1 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c1 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c1 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c1 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c1 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c1 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c1 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c1 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c1 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c1 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c1 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c1 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c1 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c1 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c1 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c1 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c1 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c1 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c1 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c1 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c1 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c1 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c1 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c1 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c1 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c1 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c1 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c1 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c1 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c1 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c2 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c2 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c2 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c2 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c2 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c2 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c2 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c2 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c2 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c2 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c2 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c2 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c2 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c2 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c2 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c2 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c2 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c2 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c2 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c2 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c2 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c2 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c2 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c2 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c2 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c2 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c2 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c2 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c2 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c2 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c3 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c3 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c3 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c3 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c3 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0, 0, 0) c3 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c3 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c3 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c3 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c3 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c3 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.04045, 0.04045, 0.04045) c3 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c3 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c3 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c3 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c3 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c3 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.18, 0.18, 0.18) c3 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c3 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c3 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c3 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c3 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c3 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (1, 1, 1) c3 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c3 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c3 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c3 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c3 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c3 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (0.2, 0.6, 0.8) c3 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (-0.4, 1, 2) c3 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (-0.4, 1, 2) c3 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (-0.4, 1, 2) c3 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (-0.4, 1, 2) c3 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (-0.4, 1, 2) c3 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (-0.4, 1, 2) c3 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (-2, -1, -0.1) c3 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (-2, -1, -0.1) c3 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (-2, -1, -0.1) c3 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (-2, -1, -0.1) c3 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (-2, -1, -0.1) c3 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (-2, -1, -0.1) c3 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (12.5, 12.5, 12.5) c3 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (12.5, 12.5, 12.5) c3 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (12.5, 12.5, 12.5) c3 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (12.5, 12.5, 12.5) c3 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (12.5, 12.5, 12.5) c3 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (12.5, 12.5, 12.5) c3 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (65504, 65504, 65504) c3 q0 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (65504, 65504, 65504) c3 q0 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (65504, 65504, 65504) c3 q1 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (65504, 65504, 65504) c3 q1 d1",
+      "pass": true
+    },
+    {
+      "name": "constant (65504, 65504, 65504) c3 q2 d0",
+      "pass": true
+    },
+    {
+      "name": "constant (65504, 65504, 65504) c3 q2 d1",
+      "pass": true
+    },
+    {
+      "name": "signed scRGB signs preserved",
+      "pass": true
+    },
+    {
+      "name": "signed scRGB common gain",
+      "pass": true
+    },
+    {
+      "name": "signed scRGB reference",
+      "pass": true
+    },
+    {
+      "name": "extended finite (-1, 0.1, 0.2)",
+      "pass": true
+    },
+    {
+      "name": "nonpositive unchanged (-1, 0.1, 0.2)",
+      "pass": true
+    },
+    {
+      "name": "extended finite (-1, 0, 0)",
+      "pass": true
+    },
+    {
+      "name": "nonpositive unchanged (-1, 0, 0)",
+      "pass": true
+    },
+    {
+      "name": "extended finite (-0.7152, 0.2126, 0)",
+      "pass": true
+    },
+    {
+      "name": "extended finite (65504, 65000, -65504)",
+      "pass": true
+    },
+    {
+      "name": "extended finite (1e+17, -1e+17, 1e+17)",
+      "pass": true
+    },
+    {
+      "name": "nonpositive unchanged (1e+17, -1e+17, 1e+17)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c1 (1, 0, 0)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c1 (1, 0, 0)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c1 (0, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c1 (0, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c1 (0, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c1 (0, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c1 (1, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c1 (1, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c1 (1, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c1 (1, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c1 (0, 1, 1)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c1 (0, 1, 1)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c2 (1, 0, 0)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c2 (1, 0, 0)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c2 (0, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c2 (0, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c2 (0, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c2 (0, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c2 (1, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c2 (1, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c2 (1, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c2 (1, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c2 (0, 1, 1)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c2 (0, 1, 1)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c3 (1, 0, 0)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c3 (1, 0, 0)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c3 (0, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c3 (0, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c3 (0, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c3 (0, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c3 (1, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c3 (1, 1, 0)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c3 (1, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c3 (1, 0, 1)",
+      "pass": true
+    },
+    {
+      "name": "saturated boundary c3 (0, 1, 1)",
+      "pass": true
+    },
+    {
+      "name": "zero channel retained c3 (0, 1, 1)",
+      "pass": true
+    },
+    {
+      "name": "strict extrema q0d0",
+      "pass": true
+    },
+    {
+      "name": "combined budget q0d0",
+      "pass": true
+    },
+    {
+      "name": "relaxed extrema q0d0",
+      "pass": true
+    },
+    {
+      "name": "strict extrema q0d1",
+      "pass": true
+    },
+    {
+      "name": "combined budget q0d1",
+      "pass": true
+    },
+    {
+      "name": "relaxed extrema q0d1",
+      "pass": true
+    },
+    {
+      "name": "strict extrema q1d0",
+      "pass": true
+    },
+    {
+      "name": "combined budget q1d0",
+      "pass": true
+    },
+    {
+      "name": "relaxed extrema q1d0",
+      "pass": true
+    },
+    {
+      "name": "strict extrema q1d1",
+      "pass": true
+    },
+    {
+      "name": "combined budget q1d1",
+      "pass": true
+    },
+    {
+      "name": "relaxed extrema q1d1",
+      "pass": true
+    },
+    {
+      "name": "strict extrema q2d0",
+      "pass": true
+    },
+    {
+      "name": "combined budget q2d0",
+      "pass": true
+    },
+    {
+      "name": "relaxed extrema q2d0",
+      "pass": true
+    },
+    {
+      "name": "strict extrema q2d1",
+      "pass": true
+    },
+    {
+      "name": "combined budget q2d1",
+      "pass": true
+    },
+    {
+      "name": "relaxed extrema q2d1",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c1 v0",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c1 v1",
+      "pass": true
+    },
+    {
+      "name": "split left exact c1",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c1 v2",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c1 v3",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c1 v4",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c2 v0",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c2 v1",
+      "pass": true
+    },
+    {
+      "name": "split left exact c2",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c2 v2",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c2 v3",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c2 v4",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c3 v0",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c3 v1",
+      "pass": true
+    },
+    {
+      "name": "split left exact c3",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c3 v2",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c3 v3",
+      "pass": true
+    },
+    {
+      "name": "diagnostic agrees c3 v4",
+      "pass": true
+    },
+    {
+      "name": "default noise gain below 5 percent",
+      "pass": true
+    },
+    {
+      "name": "fine_texture retained without blur",
+      "pass": true
+    },
+    {
+      "name": "low_texture retained without blur",
+      "pass": true
+    },
+    {
+      "name": "soft_edge finite motion",
+      "pass": true
+    },
+    {
+      "name": "thin_peak finite motion",
+      "pass": true
+    },
+    {
+      "name": "near_nyquist finite motion",
+      "pass": true
+    },
+    {
+      "name": "texture finite motion",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x1 q0d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x1 q0d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x1 q0d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x1 q0d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x1 q1d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x1 q1d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x1 q1d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x1 q1d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x1 q2d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x1 q2d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x1 q2d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x1 q2d1",
+      "pass": true
+    },
+    {
+      "name": "Ultra exact High 1x1",
+      "pass": true
+    },
+    {
+      "name": "Normal High near-equal 1x1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 19x1 q0d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 19x1 q0d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 19x1 q0d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 19x1 q0d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 19x1 q1d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 19x1 q1d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 19x1 q1d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 19x1 q1d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 19x1 q2d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 19x1 q2d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 19x1 q2d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 19x1 q2d1",
+      "pass": true
+    },
+    {
+      "name": "Ultra exact High 19x1",
+      "pass": true
+    },
+    {
+      "name": "Normal High near-equal 19x1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x17 q0d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x17 q0d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x17 q0d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x17 q0d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x17 q1d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x17 q1d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x17 q1d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x17 q1d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x17 q2d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x17 q2d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 1x17 q2d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 1x17 q2d1",
+      "pass": true
+    },
+    {
+      "name": "Ultra exact High 1x17",
+      "pass": true
+    },
+    {
+      "name": "Normal High near-equal 1x17",
+      "pass": true
+    },
+    {
+      "name": "dimensions 2x2 q0d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 2x2 q0d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 2x2 q0d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 2x2 q0d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 2x2 q1d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 2x2 q1d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 2x2 q1d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 2x2 q1d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 2x2 q2d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 2x2 q2d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 2x2 q2d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 2x2 q2d1",
+      "pass": true
+    },
+    {
+      "name": "Ultra exact High 2x2",
+      "pass": true
+    },
+    {
+      "name": "Normal High near-equal 2x2",
+      "pass": true
+    },
+    {
+      "name": "dimensions 5x3 q0d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 5x3 q0d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 5x3 q0d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 5x3 q0d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 5x3 q1d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 5x3 q1d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 5x3 q1d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 5x3 q1d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 5x3 q2d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 5x3 q2d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 5x3 q2d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 5x3 q2d1",
+      "pass": true
+    },
+    {
+      "name": "Ultra exact High 5x3",
+      "pass": true
+    },
+    {
+      "name": "Normal High near-equal 5x3",
+      "pass": true
+    },
+    {
+      "name": "dimensions 31x17 q0d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 31x17 q0d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 31x17 q0d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 31x17 q0d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 31x17 q1d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 31x17 q1d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 31x17 q1d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 31x17 q1d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 31x17 q2d0",
+      "pass": true
+    },
+    {
+      "name": "border reference 31x17 q2d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 31x17 q2d1",
+      "pass": true
+    },
+    {
+      "name": "border reference 31x17 q2d1",
+      "pass": true
+    },
+    {
+      "name": "Ultra exact High 31x17",
+      "pass": true
+    },
+    {
+      "name": "Normal High near-equal 31x17",
+      "pass": true
+    },
+    {
+      "name": "dimensions 3440x1440 q0d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 3440x1440 q0d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 3440x1440 q1d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 3440x1440 q1d1",
+      "pass": true
+    },
+    {
+      "name": "dimensions 3440x1440 q2d0",
+      "pass": true
+    },
+    {
+      "name": "dimensions 3440x1440 q2d1",
+      "pass": true
+    },
+    {
+      "name": "Ultra exact High 3440x1440",
+      "pass": true
+    },
+    {
+      "name": "Normal High near-equal 3440x1440",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q0d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q0d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q0d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q0d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q0d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q0d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q0d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q0d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q0d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q0d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q1d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q1d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q1d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q1d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q1d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q1d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q1d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q1d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q1d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q1d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q2d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q2d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q2d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q2d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q2d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q2d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q2d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q2d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q2d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x1 q2d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q0d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q0d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q0d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q0d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q0d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q0d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q0d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q0d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q0d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q0d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q1d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q1d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q1d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q1d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q1d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q1d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q1d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q1d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q1d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q1d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q2d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q2d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q2d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q2d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q2d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q2d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q2d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q2d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q2d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 1x19 q2d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q0d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q0d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q0d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q0d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q0d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q0d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q0d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q0d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q0d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q0d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q1d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q1d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q1d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q1d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q1d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q1d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q1d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q1d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q1d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q1d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q2d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q2d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q2d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q2d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q2d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q2d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q2d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q2d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q2d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 17x1 q2d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q0d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q0d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q0d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q0d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q0d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q0d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q0d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q0d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q0d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q0d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q1d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q1d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q1d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q1d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q1d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q1d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q1d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q1d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q1d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q1d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q2d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q2d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q2d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q2d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q2d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q2d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q2d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q2d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q2d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3x5 q2d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q0d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q0d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q0d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q0d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q0d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q0d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q0d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q0d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q0d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q0d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q1d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q1d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q1d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q1d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q1d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q1d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q1d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q1d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q1d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q1d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q2d0c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q2d0c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q2d0c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q2d0c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q2d0c4",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q2d1c0",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q2d1c1",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q2d1c2",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q2d1c3",
+      "pass": true
+    },
+    {
+      "name": "FX metadata 3440x1440 q2d1c4",
+      "pass": true
+    },
+    {
+      "name": "FX format 0 q0d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 0 q0d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 0 q1d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 0 q1d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 0 q2d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 0 q2d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 2 q0d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 2 q0d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 2 q1d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 2 q1d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 2 q2d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 2 q2d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 10 q0d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 10 q0d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 10 q1d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 10 q1d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 10 q2d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 10 q2d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 24 q0d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 24 q0d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 24 q1d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 24 q1d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 24 q2d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 24 q2d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 28 q0d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 28 q0d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 28 q1d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 28 q1d1",
+      "pass": true
+    },
+    {
+      "name": "FX format 28 q2d0",
+      "pass": true
+    },
+    {
+      "name": "FX format 28 q2d1",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "PQ reference max code error": 2.289510405262263e-06,
+    "8bit roundtrip max code float error": 5.960464477539063e-08,
+    "8bit dense decode max linear error": 2.3284336292395125e-07,
+    "8bit dense roundtrip max code float error": 8.940696716308594e-08,
+    "10bit roundtrip max code float error": 1.055002212524414e-05,
+    "10bit dense decode max linear error": 0.5802076651380048,
+    "10bit dense roundtrip max code float error": 1.430511474609375e-05,
+    "max model error encoded contract 1": 1.3955489602812676e-07,
+    "max model error encoded contract 2": 8.718051889511358e-06,
+    "max model error encoded contract 3": 1.1693475059360026e-06,
+    "final quantization worst reference difference c1": 0.0,
+    "final quantization different RGB channels c1": 0.0,
+    "final quantization worst reference difference c2": 1.0,
+    "final quantization different RGB channels c2": 270.0,
+    "signed scRGB max channel gain spread": 1.1920928955078125e-07,
+    "diagnostic error c1 v0": 8.655980759941784e-08,
+    "diagnostic error c1 v1": 8.655980759941784e-08,
+    "diagnostic error c1 v2": 2.481997214975884e-07,
+    "diagnostic error c1 v3": 1.8141447110098241e-06,
+    "diagnostic error c1 v4": 3.629853030262531e-06,
+    "diagnostic error c2 v0": 3.3770598614757397e-06,
+    "diagnostic error c2 v1": 3.3770598614757397e-06,
+    "diagnostic error c2 v2": 1.2593221381584918e-05,
+    "diagnostic error c2 v3": 0.00010991689169553842,
+    "diagnostic error c2 v4": 0.00032010356864881073,
+    "diagnostic error c3 v0": 1.9119054783800493e-08,
+    "diagnostic error c3 v1": 1.9119054783800493e-08,
+    "diagnostic error c3 v2": 1.4591480246295419e-08,
+    "diagnostic error c3 v3": 7.689660203036297e-08,
+    "diagnostic error c3 v4": 6.830509885480396e-08,
+    "noise standard deviation ratio": 1.0270576477050781,
+    "fine_texture standard deviation ratio": 1.0250580310821533,
+    "low_texture standard deviation ratio": 1.0123425722122192,
+    "low_checker standard deviation ratio": 1.0053740739822388,
+    "checker standard deviation ratio": 1.002649188041687,
+    "soft_edge motion correction max frame delta": 7.838010787963867e-05,
+    "soft_edge motion correction rms frame delta": 1.0325582479708828e-05,
+    "thin_peak motion correction max frame delta": 0.0005910098552703857,
+    "thin_peak motion correction rms frame delta": 2.0780325939995237e-05,
+    "near_nyquist motion correction max frame delta": 0.0002852529287338257,
+    "near_nyquist motion correction rms frame delta": 9.778836101759225e-05,
+    "texture motion correction max frame delta": 0.00014024972915649414,
+    "texture motion correction rms frame delta": 1.7895376004162244e-05,
+    "q0 vs q1 max 1x1": 0.0,
+    "q0 8bit interpolation vs q1 max 1x1": 0.0,
+    "q0 vs q1 max 19x1": 0.0,
+    "q0 8bit interpolation vs q1 max 19x1": 7.450580596923828e-08,
+    "q0 vs q1 max 1x17": 0.0,
+    "q0 8bit interpolation vs q1 max 1x17": 0.0,
+    "q0 vs q1 max 2x2": 0.0,
+    "q0 8bit interpolation vs q1 max 2x2": 0.0,
+    "q0 vs q1 max 5x3": 0.0,
+    "q0 8bit interpolation vs q1 max 5x3": 2.9802322387695312e-08,
+    "q0 vs q1 max 31x17": 1.4901161193847656e-08,
+    "q0 8bit interpolation vs q1 max 31x17": 7.450580596923828e-08,
+    "q0 vs q1 max 3440x1440": 2.9802322387695312e-08,
+    "q0 8bit interpolation vs q1 max 3440x1440": 8.940696716308594e-08,
+    "FP16 luma experiment residual RMS error": 1.6686219951682104e-05,
+    "FP32 luma experiment residual RMS error": 1.3745232069478882e-09
+  },
+  "PQ_reference": [
+    {
+      "nits": 0.0,
+      "reference": 7.309559025783966e-07,
+      "production_f32": 7.309558895940427e-07
+    },
+    {
+      "nits": 9.999999747378752e-05,
+      "reference": 0.0016671881930706912,
+      "production_f32": 0.0016671969788149
+    },
+    {
+      "nits": 0.0010000000474974513,
+      "reference": 0.006302377222315931,
+      "production_f32": 0.006302354391664267
+    },
+    {
+      "nits": 0.009999999776482582,
+      "reference": 0.02148621305727991,
+      "production_f32": 0.021486179903149605
+    },
+    {
+      "nits": 0.10000000149011612,
+      "reference": 0.062336865073827755,
+      "production_f32": 0.06233716756105423
+    },
+    {
+      "nits": 1.0,
+      "reference": 0.14994573285983145,
+      "production_f32": 0.1499454528093338
+    },
+    {
+      "nits": 10.0,
+      "reference": 0.29969909242098597,
+      "production_f32": 0.299698144197464
+    },
+    {
+      "nits": 80.0,
+      "reference": 0.4858567653886785,
+      "production_f32": 0.4858570992946625
+    },
+    {
+      "nits": 100.0,
+      "reference": 0.508078421517399,
+      "production_f32": 0.50807785987854
+    },
+    {
+      "nits": 1000.0,
+      "reference": 0.751827096247041,
+      "production_f32": 0.7518293857574463
+    },
+    {
+      "nits": 10000.0,
+      "reference": 1.0,
+      "production_f32": 1.0
+    }
+  ],
+  "frontend": {
+    "cases": 180,
+    "backends": [
+      "HLSL SM5",
+      "GLSL"
+    ],
+    "driver_compilation": false
+  },
+  "summary": {
+    "passed": 1158,
+    "failed": 0
+  },
+  "source_sha256": {
+    "Adaptive_Detail_Core.fxh": "c1b1c198b2c630c7423c553dfcd88a99493249e00d48cb2eabcc5490978e5a10",
+    "Adaptive_Detail.fx": "2ffd3e57eff6f7a44087652ab1ad91f523cf7c6ba0fc87ccce05da3731c77d9e"
+  }
+}

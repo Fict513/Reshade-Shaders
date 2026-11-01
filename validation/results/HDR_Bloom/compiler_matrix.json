@@ -1,0 +1,2882 @@
+[
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 1,
+    "height": 17,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 19,
+    "height": 1,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "height": 3,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 65,
+    "height": 33,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 0,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 1,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 0,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 0,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 1,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 2,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "h",
+    "passed": true,
+    "stderr": ""
+  },
+  {
+    "width": 3440,
+    "height": 1440,
+    "quality": 2,
+    "diagnostics": 1,
+    "auto_contract": 3,
+    "backend": "g",
+    "passed": true,
+    "stderr": ""
+  }
+]

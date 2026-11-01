@@ -1,0 +1,5 @@
+{
+  "passed": 308,
+  "failed": 0,
+  "compiler_variants": 288
+}

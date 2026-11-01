@@ -1,0 +1,59 @@
+{
+  "tests_run": 23,
+  "failures": 0,
+  "errors": 0,
+  "scope": "Production scalar/vector/Main/local bodies in CPU float adapters plus NumPy references. Not GPU execution.",
+  "metrics": {
+    "monotonic_curve_parameter_combinations": 81,
+    "local_flat_max_stops": 0.0,
+    "local_30_to_300_nit_step_max_stops": 1.0165232566805571e-07,
+    "local_R32F_max_stops_error": 2.2339188809894495e-07,
+    "local_R16F_max_stops_error": 0.0018561107393235687,
+    "local_texture_max_abs_mean_luminance_shift_fraction_at_max_strength": 0.0060012555294874925,
+    "10bit_gradients": {
+      "near_black": {
+        "input_unique_codes": 148,
+        "output_unique_codes": 146,
+        "max_adjacent_code_jump": 1
+      },
+      "shadow": {
+        "input_unique_codes": 286,
+        "output_unique_codes": 273,
+        "max_adjacent_code_jump": 1
+      },
+      "highlight": {
+        "input_unique_codes": 273,
+        "output_unique_codes": 277,
+        "max_adjacent_code_jump": 1
+      }
+    },
+    "pq_float_max_relative_roundtrip_error": 2.2568310944159453e-05
+  },
+  "production_metrics": {
+    "extracted_local_max_difference_from_numpy_stops": 1.7631914071003507e-06,
+    "extracted_local_max_abs_mean_shift_fraction": 0.004235348188545318,
+    "extracted_local_flat_max_stops": 0.0,
+    "production_float_10bit_gradients": {
+      "near_black": {
+        "reversals": 0,
+        "output_unique_codes": 146,
+        "max_adjacent_code_jump": 1
+      },
+      "shadow": {
+        "reversals": 0,
+        "output_unique_codes": 273,
+        "max_adjacent_code_jump": 1
+      },
+      "highlight": {
+        "reversals": 0,
+        "output_unique_codes": 277,
+        "max_adjacent_code_jump": 1
+      }
+    },
+    "production_gray_max_channel_spread_signal_units": {
+      "1": 0.0,
+      "2": 1.9073486328125e-06
+    },
+    "production_vs_numpy_max_PQ_code_error": 5.4836273193359375e-06
+  }
+}

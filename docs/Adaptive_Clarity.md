@@ -1,5 +1,10 @@
 # Adaptive Clarity 1.0
 
+This guide and its validation claims were supplied with the Adaptive Clarity
+package and do not claim new validation of the integrated collection. See
+[`validation/RELEASE_VALIDATION.md`](../validation/RELEASE_VALIDATION.md) for
+checks run for this repository release.
+
 A self-contained SDR ReShade/GShade sharpener with separate texture and edge
 controls, noise gates, ringing limits, fine-pattern protection and two optional
 HUD rectangles. It is intended to complement IPS Depth without another global
