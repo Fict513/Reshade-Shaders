@@ -1,0 +1,6 @@
+{
+  "highlight_10bit_reversals": 3,
+  "extreme_finite_scrgb_output_all_finite": false,
+  "original_zip_sha256": "fc26dfbd1d222cdeeedf445e51b39d4bc64b7d6dc64f1660e7d70d4f78565750",
+  "scope": "Original attached shader bodies executed in CPU float adapter; local compiled out. Not GPU."
+}

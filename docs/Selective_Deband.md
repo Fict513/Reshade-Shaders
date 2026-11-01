@@ -1,4 +1,10 @@
-# Selective Deband 1.0
+# Supplied-package guide — Selective Deband 1.0
+
+This guide and its validation claims were supplied with the Selective Deband
+package, are retained unchanged except for this attribution, and do not claim
+new validation of the integrated collection. See
+[`validation/RELEASE_VALIDATION.md`](../validation/RELEASE_VALIDATION.md) for
+checks run for this repository release.
 
 A self-contained SDR ReShade/GShade shader for shallow banding in skies, fog,
 dark backgrounds and other smooth gradients. Brightness/color gates, local

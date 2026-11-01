@@ -1,4 +1,10 @@
-# IPS Depth v2
+# Supplied-package guide — IPS Depth v2
+
+This guide and its validation claims were supplied with the IPS Depth v2
+package, are retained unchanged except for this attribution, and do not claim
+new validation of the integrated collection. See
+[`validation/RELEASE_VALIDATION.md`](../validation/RELEASE_VALIDATION.md) for
+checks run for this repository release.
 
 A rewritten SDR ReShade/GShade shader for deeper-looking contrast and texture
 on an IPS display. It includes Normal, High, Ultra quality presets in both

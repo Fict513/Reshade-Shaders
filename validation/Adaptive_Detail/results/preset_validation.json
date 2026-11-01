@@ -1,0 +1,380 @@
+[
+  {
+    "preset": "Natural_Detail_HDR_PQ.ini",
+    "fixture": "texture",
+    "pass": true,
+    "std_ratio": 1.0254650502830918,
+    "mean_bias": 2.114173915012523e-05
+  },
+  {
+    "preset": "Natural_Detail_HDR_PQ.ini",
+    "fixture": "noise",
+    "pass": true,
+    "std_ratio": 1.0275944459286694,
+    "mean_bias": 1.7668061539811757e-05
+  },
+  {
+    "preset": "Natural_Detail_HDR_PQ.ini",
+    "fixture": "step",
+    "pass": true,
+    "std_ratio": 1.0000423957790303,
+    "mean_bias": 0.00018000449619568897
+  },
+  {
+    "preset": "Natural_Detail_HDR_PQ.ini",
+    "fixture": "soft_edge",
+    "pass": true,
+    "std_ratio": 1.0001238737660891,
+    "mean_bias": 0.0005888162446249001
+  },
+  {
+    "preset": "Natural_Detail_HDR_PQ.ini",
+    "fixture": "impulse",
+    "pass": true,
+    "std_ratio": 1.0020264122791511,
+    "mean_bias": 2.633273263491958e-06
+  },
+  {
+    "preset": "Natural_Detail_HDR_PQ.ini",
+    "fixture": "checker",
+    "pass": true,
+    "std_ratio": 1.0026251395689953,
+    "mean_bias": 0.0062167600336567284
+  },
+  {
+    "preset": "Natural_Detail_HDR_scRGB.ini",
+    "fixture": "texture",
+    "pass": true,
+    "std_ratio": 1.0256348664663633,
+    "mean_bias": -6.916631992231366e-06
+  },
+  {
+    "preset": "Natural_Detail_HDR_scRGB.ini",
+    "fixture": "noise",
+    "pass": true,
+    "std_ratio": 1.0276032324173696,
+    "mean_bias": 1.907311783892279e-05
+  },
+  {
+    "preset": "Natural_Detail_HDR_scRGB.ini",
+    "fixture": "step",
+    "pass": true,
+    "std_ratio": 1.000042370496659,
+    "mean_bias": 0.00017971955528554991
+  },
+  {
+    "preset": "Natural_Detail_HDR_scRGB.ini",
+    "fixture": "soft_edge",
+    "pass": true,
+    "std_ratio": 1.0001251438264052,
+    "mean_bias": 0.0005948746851243636
+  },
+  {
+    "preset": "Natural_Detail_HDR_scRGB.ini",
+    "fixture": "impulse",
+    "pass": true,
+    "std_ratio": 1.002017567041534,
+    "mean_bias": 2.5461170740190116e-06
+  },
+  {
+    "preset": "Natural_Detail_HDR_scRGB.ini",
+    "fixture": "checker",
+    "pass": true,
+    "std_ratio": 1.002632523095831,
+    "mean_bias": 0.006280936673061436
+  },
+  {
+    "preset": "Natural_Detail_SDR_sRGB.ini",
+    "fixture": "texture",
+    "pass": true,
+    "std_ratio": 1.0250550798224831,
+    "mean_bias": -3.388747504595969e-07
+  },
+  {
+    "preset": "Natural_Detail_SDR_sRGB.ini",
+    "fixture": "noise",
+    "pass": true,
+    "std_ratio": 1.0270907951420243,
+    "mean_bias": 9.236058283592678e-07
+  },
+  {
+    "preset": "Natural_Detail_SDR_sRGB.ini",
+    "fixture": "step",
+    "pass": true,
+    "std_ratio": 1.0000429091598475,
+    "mean_bias": 8.963426886903109e-06
+  },
+  {
+    "preset": "Natural_Detail_SDR_sRGB.ini",
+    "fixture": "soft_edge",
+    "pass": true,
+    "std_ratio": 1.000127786839195,
+    "mean_bias": 2.8777049676111324e-05
+  },
+  {
+    "preset": "Natural_Detail_SDR_sRGB.ini",
+    "fixture": "impulse",
+    "pass": true,
+    "std_ratio": 1.0020296566827616,
+    "mean_bias": 1.2330435792503658e-07
+  },
+  {
+    "preset": "Natural_Detail_SDR_sRGB.ini",
+    "fixture": "checker",
+    "pass": true,
+    "std_ratio": 1.002649306213317,
+    "mean_bias": 0.0003179179575409247
+  },
+  {
+    "preset": "TAA_Softness_HDR_PQ.ini",
+    "fixture": "texture",
+    "pass": true,
+    "std_ratio": 1.0472551002112698,
+    "mean_bias": -7.235565372106856e-06
+  },
+  {
+    "preset": "TAA_Softness_HDR_PQ.ini",
+    "fixture": "noise",
+    "pass": true,
+    "std_ratio": 1.0513561932423516,
+    "mean_bias": 3.397160726914103e-05
+  },
+  {
+    "preset": "TAA_Softness_HDR_PQ.ini",
+    "fixture": "step",
+    "pass": true,
+    "std_ratio": 1.0000697172893016,
+    "mean_bias": 0.00023497339793541766
+  },
+  {
+    "preset": "TAA_Softness_HDR_PQ.ini",
+    "fixture": "soft_edge",
+    "pass": true,
+    "std_ratio": 1.000246601128599,
+    "mean_bias": 0.0011231233403294334
+  },
+  {
+    "preset": "TAA_Softness_HDR_PQ.ini",
+    "fixture": "impulse",
+    "pass": true,
+    "std_ratio": 1.0032503951314482,
+    "mean_bias": 3.291397497903994e-06
+  },
+  {
+    "preset": "TAA_Softness_HDR_PQ.ini",
+    "fixture": "checker",
+    "pass": true,
+    "std_ratio": 1.0048861606878112,
+    "mean_bias": 0.00810052609218894
+  },
+  {
+    "preset": "TAA_Softness_HDR_scRGB.ini",
+    "fixture": "texture",
+    "pass": true,
+    "std_ratio": 1.0474205423471883,
+    "mean_bias": -7.601833055939113e-06
+  },
+  {
+    "preset": "TAA_Softness_HDR_scRGB.ini",
+    "fixture": "noise",
+    "pass": true,
+    "std_ratio": 1.051362898807842,
+    "mean_bias": 3.667173574748929e-05
+  },
+  {
+    "preset": "TAA_Softness_HDR_scRGB.ini",
+    "fixture": "step",
+    "pass": true,
+    "std_ratio": 1.000069934923833,
+    "mean_bias": 0.00023631485857704814
+  },
+  {
+    "preset": "TAA_Softness_HDR_scRGB.ini",
+    "fixture": "soft_edge",
+    "pass": true,
+    "std_ratio": 1.000247540108316,
+    "mean_bias": 0.001129057056219533
+  },
+  {
+    "preset": "TAA_Softness_HDR_scRGB.ini",
+    "fixture": "impulse",
+    "pass": true,
+    "std_ratio": 1.0032507288899242,
+    "mean_bias": 3.2132057185391977e-06
+  },
+  {
+    "preset": "TAA_Softness_HDR_scRGB.ini",
+    "fixture": "checker",
+    "pass": true,
+    "std_ratio": 1.0048817782684092,
+    "mean_bias": 0.008064278435977216
+  },
+  {
+    "preset": "TAA_Softness_SDR_sRGB.ini",
+    "fixture": "texture",
+    "pass": true,
+    "std_ratio": 1.0465500855063787,
+    "mean_bias": -3.7123454473202693e-07
+  },
+  {
+    "preset": "TAA_Softness_SDR_sRGB.ini",
+    "fixture": "noise",
+    "pass": true,
+    "std_ratio": 1.050577742104567,
+    "mean_bias": 1.797908844067641e-06
+  },
+  {
+    "preset": "TAA_Softness_SDR_sRGB.ini",
+    "fixture": "step",
+    "pass": true,
+    "std_ratio": 1.000070707520974,
+    "mean_bias": 1.1704629543579497e-05
+  },
+  {
+    "preset": "TAA_Softness_SDR_sRGB.ini",
+    "fixture": "soft_edge",
+    "pass": true,
+    "std_ratio": 1.0002527699717871,
+    "mean_bias": 5.4497862443318344e-05
+  },
+  {
+    "preset": "TAA_Softness_SDR_sRGB.ini",
+    "fixture": "impulse",
+    "pass": true,
+    "std_ratio": 1.003262006975103,
+    "mean_bias": 1.490317951645403e-07
+  },
+  {
+    "preset": "TAA_Softness_SDR_sRGB.ini",
+    "fixture": "checker",
+    "pass": true,
+    "std_ratio": 1.004900652169809,
+    "mean_bias": 0.0004064876887122622
+  },
+  {
+    "preset": "Texture_Focus_HDR_PQ.ini",
+    "fixture": "texture",
+    "pass": true,
+    "std_ratio": 1.0275852440976165,
+    "mean_bias": 2.3279640817230645e-05
+  },
+  {
+    "preset": "Texture_Focus_HDR_PQ.ini",
+    "fixture": "noise",
+    "pass": true,
+    "std_ratio": 1.0234541613281771,
+    "mean_bias": 1.2917057772344538e-05
+  },
+  {
+    "preset": "Texture_Focus_HDR_PQ.ini",
+    "fixture": "step",
+    "pass": true,
+    "std_ratio": 1.0000312399607676,
+    "mean_bias": 0.00012159658691745206
+  },
+  {
+    "preset": "Texture_Focus_HDR_PQ.ini",
+    "fixture": "soft_edge",
+    "pass": true,
+    "std_ratio": 1.0001486681306642,
+    "mean_bias": 0.0006957307345155882
+  },
+  {
+    "preset": "Texture_Focus_HDR_PQ.ini",
+    "fixture": "impulse",
+    "pass": true,
+    "std_ratio": 1.0013429696141372,
+    "mean_bias": 1.8218541670868543e-06
+  },
+  {
+    "preset": "Texture_Focus_HDR_PQ.ini",
+    "fixture": "checker",
+    "pass": true,
+    "std_ratio": 1.0016778318680792,
+    "mean_bias": 0.004083567548157692
+  },
+  {
+    "preset": "Texture_Focus_HDR_scRGB.ini",
+    "fixture": "texture",
+    "pass": true,
+    "std_ratio": 1.027713067343902,
+    "mean_bias": -7.737150171973022e-06
+  },
+  {
+    "preset": "Texture_Focus_HDR_scRGB.ini",
+    "fixture": "noise",
+    "pass": true,
+    "std_ratio": 1.023476162286788,
+    "mean_bias": 1.4064962848714622e-05
+  },
+  {
+    "preset": "Texture_Focus_HDR_scRGB.ini",
+    "fixture": "step",
+    "pass": true,
+    "std_ratio": 1.0000312577978527,
+    "mean_bias": 0.00012118271154950755
+  },
+  {
+    "preset": "Texture_Focus_HDR_scRGB.ini",
+    "fixture": "soft_edge",
+    "pass": true,
+    "std_ratio": 1.0001498694214745,
+    "mean_bias": 0.0007014976915458298
+  },
+  {
+    "preset": "Texture_Focus_HDR_scRGB.ini",
+    "fixture": "impulse",
+    "pass": true,
+    "std_ratio": 1.0013579593335231,
+    "mean_bias": 1.7748180428074453e-06
+  },
+  {
+    "preset": "Texture_Focus_HDR_scRGB.ini",
+    "fixture": "checker",
+    "pass": true,
+    "std_ratio": 1.0016924548847104,
+    "mean_bias": 0.0041473087201036015
+  },
+  {
+    "preset": "Texture_Focus_SDR_sRGB.ini",
+    "fixture": "texture",
+    "pass": true,
+    "std_ratio": 1.027080637933455,
+    "mean_bias": -3.7649492127991836e-07
+  },
+  {
+    "preset": "Texture_Focus_SDR_sRGB.ini",
+    "fixture": "noise",
+    "pass": true,
+    "std_ratio": 1.0230073398044872,
+    "mean_bias": 6.786233960471743e-07
+  },
+  {
+    "preset": "Texture_Focus_SDR_sRGB.ini",
+    "fixture": "step",
+    "pass": true,
+    "std_ratio": 1.0000316554919018,
+    "mean_bias": 6.035025134425821e-06
+  },
+  {
+    "preset": "Texture_Focus_SDR_sRGB.ini",
+    "fixture": "soft_edge",
+    "pass": true,
+    "std_ratio": 1.0001530541761352,
+    "mean_bias": 3.3909433831475786e-05
+  },
+  {
+    "preset": "Texture_Focus_SDR_sRGB.ini",
+    "fixture": "impulse",
+    "pass": true,
+    "std_ratio": 1.0013659918468791,
+    "mean_bias": 8.638708917128065e-08
+  },
+  {
+    "preset": "Texture_Focus_SDR_sRGB.ini",
+    "fixture": "checker",
+    "pass": true,
+    "std_ratio": 1.001703555281497,
+    "mean_bias": 0.00020994459941948786
+  }
+]

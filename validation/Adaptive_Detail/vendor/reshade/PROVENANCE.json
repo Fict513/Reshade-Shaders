@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/crosire/reshade",
+  "commit": "7bf9de8b33bcc76c3177007e65d73c72dd0f34c0",
+  "modified": false,
+  "files": {
+    "effect_expression.hpp": "7f652ce4af688ef7c1a16bfda251a855ad8c0b9dbea5e85047a28bedf50d2c34",
+    "effect_codegen.hpp": "5eab66de38d61b8cf8ef036085e2914a0d20c81691bd9691229d95532e3bc532",
+    "effect_parser.hpp": "c708941973667946c89de3e0f4f257badfc1e79f297edc5494de88b2729cabcd",
+    "effect_lexer.hpp": "80d464c306678c8029c4185a593f2d7d6261f135dbb5f892554b29625e896f10",
+    "effect_preprocessor.hpp": "265a25de71e6ed96db4fd1c8fc2831c588969dc5a57a8305a869b5dc85465357",
+    "effect_module.hpp": "383e91286d8351ebb62ed7b500aced349fbbfba205cb65917473842ced6a01c7",
+    "effect_token.hpp": "2635a1f013eda6a49cb5e87a28a3dad1f0ee1870ef6645a59c4c69ecbb028666",
+    "effect_symbol_table.hpp": "ab1e4eaed12469b2aa3669375044f82c16efc5257b1e27d03b3796eb915e94ce",
+    "effect_symbol_table_intrinsics.inl": "5e49a5e74f0b9ee68ccb1d0dc92ba8d330bb378946e46cb3c22a7d83755846b3",
+    "effect_lexer.cpp": "03612358eb582d77b185bb3c5379e9cb54deaf076a6d0ec6d797d2b018b9427b",
+    "effect_preprocessor.cpp": "9137b441bd7b111fa6067f0a2eef510193d2f45441e2588965ea09596565a863",
+    "effect_expression.cpp": "e41ac27190d9eb30e2227f5ae2d205e6b32708e08d0044e44937e4c757435662",
+    "effect_parser_exp.cpp": "8bea9ec2b0abb1982fe561cadae3b8c04e5d46fe8712684144301fc74206709c",
+    "effect_parser_stmt.cpp": "5ebfa9ed1784ad6bd3f8eaeac88e0d6308d0777ba3ad3841e720a8f7fb86cfb3",
+    "effect_symbol_table.cpp": "d94dfbef056dad76043288f2e8894efc9b9c3bce3010720ccf6dada558442a49",
+    "effect_codegen_hlsl.cpp": "c87b457a0c6fb69a77464dfe1462a617aca84d99f28189cb37a8087249e7da39",
+    "effect_codegen_glsl.cpp": "bc411e6744cda7d15b4575732b6f4e653cde40664525f929cd654e89e74e7891"
+  }
+}

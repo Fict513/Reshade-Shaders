@@ -1,0 +1,1138 @@
+[
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 0,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 0,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 0,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 0,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 0,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 0,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 0,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 0,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 0,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 0,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 1,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 1,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 1,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 1,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 1,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 1,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 1,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 1,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 1,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 0,
+    "local": 1,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 0,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 0,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 0,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 0,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 0,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 0,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 0,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 0,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 0,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 0,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 1,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 1,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 1,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 1,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 1,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 1,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 1,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 1,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 1,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 1,
+    "local": 1,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 0,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 0,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 0,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 0,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 0,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 0,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 0,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 0,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 0,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 0,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 1,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 1,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 1,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 1,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 1,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 1,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 1,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 1,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 1,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "hlsl",
+    "quality": 2,
+    "local": 1,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 0,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 0,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 0,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 0,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 0,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 0,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 0,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 0,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 0,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 0,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 1,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 1,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 1,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 1,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 1,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 1,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 1,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 1,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 1,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 0,
+    "local": 1,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 0,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 0,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 0,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 0,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 0,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 0,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 0,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 0,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 0,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 0,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 1,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 1,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 1,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 1,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 1,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 1,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 1,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 1,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 1,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 1,
+    "local": 1,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 0,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 0,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 0,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 0,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 0,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 0,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 0,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 0,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 0,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 0,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=1 intermediate_textures=0\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 1,
+    "color": 0,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 1,
+    "color": 0,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 1,
+    "color": 0,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 1,
+    "color": 0,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 1,
+    "color": 0,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 1,
+    "color": 1,
+    "color_space": 0,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 1,
+    "color": 1,
+    "color_space": 1,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 1,
+    "color": 1,
+    "color_space": 2,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 1,
+    "color": 1,
+    "color_space": 3,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "backend": "glsl",
+    "quality": 2,
+    "local": 1,
+    "color": 1,
+    "color_space": 4,
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "resolution": [
+      1,
+      1
+    ],
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=1x1\n"
+  },
+  {
+    "resolution": [
+      1,
+      17
+    ],
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=1x17\n"
+  },
+  {
+    "resolution": [
+      19,
+      1
+    ],
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=19x1\n"
+  },
+  {
+    "resolution": [
+      17,
+      31
+    ],
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=17x31\n"
+  },
+  {
+    "resolution": [
+      1920,
+      1080
+    ],
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=1920x1080\n"
+  },
+  {
+    "resolution": [
+      3440,
+      1440
+    ],
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=3440x1440\n"
+  },
+  {
+    "resolution": [
+      5120,
+      1440
+    ],
+    "ok": true,
+    "log": "passes=2 intermediate_textures=1\ntexture_size=5120x1440\n"
+  }
+]

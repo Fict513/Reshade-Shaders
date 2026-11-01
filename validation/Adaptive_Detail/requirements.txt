@@ -1,0 +1,3 @@
+numpy>=1.26
+# Optional, only for the comparison chart:
+matplotlib>=3.8

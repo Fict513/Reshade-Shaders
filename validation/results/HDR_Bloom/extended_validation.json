@@ -1,0 +1,524 @@
+{
+  "production_area_arithmetic": [
+    {
+      "size": [
+        1,
+        1
+      ],
+      "max_nit_error": 0.0,
+      "mean_error": 0.0
+    },
+    {
+      "size": [
+        17,
+        1
+      ],
+      "max_nit_error": 0.0005026424628340465,
+      "mean_error": -0.00013518489231501007
+    },
+    {
+      "size": [
+        1,
+        19
+      ],
+      "max_nit_error": 0.0005910773015784798,
+      "mean_error": 8.914345198718365e-05
+    },
+    {
+      "size": [
+        65,
+        33
+      ],
+      "max_nit_error": 0.005405779928878474,
+      "mean_error": 1.591796626598807e-05
+    },
+    {
+      "size": [
+        3440,
+        1440
+      ],
+      "max_nit_error": 0.0009765625,
+      "mean_error": -3.503100742818788e-08
+    }
+  ],
+  "paired_filter_arithmetic": [
+    {
+      "quality": 0,
+      "spread": 0.5,
+      "max_nit_error": 0.0005786689744127216
+    },
+    {
+      "quality": 0,
+      "spread": 1,
+      "max_nit_error": 0.0007715564138379705
+    },
+    {
+      "quality": 0,
+      "spread": 2,
+      "max_nit_error": 0.0005860561445842905
+    },
+    {
+      "quality": 1,
+      "spread": 0.5,
+      "max_nit_error": 0.0007032882490420889
+    },
+    {
+      "quality": 1,
+      "spread": 1,
+      "max_nit_error": 0.0006607025215998874
+    },
+    {
+      "quality": 1,
+      "spread": 2,
+      "max_nit_error": 0.0006713446359754016
+    },
+    {
+      "quality": 2,
+      "spread": 0.5,
+      "max_nit_error": 0.0005834069202137471
+    },
+    {
+      "quality": 2,
+      "spread": 1,
+      "max_nit_error": 0.0008549301119273878
+    },
+    {
+      "quality": 2,
+      "spread": 2,
+      "max_nit_error": 0.0007095760206539126
+    }
+  ],
+  "quality_vs_wide_reference": [
+    {
+      "sigma_texels": 0.75,
+      "quality": 0,
+      "kernel_L1_error": 2.0705295831466597e-47,
+      "variance": 0.5621237143712838
+    },
+    {
+      "sigma_texels": 0.75,
+      "quality": 1,
+      "kernel_L1_error": 6.112002804782648e-66,
+      "variance": 0.5621237143712838
+    },
+    {
+      "sigma_texels": 0.75,
+      "quality": 2,
+      "kernel_L1_error": 1.4722085464105745e-87,
+      "variance": 0.5621237143712838
+    },
+    {
+      "sigma_texels": 1.5,
+      "quality": 0,
+      "kernel_L1_error": 2.2478878101444994e-12,
+      "variance": 2.2499999998663665
+    },
+    {
+      "sigma_texels": 1.5,
+      "quality": 1,
+      "kernel_L1_error": 2.610689032278369e-17,
+      "variance": 2.2499999999999964
+    },
+    {
+      "sigma_texels": 1.5,
+      "quality": 2,
+      "kernel_L1_error": 4.339534927297019e-17,
+      "variance": 2.25
+    },
+    {
+      "sigma_texels": 3.014,
+      "quality": 0,
+      "kernel_L1_error": 0.0009315825703557144,
+      "variance": 9.028122284633923
+    },
+    {
+      "sigma_texels": 3.014,
+      "quality": 1,
+      "kernel_L1_error": 6.193969110352939e-05,
+      "variance": 9.079011369555673
+    },
+    {
+      "sigma_texels": 3.014,
+      "quality": 2,
+      "kernel_L1_error": 2.6939831388046546e-06,
+      "variance": 9.083896265044086
+    }
+  ],
+  "moving_extracted_light": {
+    "flux_min": 10000.0,
+    "flux_max": 10000.000000000004,
+    "peak_min": 86.29771045628304,
+    "peak_max": 90.97829099635304,
+    "peak_relative_range": 0.05209858761039224
+  },
+  "compositing_and_colors": [
+    {
+      "mode": 1,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "source_Y_sum": 64.0,
+      "extracted_Y_sum": 25.6,
+      "redistribution_Y_sum": 63.999999999999986,
+      "additive_Y_sum": 65.66399999999999,
+      "core_max_before": 1.0,
+      "core_max_after": 0.9903109374999975,
+      "limiter_active_pixels": 0,
+      "output_min_component": 5.154934072762852e-66
+    },
+    {
+      "mode": 1,
+      "color": [
+        1,
+        0,
+        0
+      ],
+      "source_Y_sum": 13.6064,
+      "extracted_Y_sum": 3.1049013333333337,
+      "redistribution_Y_sum": 13.6064,
+      "additive_Y_sum": 13.808218586666667,
+      "core_max_before": 1.0,
+      "core_max_after": 0.994472530743803,
+      "limiter_active_pixels": 0,
+      "output_min_component": 0.0
+    },
+    {
+      "mode": 1,
+      "color": [
+        0,
+        1,
+        0
+      ],
+      "source_Y_sum": 45.7728,
+      "extracted_Y_sum": 34.25279999999999,
+      "redistribution_Y_sum": 45.7728,
+      "additive_Y_sum": 47.99923199999999,
+      "core_max_before": 1.0,
+      "core_max_after": 0.9818736498531834,
+      "limiter_active_pixels": 0,
+      "output_min_component": 0.0
+    },
+    {
+      "mode": 1,
+      "color": [
+        0,
+        0,
+        1
+      ],
+      "source_Y_sum": 4.6208,
+      "extracted_Y_sum": 0.019845333333333343,
+      "redistribution_Y_sum": 4.620800000000001,
+      "additive_Y_sum": 4.622089946666668,
+      "core_max_before": 1.0,
+      "core_max_after": 0.9998959689474766,
+      "limiter_active_pixels": 0,
+      "output_min_component": 0.0
+    },
+    {
+      "mode": 2,
+      "color": [
+        1000,
+        1000,
+        1000
+      ],
+      "source_Y_sum": 64000.0,
+      "extracted_Y_sum": 48000.00000000001,
+      "redistribution_Y_sum": 63999.99999999999,
+      "additive_Y_sum": 67120.00000000001,
+      "core_max_before": 1000.0,
+      "core_max_after": 981.8330078124953,
+      "limiter_active_pixels": 0,
+      "output_min_component": 9.665501386430348e-63
+    },
+    {
+      "mode": 2,
+      "color": [
+        3000,
+        0,
+        0
+      ],
+      "source_Y_sum": 50438.4,
+      "extracted_Y_sum": 34438.4,
+      "redistribution_Y_sum": 50438.399999999994,
+      "additive_Y_sum": 52676.896,
+      "core_max_before": 3000.0,
+      "core_max_after": 2950.3836645293936,
+      "limiter_active_pixels": 0,
+      "output_min_component": 0.0
+    },
+    {
+      "mode": 2,
+      "color": [
+        0,
+        0,
+        10000
+      ],
+      "source_Y_sum": 37952.0,
+      "extracted_Y_sum": 21951.999999999996,
+      "redistribution_Y_sum": 37952.0,
+      "additive_Y_sum": 39378.880000000005,
+      "core_max_before": 10000.0,
+      "core_max_after": 9859.892561656794,
+      "limiter_active_pixels": 0,
+      "output_min_component": 0.0
+    },
+    {
+      "mode": 3,
+      "color": [
+        2000,
+        -200,
+        100
+      ],
+      "source_Y_sum": 18520.320000000003,
+      "extracted_Y_sum": 2790.9940053333357,
+      "redistribution_Y_sum": 18520.32,
+      "additive_Y_sum": 18701.734610346666,
+      "core_max_before": 2000.0,
+      "core_max_after": 1992.6993390624982,
+      "limiter_active_pixels": 0,
+      "output_min_component": -199.2699339062498
+    }
+  ],
+  "quantized_bloom_tails": [
+    {
+      "mode": 1,
+      "bit_depth": 8,
+      "tail_unique_codes": 13,
+      "changed_pixel_fraction": 0.009581163194444445,
+      "rounded_tail_monotonic": true
+    },
+    {
+      "mode": 2,
+      "bit_depth": 10,
+      "tail_unique_codes": 63,
+      "changed_pixel_fraction": 0.30367838541666664,
+      "rounded_tail_monotonic": true
+    }
+  ],
+  "checks": [
+    {
+      "test": "Production-area arithmetic 1x1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production-area arithmetic 17x1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production-area arithmetic 1x19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production-area arithmetic 65x33",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Production-area arithmetic 3440x1440",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Paired Gaussian versus independent integer taps (0, 0.5)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Paired Gaussian versus independent integer taps (0, 1)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Paired Gaussian versus independent integer taps (0, 2)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Paired Gaussian versus independent integer taps (1, 0.5)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Paired Gaussian versus independent integer taps (1, 1)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Paired Gaussian versus independent integer taps (1, 2)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Paired Gaussian versus independent integer taps (2, 0.5)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Paired Gaussian versus independent integer taps (2, 1)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Paired Gaussian versus independent integer taps (2, 2)",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Quality monotonically improves Gaussian approximation sigma0.75",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Quality monotonically improves Gaussian approximation sigma1.5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Quality monotonically improves Gaussian approximation sigma3.014",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Prefiltered moving light maintains flux",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Color scenario finite (1, [1, 1, 1])",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Linear ratios isolated light (1, [1, 1, 1], np.int64(1))",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Linear ratios isolated light (1, [1, 1, 1], np.int64(2))",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Color scenario finite (1, [1, 0, 0])",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Color scenario finite (1, [0, 1, 0])",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Color scenario finite (1, [0, 0, 1])",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Color scenario finite (2, [1000, 1000, 1000])",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Linear ratios isolated light (2, [1000, 1000, 1000], np.int64(1))",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Linear ratios isolated light (2, [1000, 1000, 1000], np.int64(2))",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Color scenario finite (2, [3000, 0, 0])",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Color scenario finite (2, [0, 0, 10000])",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Color scenario finite (3, [2000, -200, 100])",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Linear ratios isolated light (3, [2000, -200, 100], np.int64(1))",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Linear ratios isolated light (3, [2000, -200, 100], np.int64(2))",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "OOG spill keeps negative channel",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Bloom tail actual 8-bit rounding finite and smooth-order",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Bloom tail actual 10-bit rounding finite and smooth-order",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Preset Cinematic_Glow_HDR_PQ.ini",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Preset Cinematic_Glow_HDR_scRGB.ini",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Preset Cinematic_Glow_SDR.ini",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Preset Natural_Light_HDR_PQ.ini",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Preset Natural_Light_HDR_scRGB.ini",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Preset Natural_Light_SDR.ini",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Preset Neon_Control_HDR_PQ.ini",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Preset Neon_Control_HDR_scRGB.ini",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Preset Neon_Control_SDR.ini",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "passed": 44,
+  "failed": 0
+}
