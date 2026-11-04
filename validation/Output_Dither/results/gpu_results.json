@@ -1,0 +1,1721 @@
+{
+  "adapter": "NVIDIA GeForce RTX 4070 Ti",
+  "api": "D3D11 hardware FL11_0, offscreen, no presentation",
+  "draws": 146,
+  "checks_passed": 210,
+  "checks": [
+    {
+      "name": "GPU precise input 1920x1080 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1920x1080 0",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1920x1080 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1920x1080 1",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1920x1080 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1920x1080 2",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1920x1080 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1920x1080 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU exact UNORM pass-through 1/0 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact UNORM pass-through 1/0 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1920x1080 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1920x1080 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU exact UNORM pass-through 1/1 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact UNORM pass-through 1/1 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1920x1080 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1920x1080 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU exact UNORM pass-through 2/2 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact UNORM pass-through 2/2 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1080 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1080 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1080 {'contract': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1080 {'contract': 3}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1080 {'contract': 1, 'target': 2}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1080 {'enabled': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1920x1200 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1920x1200 0",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1920x1200 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1920x1200 1",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1920x1200 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1920x1200 2",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1920x1200 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1920x1200 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1920x1200 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1920x1200 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1920x1200 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1920x1200 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1200 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1200 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1200 {'contract': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1200 {'contract': 3}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1200 {'contract': 1, 'target': 2}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1920x1200 {'enabled': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 2560x1440 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 2560x1440 0",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 2560x1440 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 2560x1440 1",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 2560x1440 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 2560x1440 2",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 2560x1440 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 2560x1440 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 2560x1440 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 2560x1440 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 2560x1440 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 2560x1440 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 2560x1440 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 2560x1440 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 2560x1440 {'contract': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 2560x1440 {'contract': 3}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 2560x1440 {'contract': 1, 'target': 2}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 2560x1440 {'enabled': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 3440x1440 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 3440x1440 0",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 3440x1440 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 3440x1440 1",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 3440x1440 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 3440x1440 2",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 3440x1440 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 3440x1440 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 3440x1440 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 3440x1440 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 3440x1440 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 3440x1440 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 3440x1440 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 3440x1440 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 3440x1440 {'contract': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 3440x1440 {'contract': 3}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 3440x1440 {'contract': 1, 'target': 2}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 3440x1440 {'enabled': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1919x1079 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1919x1079 0",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1919x1079 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1919x1079 1",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1919x1079 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1919x1079 2",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1919x1079 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1919x1079 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1919x1079 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1919x1079 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1919x1079 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1919x1079 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1919x1079 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1919x1079 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1919x1079 {'contract': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1919x1079 {'contract': 3}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1919x1079 {'contract': 1, 'target': 2}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1919x1079 {'enabled': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1x137 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1x137 0",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1x137 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1x137 1",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1x137 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1x137 2",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1x137 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1x137 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1x137 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1x137 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1x137 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1x137 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x137 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x137 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x137 {'contract': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x137 {'contract': 3}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x137 {'contract': 1, 'target': 2}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x137 {'enabled': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 137x1 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 137x1 0",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 137x1 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 137x1 1",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 137x1 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 137x1 2",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 137x1 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 137x1 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 137x1 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 137x1 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 137x1 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 137x1 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 137x1 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 137x1 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 137x1 {'contract': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 137x1 {'contract': 3}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 137x1 {'contract': 1, 'target': 2}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 137x1 {'enabled': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1x1 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1x1 0",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1x1 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1x1 1",
+      "passed": true
+    },
+    {
+      "name": "GPU precise input 1x1 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU float alpha 1x1 2",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1x1 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1x1 1/0",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1x1 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1x1 1/1",
+      "passed": true
+    },
+    {
+      "name": "GPU same UNORM grid changes bounded to adjacent codes 1x1 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU UNORM alpha unchanged 1x1 2/2",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x1 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x1 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x1 {'contract': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x1 {'contract': 3}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x1 {'contract': 1, 'target': 2}",
+      "passed": true
+    },
+    {
+      "name": "GPU exact float pass-through 1x1 {'enabled': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 255/1/0.05",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 255/1/0.05",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 255/1/0.25",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 255/1/0.25",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 255/1/0.49",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 255/1/0.49",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 255/1/0.5",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 255/1/0.5",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 255/1/0.75",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 255/1/0.75",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 255/1/12.25",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 255/1/12.25",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 255/1/254.75",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 255/1/254.75",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/1/0.05",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/1/0.05",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/1/0.25",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/1/0.25",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/1/0.49",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/1/0.49",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/1/0.5",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/1/0.5",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/1/0.75",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/1/0.75",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/1/12.25",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/1/12.25",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/1/1022.75",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/1/1022.75",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/2/0.05",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/2/0.05",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/2/0.25",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/2/0.25",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/2/0.49",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/2/0.49",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/2/0.5",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/2/0.5",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/2/0.75",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/2/0.75",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/2/12.25",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/2/12.25",
+      "passed": true
+    },
+    {
+      "name": "GPU constant mean bias bounded 1023/2/1022.75",
+      "passed": true
+    },
+    {
+      "name": "GPU quantizer within one code CPU 1023/2/1022.75",
+      "passed": true
+    },
+    {
+      "name": "GPU controlled gradient reduces column error: FP32 to actual UNORM8",
+      "passed": true
+    },
+    {
+      "name": "GPU controlled gradient reduces column error: FP32 to actual UNORM10 sRGB",
+      "passed": true
+    },
+    {
+      "name": "GPU controlled gradient reduces column error: FP32 to actual UNORM10 PQ",
+      "passed": true
+    },
+    {
+      "name": "GPU controlled gradient reduces column error: encoded FP16 to FP16 then ideal 8-bit",
+      "passed": true
+    },
+    {
+      "name": "GPU controlled gradient reduces column error: encoded FP16 to FP16 then ideal 10-bit",
+      "passed": true
+    },
+    {
+      "name": "GPU controlled gradient reduces column error: sRGB UNORM10 to UNORM10 then ideal 8-bit",
+      "passed": true
+    },
+    {
+      "name": "GPU signed extended invalid bypass fmt=2 {'contract': 3}",
+      "passed": true
+    },
+    {
+      "name": "GPU signed extended invalid bypass fmt=2 {'contract': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU signed extended invalid bypass fmt=2 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU signed extended invalid bypass fmt=2 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU signed extended invalid bypass fmt=2 {'enabled': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU signed extended invalid bypass fmt=10 {'contract': 3}",
+      "passed": true
+    },
+    {
+      "name": "GPU signed extended invalid bypass fmt=10 {'contract': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU signed extended invalid bypass fmt=10 {'bypass': 1}",
+      "passed": true
+    },
+    {
+      "name": "GPU signed extended invalid bypass fmt=10 {'strength': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU signed extended invalid bypass fmt=10 {'enabled': 0}",
+      "passed": true
+    },
+    {
+      "name": "GPU invalid RGB bypass whole pixel",
+      "passed": true
+    },
+    {
+      "name": "GPU nonfinite alpha preserved",
+      "passed": true
+    }
+  ],
+  "precise_input": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "contract": 1,
+      "target": 0,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "contract": 1,
+      "target": 1,
+      "max_abs_difference": 9.313225746154785e-10
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "contract": 2,
+      "target": 2,
+      "max_abs_difference": 9.313225746154785e-10
+    },
+    {
+      "width": 1920,
+      "height": 1200,
+      "contract": 1,
+      "target": 0,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "width": 1920,
+      "height": 1200,
+      "contract": 1,
+      "target": 1,
+      "max_abs_difference": 9.313225746154785e-10
+    },
+    {
+      "width": 1920,
+      "height": 1200,
+      "contract": 2,
+      "target": 2,
+      "max_abs_difference": 9.313225746154785e-10
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "contract": 1,
+      "target": 0,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "contract": 1,
+      "target": 1,
+      "max_abs_difference": 9.313225746154785e-10
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "contract": 2,
+      "target": 2,
+      "max_abs_difference": 9.313225746154785e-10
+    },
+    {
+      "width": 3440,
+      "height": 1440,
+      "contract": 1,
+      "target": 0,
+      "max_abs_difference": 5.960464477539063e-08
+    },
+    {
+      "width": 3440,
+      "height": 1440,
+      "contract": 1,
+      "target": 1,
+      "max_abs_difference": 9.313225746154785e-10
+    },
+    {
+      "width": 3440,
+      "height": 1440,
+      "contract": 2,
+      "target": 2,
+      "max_abs_difference": 9.313225746154785e-10
+    },
+    {
+      "width": 1919,
+      "height": 1079,
+      "contract": 1,
+      "target": 0,
+      "max_abs_difference": 2.9802322387695312e-08
+    },
+    {
+      "width": 1919,
+      "height": 1079,
+      "contract": 1,
+      "target": 1,
+      "max_abs_difference": 9.313225746154785e-10
+    },
+    {
+      "width": 1919,
+      "height": 1079,
+      "contract": 2,
+      "target": 2,
+      "max_abs_difference": 9.313225746154785e-10
+    },
+    {
+      "width": 1,
+      "height": 137,
+      "contract": 1,
+      "target": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "width": 1,
+      "height": 137,
+      "contract": 1,
+      "target": 1,
+      "max_abs_difference": 0.0
+    },
+    {
+      "width": 1,
+      "height": 137,
+      "contract": 2,
+      "target": 2,
+      "max_abs_difference": 0.0
+    },
+    {
+      "width": 137,
+      "height": 1,
+      "contract": 1,
+      "target": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "width": 137,
+      "height": 1,
+      "contract": 1,
+      "target": 1,
+      "max_abs_difference": 0.0
+    },
+    {
+      "width": 137,
+      "height": 1,
+      "contract": 2,
+      "target": 2,
+      "max_abs_difference": 0.0
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "contract": 1,
+      "target": 0,
+      "max_abs_difference": 0.0
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "contract": 1,
+      "target": 1,
+      "max_abs_difference": 0.0
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "contract": 2,
+      "target": 2,
+      "max_abs_difference": 0.0
+    }
+  ],
+  "constant_quantization": [
+    {
+      "levels": 255,
+      "contract": 1,
+      "input_code": 0.05,
+      "error": {
+        "mean": -0.05000000074505806,
+        "rms": 0.05000000074505806,
+        "min": -0.05000000074505806,
+        "max": -0.05000000074505806
+      },
+      "cpu_code_mismatch_fraction": 0.05083188657407407
+    },
+    {
+      "levels": 255,
+      "contract": 1,
+      "input_code": 0.25,
+      "error": {
+        "mean": -0.05859373859129846,
+        "rms": 0.3977475859298872,
+        "min": -0.25,
+        "max": 0.7500000596046448
+      },
+      "cpu_code_mismatch_fraction": 0.05852864583333333
+    },
+    {
+      "levels": 255,
+      "contract": 1,
+      "input_code": 0.49,
+      "error": {
+        "mean": -0.06030522451684293,
+        "rms": 0.49869223783235167,
+        "min": -0.49000000953674316,
+        "max": 0.5100001096725464
+      },
+      "cpu_code_mismatch_fraction": 0.05853587962962963
+    },
+    {
+      "levels": 255,
+      "contract": 1,
+      "input_code": 0.5,
+      "error": {
+        "mean": -0.05861545138888889,
+        "rms": 0.5,
+        "min": -0.5,
+        "max": 0.5
+      },
+      "cpu_code_mismatch_fraction": 0.058586516203703705
+    },
+    {
+      "levels": 255,
+      "contract": 1,
+      "input_code": 0.75,
+      "error": {
+        "mean": -0.058629898377047435,
+        "rms": 0.46563394398707486,
+        "min": -0.75,
+        "max": 0.2500000298023224
+      },
+      "cpu_code_mismatch_fraction": 0.05861545138888889
+    },
+    {
+      "levels": 255,
+      "contract": 1,
+      "input_code": 12.25,
+      "error": {
+        "mean": -0.01179109080974875,
+        "rms": 0.42615071165633084,
+        "min": -0.2499999850988388,
+        "max": 0.7499999403953552
+      },
+      "cpu_code_mismatch_fraction": 0.011725983796296297
+    },
+    {
+      "levels": 255,
+      "contract": 1,
+      "input_code": 254.75,
+      "error": {
+        "mean": -1.8267387834688027e-05,
+        "rms": 0.43302102901369477,
+        "min": -0.7500037550926208,
+        "max": 0.24999618530273438
+      },
+      "cpu_code_mismatch_fraction": 0.0
+    },
+    {
+      "levels": 1023,
+      "contract": 1,
+      "input_code": 0.05,
+      "error": {
+        "mean": -0.05000000074505806,
+        "rms": 0.05000000074505806,
+        "min": -0.05000000074505806,
+        "max": -0.05000000074505806
+      },
+      "cpu_code_mismatch_fraction": 0.05083188657407407
+    },
+    {
+      "levels": 1023,
+      "contract": 1,
+      "input_code": 0.25,
+      "error": {
+        "mean": -0.0625,
+        "rms": 0.39528470752104744,
+        "min": -0.25,
+        "max": 0.75
+      },
+      "cpu_code_mismatch_fraction": 0.06243489583333333
+    },
+    {
+      "levels": 1023,
+      "contract": 1,
+      "input_code": 0.49,
+      "error": {
+        "mean": -0.06030527574044687,
+        "rms": 0.4986921854472533,
+        "min": -0.49000000953674316,
+        "max": 0.5099999904632568
+      },
+      "cpu_code_mismatch_fraction": 0.05853587962962963
+    },
+    {
+      "levels": 1023,
+      "contract": 1,
+      "input_code": 0.5,
+      "error": {
+        "mean": -0.06252893518518518,
+        "rms": 0.5,
+        "min": -0.5,
+        "max": 0.5
+      },
+      "cpu_code_mismatch_fraction": 0.0625
+    },
+    {
+      "levels": 1023,
+      "contract": 1,
+      "input_code": 0.75,
+      "error": {
+        "mean": -0.06253616898148148,
+        "rms": 0.4677265060810011,
+        "min": -0.75,
+        "max": 0.25
+      },
+      "cpu_code_mismatch_fraction": 0.06252170138888889
+    },
+    {
+      "levels": 1023,
+      "contract": 1,
+      "input_code": 12.25,
+      "error": {
+        "mean": -0.05081718056290238,
+        "rms": 0.4026055964311505,
+        "min": -0.2499997615814209,
+        "max": 0.7500002384185791
+      },
+      "cpu_code_mismatch_fraction": 0.05075231481481481
+    },
+    {
+      "levels": 1023,
+      "contract": 1,
+      "input_code": 1022.75,
+      "error": {
+        "mean": -1.4467578795221118e-05,
+        "rms": 0.4330206417190765,
+        "min": -0.7499992847442627,
+        "max": 0.2499997615814209
+      },
+      "cpu_code_mismatch_fraction": 0.0
+    },
+    {
+      "levels": 1023,
+      "contract": 2,
+      "input_code": 0.05,
+      "error": {
+        "mean": -0.05000000074505806,
+        "rms": 0.05000000074505806,
+        "min": -0.05000000074505806,
+        "max": -0.05000000074505806
+      },
+      "cpu_code_mismatch_fraction": 0.05083188657407407
+    },
+    {
+      "levels": 1023,
+      "contract": 2,
+      "input_code": 0.25,
+      "error": {
+        "mean": -0.0625,
+        "rms": 0.39528470752104744,
+        "min": -0.25,
+        "max": 0.75
+      },
+      "cpu_code_mismatch_fraction": 0.06243489583333333
+    },
+    {
+      "levels": 1023,
+      "contract": 2,
+      "input_code": 0.49,
+      "error": {
+        "mean": -0.06030527574044687,
+        "rms": 0.4986921854472533,
+        "min": -0.49000000953674316,
+        "max": 0.5099999904632568
+      },
+      "cpu_code_mismatch_fraction": 0.05853587962962963
+    },
+    {
+      "levels": 1023,
+      "contract": 2,
+      "input_code": 0.5,
+      "error": {
+        "mean": -0.06252893518518518,
+        "rms": 0.5,
+        "min": -0.5,
+        "max": 0.5
+      },
+      "cpu_code_mismatch_fraction": 0.0625
+    },
+    {
+      "levels": 1023,
+      "contract": 2,
+      "input_code": 0.75,
+      "error": {
+        "mean": -0.06253616898148148,
+        "rms": 0.4677265060810011,
+        "min": -0.75,
+        "max": 0.25
+      },
+      "cpu_code_mismatch_fraction": 0.06252170138888889
+    },
+    {
+      "levels": 1023,
+      "contract": 2,
+      "input_code": 12.25,
+      "error": {
+        "mean": -0.05081718056290238,
+        "rms": 0.4026055964311505,
+        "min": -0.2499997615814209,
+        "max": 0.7500002384185791
+      },
+      "cpu_code_mismatch_fraction": 0.05075231481481481
+    },
+    {
+      "levels": 1023,
+      "contract": 2,
+      "input_code": 1022.75,
+      "error": {
+        "mean": -1.4467578795221118e-05,
+        "rms": 0.4330206417190765,
+        "min": -0.7499992847442627,
+        "max": 0.2499997615814209
+      },
+      "cpu_code_mismatch_fraction": 0.0
+    }
+  ],
+  "same_grid": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "format": 28,
+      "contract": 1,
+      "target": 0,
+      "changed_rgb_fraction": 0.031166570216049384,
+      "delta_codes": {
+        "mean": -0.031166570434967678,
+        "rms": 0.17654056376340477,
+        "min": -1.0000075101852417,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "format": 24,
+      "contract": 1,
+      "target": 1,
+      "changed_rgb_fraction": 0.03120756172839506,
+      "delta_codes": {
+        "mean": -0.031207562904391025,
+        "rms": 0.1766566276185423,
+        "min": -1.0000600814819336,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "format": 24,
+      "contract": 2,
+      "target": 2,
+      "changed_rgb_fraction": 0.03120756172839506,
+      "delta_codes": {
+        "mean": -0.031207562904391025,
+        "rms": 0.1766566276185423,
+        "min": -1.0000600814819336,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1200,
+      "format": 28,
+      "contract": 1,
+      "target": 0,
+      "changed_rgb_fraction": 0.031176649305555557,
+      "delta_codes": {
+        "mean": -0.031176649523821348,
+        "rms": 0.17656910755311064,
+        "min": -1.0000075101852417,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1200,
+      "format": 24,
+      "contract": 1,
+      "target": 1,
+      "changed_rgb_fraction": 0.031217013888888888,
+      "delta_codes": {
+        "mean": -0.03121701510374745,
+        "rms": 0.1766833787309315,
+        "min": -1.0000600814819336,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1200,
+      "format": 24,
+      "contract": 2,
+      "target": 2,
+      "changed_rgb_fraction": 0.031217013888888888,
+      "delta_codes": {
+        "mean": -0.03121701510374745,
+        "rms": 0.1766833787309315,
+        "min": -1.0000600814819336,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "format": 28,
+      "contract": 1,
+      "target": 0,
+      "changed_rgb_fraction": 0.031084798177083334,
+      "delta_codes": {
+        "mean": -0.03108479830428324,
+        "rms": 0.1763088155240606,
+        "min": -1.0000075101852417,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "format": 24,
+      "contract": 1,
+      "target": 1,
+      "changed_rgb_fraction": 0.03114501953125,
+      "delta_codes": {
+        "mean": -0.031145019486753477,
+        "rms": 0.17647951564823164,
+        "min": -1.0000600814819336,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "format": 24,
+      "contract": 2,
+      "target": 2,
+      "changed_rgb_fraction": 0.03114501953125,
+      "delta_codes": {
+        "mean": -0.031145019486753477,
+        "rms": 0.17647951564823164,
+        "min": -1.0000600814819336,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 3440,
+      "height": 1440,
+      "format": 28,
+      "contract": 1,
+      "target": 0,
+      "changed_rgb_fraction": 0.03111171673126615,
+      "delta_codes": {
+        "mean": -0.03111171675280449,
+        "rms": 0.17638513762320268,
+        "min": -1.0000075101852417,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 3440,
+      "height": 1440,
+      "format": 24,
+      "contract": 1,
+      "target": 1,
+      "changed_rgb_fraction": 0.03112685723514212,
+      "delta_codes": {
+        "mean": -0.03112685847767564,
+        "rms": 0.17642805820347024,
+        "min": -1.0000600814819336,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 3440,
+      "height": 1440,
+      "format": 24,
+      "contract": 2,
+      "target": 2,
+      "changed_rgb_fraction": 0.03112685723514212,
+      "delta_codes": {
+        "mean": -0.03112685847767564,
+        "rms": 0.17642805820347024,
+        "min": -1.0000600814819336,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1919,
+      "height": 1079,
+      "format": 28,
+      "contract": 1,
+      "target": 0,
+      "changed_rgb_fraction": 0.031132989890374822,
+      "delta_codes": {
+        "mean": -0.031132990117843033,
+        "rms": 0.17644543163631668,
+        "min": -1.0000075101852417,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1919,
+      "height": 1079,
+      "format": 24,
+      "contract": 1,
+      "target": 1,
+      "changed_rgb_fraction": 0.031496652421205244,
+      "delta_codes": {
+        "mean": -0.03149665006350387,
+        "rms": 0.17747294922610848,
+        "min": -1.0000600814819336,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1919,
+      "height": 1079,
+      "format": 24,
+      "contract": 2,
+      "target": 2,
+      "changed_rgb_fraction": 0.031496652421205244,
+      "delta_codes": {
+        "mean": -0.03149665006350387,
+        "rms": 0.17747294922610848,
+        "min": -1.0000600814819336,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1,
+      "height": 137,
+      "format": 28,
+      "contract": 1,
+      "target": 0,
+      "changed_rgb_fraction": 0.0,
+      "delta_codes": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1,
+      "height": 137,
+      "format": 24,
+      "contract": 1,
+      "target": 1,
+      "changed_rgb_fraction": 0.0,
+      "delta_codes": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1,
+      "height": 137,
+      "format": 24,
+      "contract": 2,
+      "target": 2,
+      "changed_rgb_fraction": 0.0,
+      "delta_codes": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 137,
+      "height": 1,
+      "format": 28,
+      "contract": 1,
+      "target": 0,
+      "changed_rgb_fraction": 0.043795620437956206,
+      "delta_codes": {
+        "mean": -0.043795619132745,
+        "rms": 0.20927402568769501,
+        "min": -1.0000001192092896,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 137,
+      "height": 1,
+      "format": 24,
+      "contract": 1,
+      "target": 1,
+      "changed_rgb_fraction": 0.0364963503649635,
+      "delta_codes": {
+        "mean": -0.03649632252045792,
+        "rms": 0.191040034223141,
+        "min": -1.0,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 137,
+      "height": 1,
+      "format": 24,
+      "contract": 2,
+      "target": 2,
+      "changed_rgb_fraction": 0.0364963503649635,
+      "delta_codes": {
+        "mean": -0.03649632252045792,
+        "rms": 0.191040034223141,
+        "min": -1.0,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "format": 28,
+      "contract": 1,
+      "target": 0,
+      "changed_rgb_fraction": 0.0,
+      "delta_codes": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "format": 24,
+      "contract": 1,
+      "target": 1,
+      "changed_rgb_fraction": 0.0,
+      "delta_codes": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "format": 24,
+      "contract": 2,
+      "target": 2,
+      "changed_rgb_fraction": 0.0,
+      "delta_codes": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    }
+  ],
+  "usefulness": [
+    {
+      "path": "FP32 to actual UNORM8",
+      "plain_error": {
+        "mean": -0.030727730055029195,
+        "rms": 0.2908176705613637,
+        "min": -0.558623194694519,
+        "max": 0.4924459755420685
+      },
+      "dither_error": {
+        "mean": -0.030736410615492878,
+        "rms": 0.4099956423495992,
+        "min": -1.0437736511230469,
+        "max": 0.992708146572113
+      },
+      "plain_column_mean_rms": 0.2908176499849623,
+      "dither_column_mean_rms": 0.04662881087010786
+    },
+    {
+      "path": "FP32 to actual UNORM10 sRGB",
+      "plain_error": {
+        "mean": -0.023437060848421728,
+        "rms": 0.28958611792453165,
+        "min": -0.5268363952636719,
+        "max": 0.4835856556892395
+      },
+      "dither_error": {
+        "mean": -0.02364250035348735,
+        "rms": 0.40886099877690824,
+        "min": -1.0265767574310303,
+        "max": 0.9770684242248535
+      },
+      "plain_column_mean_rms": 0.2895860736463295,
+      "dither_column_mean_rms": 0.03832283591425599
+    },
+    {
+      "path": "FP32 to actual UNORM10 PQ",
+      "plain_error": {
+        "mean": -0.023437060848421728,
+        "rms": 0.28958611792453165,
+        "min": -0.5268363952636719,
+        "max": 0.4835856556892395
+      },
+      "dither_error": {
+        "mean": -0.02364250035348735,
+        "rms": 0.40886099877690824,
+        "min": -1.0265767574310303,
+        "max": 0.9770684242248535
+      },
+      "plain_column_mean_rms": 0.2895860736463295,
+      "dither_column_mean_rms": 0.03832283591425599
+    },
+    {
+      "path": "encoded FP16 to FP16 then ideal 8-bit",
+      "plain_error": {
+        "mean": 0.0010431014311810334,
+        "rms": 0.2887653699715334,
+        "min": -0.5127673149108887,
+        "max": 0.5127710700035095
+      },
+      "dither_error": {
+        "mean": -0.014970111396719908,
+        "rms": 0.40765239795729086,
+        "min": -1.008857250213623,
+        "max": 1.001041054725647
+      },
+      "plain_column_mean_rms": 0.2887654041650689,
+      "dither_column_mean_rms": 0.03583526548766224
+    },
+    {
+      "path": "encoded FP16 to FP16 then ideal 10-bit",
+      "plain_error": {
+        "mean": -0.007812059839488938,
+        "rms": 0.2887338873934032,
+        "min": -0.510681688785553,
+        "max": 0.4945307672023773
+      },
+      "dither_error": {
+        "mean": -0.02352241899424382,
+        "rms": 0.4084321795195866,
+        "min": -1.0104221105575562,
+        "max": 0.967171311378479
+      },
+      "plain_column_mean_rms": 0.28873388595419924,
+      "dither_column_mean_rms": 0.039248239245568056
+    },
+    {
+      "path": "sRGB UNORM10 to UNORM10 then ideal 8-bit",
+      "plain_error": {
+        "mean": -0.007811064676692088,
+        "rms": 0.28902977424496173,
+        "min": -0.5257929563522339,
+        "max": 0.5091232657432556
+      },
+      "dither_error": {
+        "mean": -0.015140829509379986,
+        "rms": 0.4214602514092925,
+        "min": -1.0255346298217773,
+        "max": 1.009381651878357
+      },
+      "plain_column_mean_rms": 0.28902986600691677,
+      "dither_column_mean_rms": 0.0816387437570855
+    }
+  ],
+  "not_tested": [
+    "ReShade runtime execution",
+    "D3D9/10/12/Vulkan/OpenGL GPU execution",
+    "Windows composition",
+    "physical display link",
+    "in-game inspection"
+  ]
+}

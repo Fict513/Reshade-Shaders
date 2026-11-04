@@ -20,6 +20,26 @@ speed. Copyright (c) 2026 OpenAI, MIT; retain the included `LICENSE`.
    split-screen control. Do not simultaneously enable the standalone versions,
    FakeHDR, or another debander/sharpener without deliberately comparing them.
 
+## Optional independent Output Dither
+
+`Output_Dither@Output_Dither.fx` is a separate, optional finishing technique;
+it is not merged into `IPS_Suite.fx` and none of the IPS Suite presets enables
+it. Install `Shaders/Output_Dither.fx` and `Shaders/Output_Dither_Core.fxh`
+alongside the other effects, and install
+`Textures/Output_Dither_BN128.png` in a configured ReShade texture search path.
+Select it manually after reloading. Its guide documents the explicit sRGB/PQ
+contracts and why the ordinary already-quantized ReShade back buffer may offer
+no useful precision to dither.
+
+The IPS Suite already has optional final selective dither. Avoid stacking both
+sources by default; set the suite's `OutputDither` control to zero when
+evaluating Output Dither, and likewise disable other debander/shader noise if
+it makes the result redundant. For Signal Inspector testing, place Output
+Dither after image-processing effects and before Signal Inspector. This
+measurement order does not establish that it is immediately before a final
+quantizer or change the recommended order among the other effects. See the
+[Output Dither guide](Output_Dither/README.md) for limitations.
+
 The six files are `IPS_Suite_Balanced_Normal.ini`, `..._High.ini`,
 `..._Ultra.ini`, and the corresponding `IPS_Suite_RTX_Companion_*` files.
 They derive their slider values from the supplied individual presets; IPS

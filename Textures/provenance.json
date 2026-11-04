@@ -1,0 +1,11 @@
+{
+  "algorithm": "Ulichney three-phase void-and-cluster",
+  "size": 128,
+  "sigma": 1.5,
+  "seed": 20261104,
+  "initial_count": 1638,
+  "relaxation_iterations": 639,
+  "numpy": "2.5.4",
+  "pixel_sha256": "43a71c12dc12bb53ea67c7fb4958fa4b53da4156fbdc68a5d0e258a7011c01bf",
+  "png_sha256": "5354ee8429b1220164fa3fb2576fee666491b57af59be7611945b79858527d04"
+}

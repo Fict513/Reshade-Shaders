@@ -1,3 +1,21 @@
+# Unreleased - Output Dither integration
+
+Adds Output Dither 1.0.0 as a standalone, optional finishing technique with its
+original ReShade source, helper include, 128×128 blue-noise texture, texture
+provenance, MIT notice, installation and technical documentation, and supplied
+reproducible validation sources. It remains separate from IPS Suite presets
+and other effects.
+
+The guide specifies only explicit matching SDR sRGB/BT.709 with 8-/10-bit
+sRGB-target assumptions or full-range PQ/BT.2020 with a 10-bit PQ-target
+assumption; unknown, mismatched and scRGB contracts bypass. Dither is useful
+only when finer encoded values survive to a known later quantizer. It cannot
+recover precision already discarded by an earlier quantized write, and the
+ReShade effect order does not guarantee proximity to the final display
+quantizer. Avoid stacking it with existing debanding/dithering without a
+specific reason. No monitor-calibration, GPU-performance or in-game result is
+claimed for this repository integration.
+
 # v1.2.0 - HDR shader collection
 
 Adds three supplied, separately licensed effects without changing their

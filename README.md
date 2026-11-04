@@ -26,6 +26,7 @@ a preset may replace the active technique list.
 |---|---|---|---|---|---|
 | FakeHDR Advanced 1.0.0 | SDR local contrast and artistic tone shaping | SDR sRGB/Rec.709; reported HDR presentation spaces bypass; unknown presentation is treated as SDR | None beyond `Shaders/FakeHDR_Advanced.fx` | UI controls; no bundled effect preset | [Installation and tuning](#installation) |
 | IPS Suite 1.2.0 | Coordinated contrast, selective deband, clarity and final dither | SDR sRGB/Rec.709; declared HDR spaces bypass; unknown is treated as SDR | `Shaders/IPS_Suite.fx` plus all three `.fxh` files in `Shaders/IPS_Suite/` | Six `Presets/IPS_Suite/` files; `IPS_SUITE_QUALITY` 0/1/2 and independent stage switches | [IPS Suite guide](docs/IPS_Suite.md) |
+| Output Dither 1.0.0 | Optional static blue-noise finishing stage for a known later quantizer | Explicit matching SDR sRGB/BT.709 with 8- or 10-bit sRGB target assumption, or full-range PQ/BT.2020 with 10-bit PQ target assumption; unknown, mismatched and linear scRGB bypass | `Shaders/Output_Dither.fx`, sibling `Output_Dither_Core.fxh`, and `Textures/Output_Dither_BN128.png` in ReShade's texture search path | Manual controls; no bundled preset; `OUTPUT_DITHER_ENABLE=0` compiles out its texture and controls | [Installation, contracts and limitations](docs/Output_Dither/README.md) |
 | IPS Depth v2.0 | SDR local contrast and tone shaping | SDR sRGB/Rec.709; declared HDR spaces bypass; unknown is treated as SDR | None beyond `Shaders/IPS_Depth_v2.fx` | Six `Presets/IPS_Depth_v2/` files; `IPSD2_QUALITY` 0/1/2 | [IPS Depth v2 guide](docs/IPS_Depth_v2.md) |
 | Selective Deband 1.0 | Spatial, edge- and texture-gated gradient smoothing | SDR sRGB/Rec.709; declared HDR spaces bypass; unknown is treated as SDR | None beyond `Shaders/Selective_Deband.fx` | Six `Presets/Selective_Deband/` files; `SDB_QUALITY` 0/1/2 | [Selective Deband guide](docs/Selective_Deband.md) |
 | Adaptive Clarity 1.0 | SDR noise- and edge-protected local detail enhancement | SDR sRGB/Rec.709; declared HDR spaces bypass; unknown is treated as SDR | None beyond `Shaders/Adaptive_Clarity.fx` | Six `Presets/Adaptive_Clarity/` files; `AC_QUALITY` 0/1/2 | [Adaptive Clarity guide](docs/Adaptive_Clarity.md) |
@@ -72,6 +73,17 @@ Original implementation, inspired by the *purpose* of CeeJay.dk's [FakeHDR](http
 1. Copy `FakeHDR_Advanced.fx` into the game's `reshade-shaders\Shaders` folder (or whichever Effects search path your ReShade setup uses).
 2. In the ReShade overlay, press **Reload**.
 3. Enable **FakeHDR Advanced**.
+
+**Optional Output Dither**
+
+1. Copy `Output_Dither.fx` and `Output_Dither_Core.fxh` into a configured
+   ReShade effect search path.
+2. Copy `Output_Dither_BN128.png` into a configured ReShade texture search
+   path. Preserve the filename and resolve any texture-load errors.
+3. Reload effects. Select **Output Dither (static blue noise)** manually; no
+   preset enables it. It defaults to bypass. Read the
+   [contract and ordering guide](docs/Output_Dither/README.md) before clearing
+   Master bypass or selecting an input/target pair.
 
 **GShade**
 
