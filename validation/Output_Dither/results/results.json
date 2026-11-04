@@ -1,0 +1,3874 @@
+{
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4"
+  },
+  "checks": [
+    {
+      "name": "asset dimensions and R8 payload",
+      "passed": true
+    },
+    {
+      "name": "exact uniform finite histogram",
+      "passed": true
+    },
+    {
+      "name": "exact centered tile mean",
+      "passed": true
+    },
+    {
+      "name": "finite extrema",
+      "passed": true
+    },
+    {
+      "name": "finite RMS formula",
+      "passed": true
+    },
+    {
+      "name": "scalar low frequency suppression",
+      "passed": true
+    },
+    {
+      "name": "10/50/90 percent threshold low-frequency suppression",
+      "passed": true
+    },
+    {
+      "name": "wrap seam axis 0 comparable to internal differences",
+      "passed": true
+    },
+    {
+      "name": "wrap seam axis 1 comparable to internal differences",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 contract 1 target 0 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 alpha unchanged 0",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 bounded normalized output 0",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 contract 1 target 1 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 alpha unchanged 1",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 bounded normalized output 1",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 contract 2 target 2 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 alpha unchanged 2",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 bounded normalized output 2",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 float32 center indices axis 1920",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 float32 center indices axis 1080",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 exact zero strength",
+      "passed": true
+    },
+    {
+      "name": "1920x1080 exact master bypass",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 contract 1 target 0 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 alpha unchanged 0",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 bounded normalized output 0",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 contract 1 target 1 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 alpha unchanged 1",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 bounded normalized output 1",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 contract 2 target 2 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 alpha unchanged 2",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 bounded normalized output 2",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 float32 center indices axis 1920",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 float32 center indices axis 1200",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 exact zero strength",
+      "passed": true
+    },
+    {
+      "name": "1920x1200 exact master bypass",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 contract 1 target 0 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 alpha unchanged 0",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 bounded normalized output 0",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 contract 1 target 1 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 alpha unchanged 1",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 bounded normalized output 1",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 contract 2 target 2 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 alpha unchanged 2",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 bounded normalized output 2",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 float32 center indices axis 2560",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 float32 center indices axis 1440",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 exact zero strength",
+      "passed": true
+    },
+    {
+      "name": "2560x1440 exact master bypass",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 contract 1 target 0 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 alpha unchanged 0",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 bounded normalized output 0",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 contract 1 target 1 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 alpha unchanged 1",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 bounded normalized output 1",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 contract 2 target 2 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 alpha unchanged 2",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 bounded normalized output 2",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 float32 center indices axis 3440",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 float32 center indices axis 1440",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 exact zero strength",
+      "passed": true
+    },
+    {
+      "name": "3440x1440 exact master bypass",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 contract 1 target 0 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 alpha unchanged 0",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 bounded normalized output 0",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 contract 1 target 1 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 alpha unchanged 1",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 bounded normalized output 1",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 contract 2 target 2 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 alpha unchanged 2",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 bounded normalized output 2",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 float32 center indices axis 1919",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 float32 center indices axis 1079",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 exact zero strength",
+      "passed": true
+    },
+    {
+      "name": "1919x1079 exact master bypass",
+      "passed": true
+    },
+    {
+      "name": "1x137 contract 1 target 0 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1x137 alpha unchanged 0",
+      "passed": true
+    },
+    {
+      "name": "1x137 bounded normalized output 0",
+      "passed": true
+    },
+    {
+      "name": "1x137 contract 1 target 1 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1x137 alpha unchanged 1",
+      "passed": true
+    },
+    {
+      "name": "1x137 bounded normalized output 1",
+      "passed": true
+    },
+    {
+      "name": "1x137 contract 2 target 2 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1x137 alpha unchanged 2",
+      "passed": true
+    },
+    {
+      "name": "1x137 bounded normalized output 2",
+      "passed": true
+    },
+    {
+      "name": "1x137 float32 center indices axis 1",
+      "passed": true
+    },
+    {
+      "name": "1x137 float32 center indices axis 137",
+      "passed": true
+    },
+    {
+      "name": "1x137 exact zero strength",
+      "passed": true
+    },
+    {
+      "name": "1x137 exact master bypass",
+      "passed": true
+    },
+    {
+      "name": "137x1 contract 1 target 0 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "137x1 alpha unchanged 0",
+      "passed": true
+    },
+    {
+      "name": "137x1 bounded normalized output 0",
+      "passed": true
+    },
+    {
+      "name": "137x1 contract 1 target 1 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "137x1 alpha unchanged 1",
+      "passed": true
+    },
+    {
+      "name": "137x1 bounded normalized output 1",
+      "passed": true
+    },
+    {
+      "name": "137x1 contract 2 target 2 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "137x1 alpha unchanged 2",
+      "passed": true
+    },
+    {
+      "name": "137x1 bounded normalized output 2",
+      "passed": true
+    },
+    {
+      "name": "137x1 float32 center indices axis 137",
+      "passed": true
+    },
+    {
+      "name": "137x1 float32 center indices axis 1",
+      "passed": true
+    },
+    {
+      "name": "137x1 exact zero strength",
+      "passed": true
+    },
+    {
+      "name": "137x1 exact master bypass",
+      "passed": true
+    },
+    {
+      "name": "1x1 contract 1 target 0 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1x1 alpha unchanged 0",
+      "passed": true
+    },
+    {
+      "name": "1x1 bounded normalized output 0",
+      "passed": true
+    },
+    {
+      "name": "1x1 contract 1 target 1 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1x1 alpha unchanged 1",
+      "passed": true
+    },
+    {
+      "name": "1x1 bounded normalized output 1",
+      "passed": true
+    },
+    {
+      "name": "1x1 contract 2 target 2 CPU agreement",
+      "passed": true
+    },
+    {
+      "name": "1x1 alpha unchanged 2",
+      "passed": true
+    },
+    {
+      "name": "1x1 bounded normalized output 2",
+      "passed": true
+    },
+    {
+      "name": "1x1 float32 center indices axis 1",
+      "passed": true
+    },
+    {
+      "name": "1x1 float32 center indices axis 1",
+      "passed": true
+    },
+    {
+      "name": "1x1 exact zero strength",
+      "passed": true
+    },
+    {
+      "name": "1x1 exact master bypass",
+      "passed": true
+    },
+    {
+      "name": "contract matrix -1/-1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix -1/0",
+      "passed": true
+    },
+    {
+      "name": "contract matrix -1/1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix -1/2",
+      "passed": true
+    },
+    {
+      "name": "contract matrix -1/3",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 0/-1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 0/0",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 0/1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 0/2",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 0/3",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 1/-1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 1/0",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 1/1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 1/2",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 1/3",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 2/-1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 2/0",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 2/1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 2/2",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 2/3",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 3/-1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 3/0",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 3/1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 3/2",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 3/3",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 4/-1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 4/0",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 4/1",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 4/2",
+      "passed": true
+    },
+    {
+      "name": "contract matrix 4/3",
+      "passed": true
+    },
+    {
+      "name": "strength -1",
+      "passed": true
+    },
+    {
+      "name": "strength 0",
+      "passed": true
+    },
+    {
+      "name": "strength 0.25",
+      "passed": true
+    },
+    {
+      "name": "strength 0.5",
+      "passed": true
+    },
+    {
+      "name": "strength 1",
+      "passed": true
+    },
+    {
+      "name": "strength 1.1",
+      "passed": true
+    },
+    {
+      "name": "strength nan",
+      "passed": true
+    },
+    {
+      "name": "strength inf",
+      "passed": true
+    },
+    {
+      "name": "signed/extended/nonfinite bypass 0",
+      "passed": true
+    },
+    {
+      "name": "signed/extended/nonfinite bypass 3",
+      "passed": true
+    },
+    {
+      "name": "invalid and exact endpoint pixel returns",
+      "passed": true
+    },
+    {
+      "name": "nonfinite alpha preserved",
+      "passed": true
+    },
+    {
+      "name": "one invalid RGB channel bypasses whole pixel",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/0",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/0.001",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/0.05",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/0.1",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/0.25",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/0.49",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/0.5",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/0.51",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/0.75",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/1",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/1.25",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/253.75",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/254.25",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/254.75",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/254.95",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 255/255",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/0",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/0.001",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/0.05",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/0.1",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/0.25",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/0.49",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/0.5",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/0.51",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/0.75",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/1",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/1.25",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/1021.75",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/1022.25",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/1022.75",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/1022.95",
+      "passed": true
+    },
+    {
+      "name": "finite RPDF quantized bias bound 1023/1023",
+      "passed": true
+    },
+    {
+      "name": "already-quantized same-grid identical 255",
+      "passed": true
+    },
+    {
+      "name": "larger noise perturbs old codes 255",
+      "passed": true
+    },
+    {
+      "name": "gradient spatial band error reduced 255",
+      "passed": true
+    },
+    {
+      "name": "gradient low frequency error reduced 255",
+      "passed": true
+    },
+    {
+      "name": "already-quantized same-grid identical 1023",
+      "passed": true
+    },
+    {
+      "name": "larger noise perturbs old codes 1023",
+      "passed": true
+    },
+    {
+      "name": "gradient spatial band error reduced 1023",
+      "passed": true
+    },
+    {
+      "name": "gradient low frequency error reduced 1023",
+      "passed": true
+    },
+    {
+      "name": "production float32 all code positions same-grid 0",
+      "passed": true
+    },
+    {
+      "name": "exhaustive ideal every code and byte 0/0.25",
+      "passed": true
+    },
+    {
+      "name": "exhaustive ideal every code and byte 0/0.5",
+      "passed": true
+    },
+    {
+      "name": "exhaustive ideal every code and byte 0/1",
+      "passed": true
+    },
+    {
+      "name": "production float32 all code positions same-grid 1",
+      "passed": true
+    },
+    {
+      "name": "exhaustive ideal every code and byte 1/0.25",
+      "passed": true
+    },
+    {
+      "name": "exhaustive ideal every code and byte 1/0.5",
+      "passed": true
+    },
+    {
+      "name": "exhaustive ideal every code and byte 1/1",
+      "passed": true
+    },
+    {
+      "name": "production float32 all code positions same-grid 2",
+      "passed": true
+    },
+    {
+      "name": "exhaustive ideal every code and byte 2/0.25",
+      "passed": true
+    },
+    {
+      "name": "exhaustive ideal every code and byte 2/0.5",
+      "passed": true
+    },
+    {
+      "name": "exhaustive ideal every code and byte 2/1",
+      "passed": true
+    },
+    {
+      "name": "neutral remains neutral in tested sRGB quantizer",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint sRGB/[1, 0, 0]/correlated",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint sRGB/[1, 0, 0]/shifted_channels",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint sRGB/[0, 1, 0]/correlated",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint sRGB/[0, 1, 0]/shifted_channels",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint sRGB/[0, 0, 1]/correlated",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint sRGB/[0, 0, 1]/shifted_channels",
+      "passed": true
+    },
+    {
+      "name": "neutral remains neutral in tested PQ quantizer",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint PQ/[1, 0, 0]/correlated",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint PQ/[1, 0, 0]/shifted_channels",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint PQ/[0, 1, 0]/correlated",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint PQ/[0, 1, 0]/shifted_channels",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint PQ/[0, 0, 1]/correlated",
+      "passed": true
+    },
+    {
+      "name": "saturated endpoint PQ/[0, 0, 1]/shifted_channels",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1920x1080 enabled=0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1920x1080 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1920x1080 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1920x1080 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1920x1080 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1920x1080 enabled=0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1920x1080 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1920x1080 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1920x1080 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1920x1080 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1920x1080 enabled=1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1920x1080 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1920x1080 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1920x1080 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1920x1080 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1920x1080 enabled=1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1920x1080 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1920x1080 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1920x1080 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1920x1080 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1920x1200 enabled=0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1920x1200 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1920x1200 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1920x1200 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1920x1200 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1920x1200 enabled=0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1920x1200 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1920x1200 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1920x1200 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1920x1200 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1920x1200 enabled=1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1920x1200 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1920x1200 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1920x1200 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1920x1200 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1920x1200 enabled=1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1920x1200 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1920x1200 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1920x1200 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1920x1200 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 2560x1440 enabled=0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 2560x1440 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 2560x1440 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 2560x1440 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 2560x1440 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 2560x1440 enabled=0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 2560x1440 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 2560x1440 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 2560x1440 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 2560x1440 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 2560x1440 enabled=1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 2560x1440 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 2560x1440 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 2560x1440 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 2560x1440 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 2560x1440 enabled=1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 2560x1440 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 2560x1440 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 2560x1440 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 2560x1440 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 3440x1440 enabled=0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 3440x1440 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 3440x1440 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 3440x1440 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 3440x1440 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 3440x1440 enabled=0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 3440x1440 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 3440x1440 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 3440x1440 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 3440x1440 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 3440x1440 enabled=1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 3440x1440 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 3440x1440 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 3440x1440 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 3440x1440 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 3440x1440 enabled=1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 3440x1440 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 3440x1440 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 3440x1440 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 3440x1440 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1919x1079 enabled=0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1919x1079 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1919x1079 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1919x1079 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1919x1079 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1919x1079 enabled=0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1919x1079 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1919x1079 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1919x1079 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1919x1079 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1919x1079 enabled=1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1919x1079 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1919x1079 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1919x1079 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1919x1079 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1919x1079 enabled=1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1919x1079 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1919x1079 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1919x1079 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1919x1079 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1x137 enabled=0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1x137 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1x137 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1x137 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1x137 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1x137 enabled=0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1x137 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1x137 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1x137 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1x137 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1x137 enabled=1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1x137 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1x137 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1x137 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1x137 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1x137 enabled=1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1x137 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1x137 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1x137 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1x137 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 137x1 enabled=0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 137x1 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 137x1 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 137x1 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 137x1 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 137x1 enabled=0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 137x1 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 137x1 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 137x1 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 137x1 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 137x1 enabled=1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 137x1 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 137x1 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 137x1 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 137x1 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 137x1 enabled=1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 137x1 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 137x1 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 137x1 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 137x1 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1x1 enabled=0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1x1 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1x1 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1x1 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1x1 0 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1x1 enabled=0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1x1 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1x1 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1x1 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1x1 0 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1x1 enabled=1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1x1 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1x1 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1x1 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1x1 1 hlsl",
+      "passed": true
+    },
+    {
+      "name": "FX parser 1x1 enabled=1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resolution override 1x1 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX raw nonblended pass 1x1 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "FX resource removal 1x1 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "codegen removes noise 1x1 1 glsl",
+      "passed": true
+    },
+    {
+      "name": "missing include and asset compile-time removal 0",
+      "passed": true
+    },
+    {
+      "name": "missing include and asset compile-time removal 1",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1920x1080_0.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1920x1080_0.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1920x1080_1.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1920x1080_1.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1920x1200_0.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1920x1200_0.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1920x1200_1.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1920x1200_1.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_2560x1440_0.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_2560x1440_0.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_2560x1440_1.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_2560x1440_1.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_3440x1440_0.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_3440x1440_0.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_3440x1440_1.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_3440x1440_1.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1919x1079_0.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1919x1079_0.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1919x1079_1.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1919x1079_1.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1x137_0.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1x137_0.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1x137_1.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1x137_1.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_137x1_0.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_137x1_0.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_137x1_1.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_137x1_1.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1x1_0.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1x1_0.hlsl F__OD_PS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1x1_1.hlsl F__OD_VS",
+      "passed": true
+    },
+    {
+      "name": "D3DCompile output_1x1_1.hlsl F__OD_PS",
+      "passed": true
+    }
+  ],
+  "asset": {
+    "stats": {
+      "mean": 0.0,
+      "rms": 0.2886729321699181,
+      "min": -0.498046875,
+      "max": 0.498046875
+    },
+    "sha256": "43a71c12dc12bb53ea67c7fb4958fa4b53da4156fbdc68a5d0e258a7011c01bf"
+  },
+  "spectrum_energy_below_0_1_cycles_per_pixel": {
+    "scalar": 5.360266304296553e-06,
+    "threshold_10": 0.0013901760625544353,
+    "threshold_50": 0.0005574895037329317,
+    "threshold_90": 0.0015071071848234189,
+    "white_scalar": 0.03229080623894977
+  },
+  "seams": {
+    "0": {
+      "internal_rms": 0.4607680531241174,
+      "seam_rms": 0.46436868963664635
+    },
+    "1": {
+      "internal_rms": 0.46224153829985215,
+      "seam_rms": 0.46229186142992845
+    }
+  },
+  "adapted_production_cpu": "executed",
+  "resolutions": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "noise_stats": {
+        "mean": -1.1952718098958333e-05,
+        "rms": 0.28866830855243525,
+        "min": -0.498046875,
+        "max": 0.498046875
+      },
+      "tiles_across": 15.0,
+      "tiles_down": 8.4375,
+      "max_cpu_difference": 0
+    },
+    {
+      "width": 1920,
+      "height": 1200,
+      "noise_stats": {
+        "mean": 3.3060709635416668e-06,
+        "rms": 0.28867496734876197,
+        "min": -0.498046875,
+        "max": 0.498046875
+      },
+      "tiles_across": 15.0,
+      "tiles_down": 9.375,
+      "max_cpu_difference": 0
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "noise_stats": {
+        "mean": 2.924601236979167e-06,
+        "rms": 0.28867621974173296,
+        "min": -0.498046875,
+        "max": 0.498046875
+      },
+      "tiles_across": 20.0,
+      "tiles_down": 11.25,
+      "max_cpu_difference": 0
+    },
+    {
+      "width": 3440,
+      "height": 1440,
+      "noise_stats": {
+        "mean": 1.811340489744832e-06,
+        "rms": 0.2886776045452585,
+        "min": -0.498046875,
+        "max": 0.498046875
+      },
+      "tiles_across": 26.875,
+      "tiles_down": 11.25,
+      "max_cpu_difference": 0
+    },
+    {
+      "width": 1919,
+      "height": 1079,
+      "noise_stats": {
+        "mean": 8.841220797729742e-06,
+        "rms": 0.2886686477788033,
+        "min": -0.498046875,
+        "max": 0.498046875
+      },
+      "tiles_across": 14.9921875,
+      "tiles_down": 8.4296875,
+      "max_cpu_difference": 0
+    },
+    {
+      "width": 1,
+      "height": 137,
+      "noise_stats": {
+        "mean": -0.03140682025547445,
+        "rms": 0.2885187528181093,
+        "min": -0.498046875,
+        "max": 0.490234375
+      },
+      "tiles_across": 0.0078125,
+      "tiles_down": 1.0703125,
+      "max_cpu_difference": 0
+    },
+    {
+      "width": 137,
+      "height": 1,
+      "noise_stats": {
+        "mean": -0.006515168795620438,
+        "rms": 0.2922705430881655,
+        "min": -0.494140625,
+        "max": 0.498046875
+      },
+      "tiles_across": 1.0703125,
+      "tiles_down": 0.0078125,
+      "max_cpu_difference": 0
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "noise_stats": {
+        "mean": -0.337890625,
+        "rms": 0.337890625,
+        "min": -0.337890625,
+        "max": -0.337890625
+      },
+      "tiles_across": 0.0078125,
+      "tiles_down": 0.0078125,
+      "max_cpu_difference": 0
+    }
+  ],
+  "endpoints": [
+    {
+      "levels": 255,
+      "input_code": 0,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 0.001,
+      "prequant_mean_shift_codes": 0.12450000000000001,
+      "quantized_error": {
+        "mean": -0.0010000000000000005,
+        "rms": 0.001,
+        "min": -0.001,
+        "max": -0.001
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 0.05,
+      "prequant_mean_shift_codes": 0.10124969482421875,
+      "quantized_error": {
+        "mean": 0.0007812499999999906,
+        "rms": 0.21955210087812865,
+        "min": -0.05,
+        "max": 0.95
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 0.1,
+      "prequant_mean_shift_codes": 0.079998779296875,
+      "quantized_error": {
+        "mean": 0.001562499999999994,
+        "rms": 0.3020761493398643,
+        "min": -0.1,
+        "max": 0.9
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 0.25,
+      "prequant_mean_shift_codes": 0.03125,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.4330127018922193,
+        "min": -0.25,
+        "max": 0.75
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 0.49,
+      "prequant_mean_shift_codes": 4.852294921878328e-05,
+      "quantized_error": {
+        "mean": -0.0017187500000000104,
+        "rms": 0.499865606938505,
+        "min": -0.49,
+        "max": 0.51
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 0.5,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.5,
+        "min": -0.5,
+        "max": 0.5
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 0.51,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 0.0017187500000000102,
+        "rms": 0.499865606938505,
+        "min": -0.51,
+        "max": 0.49
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 0.75,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.4330127018922193,
+        "min": -0.75,
+        "max": 0.25
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 1,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 1.25,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.4330127018922193,
+        "min": -0.25,
+        "max": 0.75
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 253.75,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.4330127018922178,
+        "min": -0.7499999999999973,
+        "max": 0.2499999999999991
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 254.25,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 5.421010862427522e-20,
+        "rms": 0.4330127018922178,
+        "min": -0.2499999999999991,
+        "max": 0.7499999999999973
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 254.75,
+      "prequant_mean_shift_codes": -0.03124999999999989,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.4330127018922178,
+        "min": -0.7499999999999973,
+        "max": 0.2499999999999991
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 254.95,
+      "prequant_mean_shift_codes": -0.10124969482419921,
+      "quantized_error": {
+        "mean": -0.000781249999988671,
+        "rms": 0.2195521008781279,
+        "min": -0.9499999999999853,
+        "max": 0.05000000000001115
+      }
+    },
+    {
+      "levels": 255,
+      "input_code": 255,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 0,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 0.001,
+      "prequant_mean_shift_codes": 0.12450000000000001,
+      "quantized_error": {
+        "mean": -0.0010000000000000005,
+        "rms": 0.001,
+        "min": -0.001,
+        "max": -0.001
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 0.05,
+      "prequant_mean_shift_codes": 0.10124969482421872,
+      "quantized_error": {
+        "mean": 0.0007812499999999906,
+        "rms": 0.21955210087812865,
+        "min": -0.05,
+        "max": 0.95
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 0.1,
+      "prequant_mean_shift_codes": 0.079998779296875,
+      "quantized_error": {
+        "mean": 0.001562499999999994,
+        "rms": 0.3020761493398643,
+        "min": -0.1,
+        "max": 0.9
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 0.25,
+      "prequant_mean_shift_codes": 0.031249999999999972,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.4330127018922193,
+        "min": -0.25,
+        "max": 0.75
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 0.49,
+      "prequant_mean_shift_codes": 4.852294921870587e-05,
+      "quantized_error": {
+        "mean": -0.0017187500000000104,
+        "rms": 0.499865606938505,
+        "min": -0.49,
+        "max": 0.51
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 0.5,
+      "prequant_mean_shift_codes": -1.109138822452671e-16,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.5,
+        "min": -0.5,
+        "max": 0.5
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 0.51,
+      "prequant_mean_shift_codes": -1.109138822452671e-16,
+      "quantized_error": {
+        "mean": 0.0017187500000000102,
+        "rms": 0.499865606938505,
+        "min": -0.51,
+        "max": 0.49
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 0.75,
+      "prequant_mean_shift_codes": -1.109138822452671e-16,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.4330127018922193,
+        "min": -0.75,
+        "max": 0.25
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 1,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 1.25,
+      "prequant_mean_shift_codes": 2.218277644905342e-16,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.4330127018922193,
+        "min": -0.25,
+        "max": 0.75
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 1021.75,
+      "prequant_mean_shift_codes": -1.1357581541915351e-13,
+      "quantized_error": {
+        "mean": 1.3308581667259567e-17,
+        "rms": 0.433012701892219,
+        "min": -0.7499999999999993,
+        "max": 0.24999999999999978
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 1022.25,
+      "prequant_mean_shift_codes": 1.1357581541915351e-13,
+      "quantized_error": {
+        "mean": -1.3308581667259567e-17,
+        "rms": 0.433012701892219,
+        "min": -0.24999999999999978,
+        "max": 0.7499999999999993
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 1022.75,
+      "prequant_mean_shift_codes": -0.031249999999858002,
+      "quantized_error": {
+        "mean": 1.3308581667259567e-17,
+        "rms": 0.433012701892219,
+        "min": -0.7499999999999993,
+        "max": 0.24999999999999978
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 1022.95,
+      "prequant_mean_shift_codes": -0.10124969482419055,
+      "quantized_error": {
+        "mean": -0.0007812500000454296,
+        "rms": 0.2195521008781287,
+        "min": -0.9500000000000446,
+        "max": 0.049999999999954525
+      }
+    },
+    {
+      "levels": 1023,
+      "input_code": 1023,
+      "prequant_mean_shift_codes": 0.0,
+      "quantized_error": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    }
+  ],
+  "gradients": [
+    {
+      "levels": 255,
+      "without": {
+        "mean": 1.914250650995823e-15,
+        "rms": 0.2885999098027618,
+        "min": -0.4997394476289667,
+        "max": 0.4997394476289808
+      },
+      "with_dither": {
+        "mean": 0.0004065393518537662,
+        "rms": 0.40817283430829665,
+        "min": -0.9963522668056328,
+        "max": 0.9979155810317937
+      },
+      "column_mean_rms_without": 0.28859990980276173,
+      "column_mean_rms_with": 0.03005780264758863,
+      "error_low_frequency_without": 0.9487475585285371,
+      "error_low_frequency_with": 0.0011715317235314478,
+      "same_grid_changed_pixels": 0,
+      "double_strength_changed_fraction": 0.49994936342592594,
+      "double_strength_error_to_original": {
+        "mean": -7.957175925737023e-05,
+        "rms": 0.7637138133271492,
+        "min": -1.4997394476289703,
+        "max": 1.4997394476289774
+      }
+    },
+    {
+      "levels": 1023,
+      "without": {
+        "mean": 1.11056568605251e-15,
+        "rms": 0.2885999098027618,
+        "min": -0.499739447628969,
+        "max": 0.4997394476289761
+      },
+      "with_dither": {
+        "mean": 0.0004065393518529643,
+        "rms": 0.40817283430829665,
+        "min": -0.9963522668056278,
+        "max": 0.99791558103179
+      },
+      "column_mean_rms_without": 0.2885999098027619,
+      "column_mean_rms_with": 0.0300578026475886,
+      "error_low_frequency_without": 0.9487475585285369,
+      "error_low_frequency_with": 0.0011715317235314496,
+      "same_grid_changed_pixels": 0,
+      "double_strength_changed_fraction": 0.49994936342592594,
+      "double_strength_error_to_original": {
+        "mean": -7.957175925814457e-05,
+        "rms": 0.7637138133271492,
+        "min": -1.499739447628968,
+        "max": 1.4997394476289752
+      }
+    }
+  ],
+  "encoded_vs_incorrect_linear": [
+    {
+      "contract": "sRGB8",
+      "encoded_value": 0.01,
+      "correct_delta_codes": {
+        "mean": -4.472333961502706e-19,
+        "rms": 0.2886729321699181,
+        "min": -0.498046875,
+        "max": 0.498046875
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": 0.5916226196289062,
+        "rms": 3.057922382432993,
+        "min": -2.5500000000000003,
+        "max": 6.434765625000001
+      },
+      "wrong_quantized_error_codes": {
+        "mean": 0.5945312499999995,
+        "rms": 3.077222266102986,
+        "min": -2.5500000000000003,
+        "max": 6.449999999999999
+      }
+    },
+    {
+      "contract": "sRGB8",
+      "encoded_value": 0.05,
+      "correct_delta_codes": {
+        "mean": -1.6263032587282567e-19,
+        "rms": 0.28867293216991824,
+        "min": -0.498046875,
+        "max": 0.498046875
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": -0.2469832272669416,
+        "rms": 3.2487268710302244,
+        "min": -6.21741933482849,
+        "max": 4.894796282382109
+      },
+      "wrong_quantized_error_codes": {
+        "mean": -0.23828125000000067,
+        "rms": 3.2466930290681932,
+        "min": -5.750000000000001,
+        "max": 5.249999999999999
+      }
+    },
+    {
+      "contract": "sRGB8",
+      "encoded_value": 0.18,
+      "correct_delta_codes": {
+        "mean": -8.402566836762659e-19,
+        "rms": 0.2886729321699172,
+        "min": -0.498046875,
+        "max": 0.498046875
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": -0.012617208236212242,
+        "rms": 1.0393741769626794,
+        "min": -1.8311393035999015,
+        "max": 1.7559728890174628
+      },
+      "wrong_quantized_error_codes": {
+        "mean": -0.028906249999996966,
+        "rms": 1.095017123153789,
+        "min": -1.899999999999999,
+        "max": 2.100000000000001
+      }
+    },
+    {
+      "contract": "sRGB8",
+      "encoded_value": 0.5,
+      "correct_delta_codes": {
+        "mean": -1.8973538018496328e-19,
+        "rms": 0.2886729321699172,
+        "min": -0.498046875,
+        "max": 0.498046875
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": -0.00048112001825785636,
+        "rms": 0.3118852562610355,
+        "min": -0.5395287726305444,
+        "max": 0.5366644851320274
+      },
+      "wrong_quantized_error_codes": {
+        "mean": 0.0,
+        "rms": 0.4999999999999982,
+        "min": -0.4999999999999982,
+        "max": 0.4999999999999982
+      }
+    },
+    {
+      "contract": "sRGB8",
+      "encoded_value": 0.9,
+      "correct_delta_codes": {
+        "mean": -2.710505431213761e-20,
+        "rms": 0.2886729321699172,
+        "min": -0.498046875,
+        "max": 0.498046875
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": -6.117120676160179e-05,
+        "rms": 0.14588019063911342,
+        "min": -0.2518689626640419,
+        "max": 0.25150479136464565
+      },
+      "wrong_quantized_error_codes": {
+        "mean": 0.0,
+        "rms": 0.4999999999999982,
+        "min": -0.4999999999999982,
+        "max": 0.4999999999999982
+      }
+    },
+    {
+      "contract": "sRGB10",
+      "encoded_value": 0.01,
+      "correct_delta_codes": {
+        "mean": -9.486769009248164e-20,
+        "rms": 0.28867293216991785,
+        "min": -0.49804687499999956,
+        "max": 0.49804687499999956
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": 2.7332736768359567e-16,
+        "rms": 3.7296542836353415,
+        "min": -6.434765625,
+        "max": 6.4347656250000025
+      },
+      "wrong_quantized_error_codes": {
+        "mean": 0.0004687499999998331,
+        "rms": 3.740301207790624,
+        "min": -6.23,
+        "max": 6.769999999999999
+      }
+    },
+    {
+      "contract": "sRGB10",
+      "encoded_value": 0.05,
+      "correct_delta_codes": {
+        "mean": 0.0,
+        "rms": 0.28867293216991785,
+        "min": -0.49804687500000133,
+        "max": 0.49804687500000133
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": -0.06731009909798163,
+        "rms": 3.214612856729424,
+        "min": -5.749955558937685,
+        "max": 5.348404383742578
+      },
+      "wrong_quantized_error_codes": {
+        "mean": -0.07187500000000235,
+        "rms": 3.2099454824030893,
+        "min": -6.15,
+        "max": 4.849999999999997
+      }
+    },
+    {
+      "contract": "sRGB10",
+      "encoded_value": 0.18,
+      "correct_delta_codes": {
+        "mean": 0.0,
+        "rms": 0.28867293216991796,
+        "min": -0.49804687500000133,
+        "max": 0.49804687500000133
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": -0.003141916471244382,
+        "rms": 1.0387767838304887,
+        "min": -1.801572619434117,
+        "max": 1.7828670179889272
+      },
+      "wrong_quantized_error_codes": {
+        "mean": 0.008437500000013538,
+        "rms": 1.0975427098751092,
+        "min": -2.1399999999999846,
+        "max": 1.8600000000000119
+      }
+    },
+    {
+      "contract": "sRGB10",
+      "encoded_value": 0.5,
+      "correct_delta_codes": {
+        "mean": 2.710505431213761e-20,
+        "rms": 0.28867293216991907,
+        "min": -0.49804687500000133,
+        "max": 0.49804687500000133
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": -0.00011992534687347374,
+        "rms": 0.3118823626389279,
+        "min": -0.5384471366611594,
+        "max": 0.5377331837090297
+      },
+      "wrong_quantized_error_codes": {
+        "mean": -2.710505431213761e-19,
+        "rms": 0.49999999999999956,
+        "min": -0.49999999999999956,
+        "max": 0.49999999999999956
+      }
+    },
+    {
+      "contract": "sRGB10",
+      "encoded_value": 0.9,
+      "correct_delta_codes": {
+        "mean": 1.0842021724855044e-19,
+        "rms": 0.28867293216991985,
+        "min": -0.49804687500000133,
+        "max": 0.49804687500000133
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": -1.524793660317193e-05,
+        "rms": 0.1458800906333797,
+        "min": -0.2517320412827133,
+        "max": 0.251641265624158
+      },
+      "wrong_quantized_error_codes": {
+        "mean": 0.19453124999995447,
+        "rms": 0.36357598930620005,
+        "min": -0.7000000000000448,
+        "max": 0.2999999999999543
+      }
+    },
+    {
+      "contract": "PQ10",
+      "encoded_value": 0.01,
+      "correct_delta_codes": {
+        "mean": -9.486769009248164e-20,
+        "rms": 0.28867293216991785,
+        "min": -0.49804687499999956,
+        "max": 0.49804687499999956
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": 85.89018479307364,
+        "rms": 133.5213465416706,
+        "min": -10.229252232111662,
+        "max": 241.42933504489702
+      },
+      "wrong_quantized_error_codes": {
+        "mean": 85.89499999999998,
+        "rms": 133.52714293356237,
+        "min": -10.23,
+        "max": 241.76999999999998
+      }
+    },
+    {
+      "contract": "PQ10",
+      "encoded_value": 0.05,
+      "correct_delta_codes": {
+        "mean": 0.0,
+        "rms": 0.28867293216991785,
+        "min": -0.49804687500000133,
+        "max": 0.49804687500000133
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": 46.452296903093824,
+        "rms": 112.67963387264524,
+        "min": -51.149252232111664,
+        "max": 201.35785569980652
+      },
+      "wrong_quantized_error_codes": {
+        "mean": 46.45937500000001,
+        "rms": 112.69497271395916,
+        "min": -51.150000000000006,
+        "max": 201.85000000000002
+      }
+    },
+    {
+      "contract": "PQ10",
+      "encoded_value": 0.18,
+      "correct_delta_codes": {
+        "mean": 0.0,
+        "rms": 0.28867293216991796,
+        "min": -0.49804687500000133,
+        "max": 0.49804687500000133
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": -41.20958183008952,
+        "rms": 115.3760553059842,
+        "min": -184.13925223211166,
+        "max": 90.03912827680577
+      },
+      "wrong_quantized_error_codes": {
+        "mean": -41.214218749999986,
+        "rms": 115.38103006993826,
+        "min": -184.14,
+        "max": 89.85999999999999
+      }
+    },
+    {
+      "contract": "PQ10",
+      "encoded_value": 0.5,
+      "correct_delta_codes": {
+        "mean": 2.710505431213761e-20,
+        "rms": 0.28867293216991907,
+        "min": -0.49804687500000133,
+        "max": 0.49804687500000133
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": -0.044457522567413955,
+        "rms": 3.1254657625758346,
+        "min": -5.525527780862682,
+        "max": 5.260725570094205
+      },
+      "wrong_quantized_error_codes": {
+        "mean": -0.042968749999999944,
+        "rms": 3.146178237163302,
+        "min": -5.499999999999995,
+        "max": 5.499999999999995
+      }
+    },
+    {
+      "contract": "PQ10",
+      "encoded_value": 0.9,
+      "correct_delta_codes": {
+        "mean": 1.0842021724855044e-19,
+        "rms": 0.28867293216991985,
+        "min": -0.49804687500000133,
+        "max": 0.49804687500000133
+      },
+      "incorrect_linear_delta_codes": {
+        "mean": -2.942531431243634e-05,
+        "rms": 0.07966875409880332,
+        "min": -0.13753995477680825,
+        "max": 0.13736477678111758
+      },
+      "wrong_quantized_error_codes": {
+        "mean": 0.2999999999999544,
+        "rms": 0.29999999999995425,
+        "min": 0.2999999999999543,
+        "max": 0.2999999999999543
+      }
+    }
+  ],
+  "shifted_channel_correlation": [
+    [
+      1.0,
+      0.011141216883154042,
+      0.002113076504921035
+    ],
+    [
+      0.011141216883154042,
+      1.0,
+      -0.002665038838979172
+    ],
+    [
+      0.002113076504921035,
+      -0.002665038838979172,
+      1.0
+    ]
+  ],
+  "colors": [
+    {
+      "encoding": "sRGB",
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 4.488281744680078e-06,
+        "rms": 0.0018148768998036023,
+        "min": -0.0018103830681773236,
+        "max": 0.0018193596316666838
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994
+      ],
+      "opponent_change_rms_codes": 0.7042525681085562,
+      "linear_luminance_delta": {
+        "mean": 4.488281744680078e-06,
+        "rms": 0.0013661912976362784,
+        "min": -0.0018103830681773236,
+        "max": 0.0018193596316666838
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        0.123,
+        0.457,
+        0.789
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        -0.001718749999999333,
+        0.00015624999999206733,
+        0.00031249999998402716
+      ],
+      "rgb_rms_codes": [
+        0.48094795716379485,
+        0.49876253117088715,
+        0.39644119992754956
+      ],
+      "opponent_change_rms_codes": 0.42818658316205904,
+      "linear_luminance_delta": {
+        "mean": 4.133866505135245e-06,
+        "rms": 0.001310784906647721,
+        "min": -0.0013858623627209243,
+        "max": 0.0015620264896057667
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        0.123,
+        0.457,
+        0.789
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        -0.001718749999999333,
+        0.0001562499999920537,
+        0.0003124999999840396
+      ],
+      "rgb_rms_codes": [
+        0.48094795716379485,
+        0.4987625311708872,
+        0.39644119992754956
+      ],
+      "opponent_change_rms_codes": 0.666351935799505,
+      "linear_luminance_delta": {
+        "mean": 4.133866505135245e-06,
+        "rms": 0.0011734384265442413,
+        "min": -0.0013858623627209243,
+        "max": 0.0015620264896057667
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        1,
+        0,
+        0
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        1,
+        0,
+        0
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        0,
+        1,
+        0
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        0,
+        1,
+        0
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        0,
+        0,
+        1
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        0,
+        0,
+        1
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        1,
+        0.2,
+        0
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        1,
+        0.2,
+        0
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        0.0001,
+        0.01,
+        0.1
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        0.0018437499999996824,
+        0.0007812499999995397,
+        -1.7763568394002505e-15
+      ],
+      "rgb_rms_codes": [
+        0.16309343564347975,
+        0.497415193776719,
+        0.5
+      ],
+      "opponent_change_rms_codes": 0.38578163350527717,
+      "linear_luminance_delta": {
+        "mean": 4.831227130521368e-07,
+        "rms": 0.00013023092444376666,
+        "min": -0.00014281700106905603,
+        "max": 0.0001827366664854473
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        0.0001,
+        0.01,
+        0.1
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        0.0018437499999996824,
+        0.0007812499999998377,
+        -1.7763568394002505e-15
+      ],
+      "rgb_rms_codes": [
+        0.16309343564347975,
+        0.49741519377671906,
+        0.5
+      ],
+      "opponent_change_rms_codes": 0.6213462167694835,
+      "linear_luminance_delta": {
+        "mean": 4.831227130521368e-07,
+        "rms": 0.00011065503786940926,
+        "min": -0.00014281700106905603,
+        "max": 0.0001827366664854473
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        0.9999,
+        0.95,
+        0.8
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        -0.0018437500000025324,
+        -9.75781955236954e-17,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.16309343564348017,
+        0.43301270189221924,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.4404132115127776,
+      "linear_luminance_delta": {
+        "mean": -3.115064799623715e-07,
+        "rms": 0.0026325835573480505,
+        "min": -0.003332586554090522,
+        "max": 0.004528335223602298
+      }
+    },
+    {
+      "encoding": "sRGB",
+      "color": [
+        0.9999,
+        0.95,
+        0.8
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        -0.0018437500000025324,
+        -7.063577153743061e-17,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.16309343564348017,
+        0.43301270189221924,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.44769802706455897,
+      "linear_luminance_delta": {
+        "mean": -3.115064799623715e-07,
+        "rms": 0.002604685103791234,
+        "min": -0.003332586554090522,
+        "max": 0.004528335223602298
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        8.131516293641283e-20,
+        8.131516293641283e-20,
+        8.131516293641283e-20
+      ],
+      "rgb_rms_codes": [
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 1.0285422078967765e-07,
+        "rms": 4.5173390782510114e-05,
+        "min": -4.5070419468402206e-05,
+        "max": 4.527612790998156e-05
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        8.131516293641283e-20,
+        2.710505431213761e-20,
+        -8.131516293641283e-20
+      ],
+      "rgb_rms_codes": [
+        0.49999999999999994,
+        0.49999999999999994,
+        0.49999999999999994
+      ],
+      "opponent_change_rms_codes": 0.704252568108558,
+      "linear_luminance_delta": {
+        "mean": 1.0285422078967765e-07,
+        "rms": 3.3127663109321735e-05,
+        "min": -4.5070419468402206e-05,
+        "max": 4.527612790998156e-05
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0.123,
+        0.457,
+        0.789
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        -0.0008749999999965468,
+        0.0007187499999645696,
+        0.0014374999999291719
+      ],
+      "rgb_rms_codes": [
+        0.37727277929901504,
+        0.4998631687772411,
+        0.35553603896094016
+      ],
+      "opponent_change_rms_codes": 0.47307735889598385,
+      "linear_luminance_delta": {
+        "mean": 2.2669434263966647e-07,
+        "rms": 3.968708222527603e-05,
+        "min": -3.20869853049615e-05,
+        "max": 8.405434520439466e-05
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0.123,
+        0.457,
+        0.789
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        -0.0008749999999965468,
+        0.0007187499999645824,
+        0.0014374999999293323
+      ],
+      "rgb_rms_codes": [
+        0.37727277929901504,
+        0.49986316877724113,
+        0.35553603896094016
+      ],
+      "opponent_change_rms_codes": 0.6177200550461748,
+      "linear_luminance_delta": {
+        "mean": 2.2669434263966647e-07,
+        "rms": 3.356496623030375e-05,
+        "min": -3.20869853049615e-05,
+        "max": 8.405434520439466e-05
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        1,
+        0,
+        0
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        1,
+        0,
+        0
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0,
+        1,
+        0
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0,
+        1,
+        0
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0,
+        0,
+        1
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0,
+        0,
+        1
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.0,
+      "linear_luminance_delta": {
+        "mean": 0.0,
+        "rms": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        1,
+        0.2,
+        0
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        0.0,
+        0.0015624999999773184,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.48957890068915894,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.4895789006891529,
+      "linear_luminance_delta": {
+        "mean": 8.01164139370425e-09,
+        "rms": 1.2728245655567234e-06,
+        "min": -1.5559288349953349e-06,
+        "max": 1.0438683205604704e-06
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        1,
+        0.2,
+        0
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        0.0,
+        0.0015624999999772928,
+        0.0
+      ],
+      "rgb_rms_codes": [
+        0.0,
+        0.48957890068915894,
+        0.0
+      ],
+      "opponent_change_rms_codes": 0.4895789006891529,
+      "linear_luminance_delta": {
+        "mean": 8.01164139370425e-09,
+        "rms": 1.2728245655567234e-06,
+        "min": -1.5559288349953349e-06,
+        "max": 1.0438683205604704e-06
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0.0001,
+        0.01,
+        0.1
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        -0.0007374999999998622,
+        0.000468749999999868,
+        0.0007812499999885581
+      ],
+      "rgb_rms_codes": [
+        0.30207300855914976,
+        0.4211331440293258,
+        0.4585984081961078
+      ],
+      "opponent_change_rms_codes": 0.2980433137565748,
+      "linear_luminance_delta": {
+        "mean": 4.6521944931069137e-10,
+        "rms": 3.3820244058759793e-08,
+        "min": -2.1256601520288848e-08,
+        "max": 5.843480990587008e-08
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0.0001,
+        0.01,
+        0.1
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        -0.0007374999999998622,
+        0.00046874999999987747,
+        0.000781249999988582
+      ],
+      "rgb_rms_codes": [
+        0.30207300855914976,
+        0.42113314402932556,
+        0.45859840819610737
+      ],
+      "opponent_change_rms_codes": 0.5709749854963001,
+      "linear_luminance_delta": {
+        "mean": 4.6521944931060054e-10,
+        "rms": 2.5859694857600474e-08,
+        "min": -2.1256601520288848e-08,
+        "max": 5.843480990587008e-08
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0.9999,
+        0.95,
+        0.8
+      ],
+      "method": "correlated",
+      "bias_codes": [
+        0.0007374999999889334,
+        0.00156250000009097,
+        -0.0015625000000909477
+      ],
+      "rgb_rms_codes": [
+        0.3020730085591481,
+        0.35553656633320946,
+        0.48957890068905163
+      ],
+      "opponent_change_rms_codes": 0.38242052442304975,
+      "linear_luminance_delta": {
+        "mean": 1.1225213255579118e-05,
+        "rms": 0.0020298481821360726,
+        "min": -0.005506538888778834,
+        "max": 0.0008826501229060035
+      }
+    },
+    {
+      "encoding": "PQ",
+      "color": [
+        0.9999,
+        0.95,
+        0.8
+      ],
+      "method": "shifted_channels",
+      "bias_codes": [
+        0.0007374999999889334,
+        0.0015625000000909755,
+        -0.0015625000000909256
+      ],
+      "rgb_rms_codes": [
+        0.3020730085591481,
+        0.35553656633320946,
+        0.48957890068905147
+      ],
+      "opponent_change_rms_codes": 0.5397462588163536,
+      "linear_luminance_delta": {
+        "mean": 1.1225213255579118e-05,
+        "rms": 0.0015672276534305467,
+        "min": -0.005506538888778834,
+        "max": 0.0008826501229060035
+      }
+    }
+  ],
+  "fx_parsing": {
+    "variants": 32,
+    "log": [
+      {
+        "width": 1920,
+        "height": 1080,
+        "enabled": 0,
+        "backend": "hlsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 1920x1080 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "ec06e142665a319ccad737a3594b09f5396d04665b467d7aafebf03c8423ea82"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "enabled": 0,
+        "backend": "glsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 1920x1080 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "9eb96978c52fad38c0835a7cea6dc276d71d1aeb966a76c1bdd228161c6ed36c"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "enabled": 1,
+        "backend": "hlsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 1920x1080 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "2574e5e4315ed09050a03b0bdd7a5d908b6a03b26aa5d17f0dcba41606cff7f3"
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "enabled": 1,
+        "backend": "glsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 1920x1080 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "55f27e2d80da9d36293cb84b58261842fa676730aba61ea96445af237eb834b4"
+      },
+      {
+        "width": 1920,
+        "height": 1200,
+        "enabled": 0,
+        "backend": "hlsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 1920x1200 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "ec06e142665a319ccad737a3594b09f5396d04665b467d7aafebf03c8423ea82"
+      },
+      {
+        "width": 1920,
+        "height": 1200,
+        "enabled": 0,
+        "backend": "glsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 1920x1200 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "9eb96978c52fad38c0835a7cea6dc276d71d1aeb966a76c1bdd228161c6ed36c"
+      },
+      {
+        "width": 1920,
+        "height": 1200,
+        "enabled": 1,
+        "backend": "hlsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 1920x1200 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "7f7820574e754e96befe43aba98b6e6f275dac7e618ebe9e729426a62754f968"
+      },
+      {
+        "width": 1920,
+        "height": 1200,
+        "enabled": 1,
+        "backend": "glsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 1920x1200 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "3a80bf383bb7cb9cc23dd389a51658967d7a35eaf8a77f15ebfaeb53cd5082bb"
+      },
+      {
+        "width": 2560,
+        "height": 1440,
+        "enabled": 0,
+        "backend": "hlsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 2560x1440 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "ec06e142665a319ccad737a3594b09f5396d04665b467d7aafebf03c8423ea82"
+      },
+      {
+        "width": 2560,
+        "height": 1440,
+        "enabled": 0,
+        "backend": "glsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 2560x1440 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "9eb96978c52fad38c0835a7cea6dc276d71d1aeb966a76c1bdd228161c6ed36c"
+      },
+      {
+        "width": 2560,
+        "height": 1440,
+        "enabled": 1,
+        "backend": "hlsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 2560x1440 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "165f149ee784c35fd4c2003efecd8f9c9b88459ff27f74f57dea19cdcdf907b5"
+      },
+      {
+        "width": 2560,
+        "height": 1440,
+        "enabled": 1,
+        "backend": "glsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 2560x1440 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "8a141a5281cfb69085d15b5a805995168d2aa24bd881b0772e4f9214067eddab"
+      },
+      {
+        "width": 3440,
+        "height": 1440,
+        "enabled": 0,
+        "backend": "hlsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 3440x1440 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "ec06e142665a319ccad737a3594b09f5396d04665b467d7aafebf03c8423ea82"
+      },
+      {
+        "width": 3440,
+        "height": 1440,
+        "enabled": 0,
+        "backend": "glsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 3440x1440 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "9eb96978c52fad38c0835a7cea6dc276d71d1aeb966a76c1bdd228161c6ed36c"
+      },
+      {
+        "width": 3440,
+        "height": 1440,
+        "enabled": 1,
+        "backend": "hlsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 3440x1440 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "07b803eb317f5f73f03afb7ec7678890deede82cc3a1ec163422a4c63c001788"
+      },
+      {
+        "width": 3440,
+        "height": 1440,
+        "enabled": 1,
+        "backend": "glsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 3440x1440 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "16fbbf7fab1f5c6c50d7faf4b43d66261b53ddcbe0741b71f464a37e3ca1d10f"
+      },
+      {
+        "width": 1919,
+        "height": 1079,
+        "enabled": 0,
+        "backend": "hlsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 1919x1079 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "ec06e142665a319ccad737a3594b09f5396d04665b467d7aafebf03c8423ea82"
+      },
+      {
+        "width": 1919,
+        "height": 1079,
+        "enabled": 0,
+        "backend": "glsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 1919x1079 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "9eb96978c52fad38c0835a7cea6dc276d71d1aeb966a76c1bdd228161c6ed36c"
+      },
+      {
+        "width": 1919,
+        "height": 1079,
+        "enabled": 1,
+        "backend": "hlsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 1919x1079 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "7a3f8a9841a3df43f432a553f57d7e7a4ec0b532c6a382d765dd649f67cda59c"
+      },
+      {
+        "width": 1919,
+        "height": 1079,
+        "enabled": 1,
+        "backend": "glsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 1919x1079 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "8e98c471dfdd4495b6c5ef2a7c2c7877d4d3bb8b3e7ca05e3f66a3c4b797dbf8"
+      },
+      {
+        "width": 1,
+        "height": 137,
+        "enabled": 0,
+        "backend": "hlsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 1x137 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "ec06e142665a319ccad737a3594b09f5396d04665b467d7aafebf03c8423ea82"
+      },
+      {
+        "width": 1,
+        "height": 137,
+        "enabled": 0,
+        "backend": "glsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 1x137 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "9eb96978c52fad38c0835a7cea6dc276d71d1aeb966a76c1bdd228161c6ed36c"
+      },
+      {
+        "width": 1,
+        "height": 137,
+        "enabled": 1,
+        "backend": "hlsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 1x137 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "6b87ecbf22a500bdfde14518c5370e7898922b5abbdefd9ad0be65ec0d9ae846"
+      },
+      {
+        "width": 1,
+        "height": 137,
+        "enabled": 1,
+        "backend": "glsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 1x137 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "d10db3db0e624a2bd0e5f2c1ac3737d315208cb704b36068c987901ec3c83d5e"
+      },
+      {
+        "width": 137,
+        "height": 1,
+        "enabled": 0,
+        "backend": "hlsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 137x1 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "ec06e142665a319ccad737a3594b09f5396d04665b467d7aafebf03c8423ea82"
+      },
+      {
+        "width": 137,
+        "height": 1,
+        "enabled": 0,
+        "backend": "glsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 137x1 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "9eb96978c52fad38c0835a7cea6dc276d71d1aeb966a76c1bdd228161c6ed36c"
+      },
+      {
+        "width": 137,
+        "height": 1,
+        "enabled": 1,
+        "backend": "hlsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 137x1 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "63ac37a3b562d7b7e4a590ecf96ccf153d5f94860dea1560875752ca4c4a9068"
+      },
+      {
+        "width": 137,
+        "height": 1,
+        "enabled": 1,
+        "backend": "glsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 137x1 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "5f74404c8f94dbff596dff5f13df4154326ed325cab5aff37303e620cc3cac89"
+      },
+      {
+        "width": 1,
+        "height": 1,
+        "enabled": 0,
+        "backend": "hlsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 1x1 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "ec06e142665a319ccad737a3594b09f5396d04665b467d7aafebf03c8423ea82"
+      },
+      {
+        "width": 1,
+        "height": 1,
+        "enabled": 0,
+        "backend": "glsl",
+        "output": "textures=2 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture ResolutionProbe 1x1 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "9eb96978c52fad38c0835a7cea6dc276d71d1aeb966a76c1bdd228161c6ed36c"
+      },
+      {
+        "width": 1,
+        "height": 1,
+        "enabled": 1,
+        "backend": "hlsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 1x1 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "69c1c1f54cae3a2ed541493d005eae7b7fea7b96faa978d0e956e2f4a6077202"
+      },
+      {
+        "width": 1,
+        "height": 1,
+        "enabled": 1,
+        "backend": "glsl",
+        "output": "textures=3 samplers=2 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\ntexture OD_BlueNoise 128x128 semantic=\ntexture ResolutionProbe 1x1 semantic=\npass Finish srgb=0 blend=0 viewport=0x0\n",
+        "code_sha256": "133ee5a1a19b0f944d53111d190bfd9ff44093e22b83e481bf659ca7615be015"
+      }
+    ]
+  },
+  "missing_resources": {
+    "compile_tests": [
+      {
+        "enabled": 0,
+        "exit_code": 0,
+        "log": "textures=1 samplers=1 techniques=1\ntexture OD_Color 1x1 semantic=COLOR\npass Finish srgb=0 blend=0 viewport=0x0\n"
+      },
+      {
+        "enabled": 1,
+        "exit_code": 2,
+        "log": "C:\\Users\\Emil\\Documents\\ChatGPT\\ReShade\\Output_Dither\\validation\\generated\\isolated\\Output_Dither.fx(21, 1): preprocessor error: could not open included file 'Output_Dither_Core.fxh'\n"
+      }
+    ],
+    "missing_png_runtime": "Not executed in ReShade; upstream runtime reports load failure. Parser does not load PNGs."
+  },
+  "d3dcompile": {
+    "status": "executed CPU bytecode compilation only",
+    "variants": 32,
+    "log": [
+      {
+        "file": "output_1920x1080_0.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_1920x1080_0.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 676,
+        "messages": ""
+      },
+      {
+        "file": "output_1920x1080_1.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_1920x1080_1.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 2484,
+        "messages": ""
+      },
+      {
+        "file": "output_1920x1200_0.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_1920x1200_0.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 676,
+        "messages": ""
+      },
+      {
+        "file": "output_1920x1200_1.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_1920x1200_1.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 2484,
+        "messages": ""
+      },
+      {
+        "file": "output_2560x1440_0.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_2560x1440_0.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 676,
+        "messages": ""
+      },
+      {
+        "file": "output_2560x1440_1.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_2560x1440_1.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 2484,
+        "messages": ""
+      },
+      {
+        "file": "output_3440x1440_0.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_3440x1440_0.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 676,
+        "messages": ""
+      },
+      {
+        "file": "output_3440x1440_1.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_3440x1440_1.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 2484,
+        "messages": ""
+      },
+      {
+        "file": "output_1919x1079_0.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_1919x1079_0.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 676,
+        "messages": ""
+      },
+      {
+        "file": "output_1919x1079_1.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_1919x1079_1.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 2484,
+        "messages": ""
+      },
+      {
+        "file": "output_1x137_0.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_1x137_0.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 676,
+        "messages": ""
+      },
+      {
+        "file": "output_1x137_1.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_1x137_1.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 2484,
+        "messages": ""
+      },
+      {
+        "file": "output_137x1_0.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_137x1_0.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 676,
+        "messages": ""
+      },
+      {
+        "file": "output_137x1_1.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_137x1_1.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 2484,
+        "messages": ""
+      },
+      {
+        "file": "output_1x1_0.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_1x1_0.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 676,
+        "messages": ""
+      },
+      {
+        "file": "output_1x1_1.hlsl",
+        "entry": "F__OD_VS",
+        "bytes": 736,
+        "messages": ""
+      },
+      {
+        "file": "output_1x1_1.hlsl",
+        "entry": "F__OD_PS",
+        "bytes": 2444,
+        "messages": ""
+      }
+    ]
+  },
+  "checks_passed": 416,
+  "checks_total": 416
+}

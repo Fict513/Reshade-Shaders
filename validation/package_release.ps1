@@ -1,5 +1,5 @@
 param(
-    [string]$Version = "v1.2.0",
+    [string]$Version = "v1.3.0",
     [string]$OutputDirectory = ""
 )
 
@@ -89,6 +89,20 @@ $effects = @(
         Validation = @("validation/HDR_IPS_Enhance")
         PresetCount = 3
         LicenseFile = "licenses/HDR_IPS_Enhance.txt"
+    },
+    @{
+        Name = "Output Dither"
+        Version = "1.0.0"
+        Asset = "Output-Dither-1.0.0-$Version.zip"
+        Source = @("Shaders/Output_Dither.fx", "Shaders/Output_Dither_Core.fxh")
+        Textures = @("Textures/Output_Dither_BN128.png", "Textures/provenance.json", "Textures/PROVENANCE.md")
+        Presets = ""
+        Guide = "docs/Output_Dither/README.md"
+        Docs = @("docs/Output_Dither")
+        Tests = @()
+        Validation = @("validation/Output_Dither")
+        PresetCount = 0
+        LicenseFile = "licenses/Output_Dither.txt"
     }
 )
 
@@ -210,8 +224,21 @@ function Test-Archive(
                 throw "Missing shader include '$($include.Groups[1].Value)' from $($shader.FullName)"
             }
         }
+        foreach ($texture in [regex]::Matches($source, '\bsource\s*=\s*"([^"]+)"')) {
+            $textureName = [System.IO.Path]::GetFileName($texture.Groups[1].Value)
+            $texturePath = Join-Path $verifyRoot "Textures/$textureName"
+            if (!(Test-Path -LiteralPath $texturePath -PathType Leaf)) {
+                throw "Missing texture asset '$textureName' referenced by $($shader.FullName)"
+            }
+        }
     }
-    $presets = @(Get-ChildItem -LiteralPath (Join-Path $verifyRoot "Presets") -Filter "*.ini" -File -Recurse)
+    $presetRoot = Join-Path $verifyRoot "Presets"
+    $presets = if (Test-Path -LiteralPath $presetRoot -PathType Container) {
+        @(Get-ChildItem -LiteralPath $presetRoot -Filter "*.ini" -File -Recurse)
+    }
+    else {
+        @()
+    }
     if ($expectedPresetCount -gt 0 -and $presets.Count -ne $expectedPresetCount) {
         throw "Expected $expectedPresetCount presets, found $($presets.Count) in $archivePath"
     }
@@ -240,12 +267,13 @@ try {
     }
     Copy-FilteredTree "Shaders" @(".fx", ".fxh")
     Copy-FilteredTree "Presets" @(".ini")
+    Copy-FilteredTree "Textures" @(".png", ".json", ".md")
     Copy-FilteredTree "docs" @(".md", ".txt")
     Copy-FilteredTree "licenses" @(".md", ".txt")
     Copy-FilteredTree "tests" $testExtensions
     Copy-FilteredTree "validation" $validationExtensions
     $archive = New-Archive $collectionName
-    Test-Archive $archive "" 8 51
+    Test-Archive $archive "" 9 51
     $archives.Add($archive)
 
     foreach ($effect in $effects) {
@@ -254,7 +282,12 @@ try {
         foreach ($sourceFile in $effect.Source) {
             Copy-RelativeFile $sourceFile
         }
-        Copy-FilteredTree $effect.Presets @(".ini")
+        foreach ($textureFile in $effect.Textures) {
+            Copy-RelativeFile $textureFile
+        }
+        if ($effect.Presets) {
+            Copy-FilteredTree $effect.Presets @(".ini")
+        }
         if ($effect.Guide -like "docs/*/README.md") {
             Copy-FilteredTree (Split-Path $effect.Guide -Parent) $textExtensions
         }
@@ -279,9 +312,19 @@ try {
             "",
             "This archive contains the installation source and presets for this effect.",
             "",
-            "1. Copy the listed `.fx` file and any required sibling `.fxh` files from `Shaders/` into a directory in ReShade's effect search paths.",
-            "2. Reload effects, then select a preset from `Presets/$($effect.Presets.Split('/')[-1])/`.",
-            "3. Read the complete installation, contract, and tuning guide at ``$($effect.Guide)`` before enabling the effect.",
+            "1. Copy the listed `.fx` file and any required sibling `.fxh` files from `Shaders/` into a directory in ReShade's effect search paths."
+        )
+        if ($effect.Textures) {
+            $readme += "2. Copy the files under `Textures/` into a configured ReShade texture search path, preserving their filenames."
+        }
+        if ($effect.Presets) {
+            $readme += "3. Reload effects, then select a preset from `Presets/$($effect.Presets.Split('/')[-1])/`."
+        }
+        else {
+            $readme += "3. Reload effects and select the technique manually; no preset enables it."
+        }
+        $readme += @(
+            "4. Read the complete installation, contract, and tuning guide at ``$($effect.Guide)`` before enabling the effect.",
             "",
             "The original source version is unchanged. This archive contains no compiled shader binaries."
         )

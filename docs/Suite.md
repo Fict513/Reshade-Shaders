@@ -23,6 +23,16 @@ distribution zip). FakeHDR Advanced remains unchanged; see the root README.
 2. Copy `Presets/` somewhere permanent and pick a preset in the overlay.
 3. Let shader compilation finish after changing a preset; quality tiers are compile-time definitions.
 
+`Output_Dither.fx` is an additional, independently selectable finishing
+technique, not a fourth stage in these presets. Install it with
+`Output_Dither_Core.fxh` in the shader search path and
+`Textures/Output_Dither_BN128.png` in a configured texture search path. It has
+no preset and remains bypassed until explicitly configured. The IPS Suite and
+Selective Deband already provide optional dithering; normally disable those
+when evaluating Output Dither to avoid redundant noise. Its sRGB/PQ target
+assumptions and limitations are documented in
+[docs/Output_Dither/README.md](Output_Dither/README.md).
+
 ## Suite presets (`Presets/Suite/`)
 
 Each preset enables all three effects in this order:
